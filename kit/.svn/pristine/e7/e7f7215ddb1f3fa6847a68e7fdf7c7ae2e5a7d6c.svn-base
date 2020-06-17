@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Les principes d’un sprint data réussi {#principes} | Guide d’organisation d’un data sprint</title>
+  <meta name="description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Les principes d’un sprint data réussi {#principes} | Guide d’organisation d’un data sprint" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Les principes d’un sprint data réussi {#principes} | Guide d’organisation d’un data sprint" />
+  
+  <meta name="twitter:description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
+
+
+<meta name="date" content="2019-04-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="dataviz.html">
+<link rel="next" href="preparation.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Guide de l'organisation d'un data sprint</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="dataviz.html"><a href="dataviz.html"><i class="fa fa-check"></i><b>1</b> Le dataviz challenge : un évènement à répliquer</a><ul>
+<li class="chapter" data-level="1.1" data-path="dataviz.html"><a href="dataviz.html#defi-1-les-deplacements-en-cascade"><i class="fa fa-check"></i><b>1.1</b> Défi 1 : «Les déplacements en cascade»</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi"><i class="fa fa-check"></i><b>1.1.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.1.2" data-path="dataviz.html"><a href="dataviz.html#projet-mixite-sociale"><i class="fa fa-check"></i><b>1.1.2</b> 🏆 Projet “Mixité Sociale”</a></li>
+<li class="chapter" data-level="1.1.3" data-path="dataviz.html"><a href="dataviz.html#projet-locaviz"><i class="fa fa-check"></i><b>1.1.3</b> Projet “Locaviz”</a></li>
+<li class="chapter" data-level="1.1.4" data-path="dataviz.html"><a href="dataviz.html#projet-i.p.e.d.-indice-de-performance-des-deplacements"><i class="fa fa-check"></i><b>1.1.4</b> Projet I.P.E.D. (Indice de Performance des Déplacements)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="dataviz.html"><a href="dataviz.html#defi-2-la-carte-didentite-des-etablissements-en-temps-reel"><i class="fa fa-check"></i><b>1.2</b> Défi 2 : la carte d’identité des établissements en temps réel</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-1"><i class="fa fa-check"></i><b>1.2.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.2.2" data-path="dataviz.html"><a href="dataviz.html#projet-eduscope"><i class="fa fa-check"></i><b>1.2.2</b> 🏆Projet Eduscope</a></li>
+<li class="chapter" data-level="1.2.3" data-path="dataviz.html"><a href="dataviz.html#open"><i class="fa fa-check"></i><b>1.2.3</b> Open</a></li>
+<li class="chapter" data-level="1.2.4" data-path="dataviz.html"><a href="dataviz.html#antiseche"><i class="fa fa-check"></i><b>1.2.4</b> Antisèche</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="dataviz.html"><a href="dataviz.html#defi-3-carto-du-numerique-dans-les-territoires"><i class="fa fa-check"></i><b>1.3</b> Défi 3 : «Carto du numérique dans les territoires»</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-2"><i class="fa fa-check"></i><b>1.3.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.3.2" data-path="dataviz.html"><a href="dataviz.html#alain-jette"><i class="fa fa-check"></i><b>1.3.2</b> 🏆Alain Jette</a></li>
+<li class="chapter" data-level="1.3.3" data-path="dataviz.html"><a href="dataviz.html#panser-la-fracture-numerique"><i class="fa fa-check"></i><b>1.3.3</b> Panser la fracture numérique</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html"><i class="fa fa-check"></i>Les principes d’un sprint data réussi {#principes}</a><ul>
+<li class="chapter" data-level="1.4" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html#au-fait-cest-quoi-un-sprint-data"><i class="fa fa-check"></i><b>1.4</b> Au fait, c’est quoi un sprint data ?</a></li>
+<li class="chapter" data-level="1.5" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html#historique-du-rite-hacker-de-niche-a-la-proliferation"><i class="fa fa-check"></i><b>1.5</b> Historique : du rite hacker de niche à la prolifération</a></li>
+<li class="chapter" data-level="1.6" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html#les-facteurs-cles-de-succes"><i class="fa fa-check"></i><b>1.6</b> Les facteurs clés de succès</a><ul>
+<li class="chapter" data-level="1.6.1" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html#mobiliser-les-parties-prenantes-internes-et-externes"><i class="fa fa-check"></i><b>1.6.1</b> Mobiliser les parties prenantes internes et externes</a></li>
+<li class="chapter" data-level="1.6.2" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html#creer-une-experience-stimulante"><i class="fa fa-check"></i><b>1.6.2</b> Créer une expérience stimulante</a></li>
+<li class="chapter" data-level="1.6.3" data-path="les-principes-dun-sprint-data-reussi-principes.html"><a href="les-principes-dun-sprint-data-reussi-principes.html#creer-une-energie-positive"><i class="fa fa-check"></i><b>1.6.3</b> Créer une énergie positive</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="preparation.html"><a href="preparation.html"><i class="fa fa-check"></i><b>2</b> Les points d’attention dans la préparation du data sprint</a><ul>
+<li class="chapter" data-level="2.1" data-path="preparation.html"><a href="preparation.html#planifier-et-repartir-le-travail"><i class="fa fa-check"></i><b>2.1</b> Planifier et répartir le travail</a></li>
+<li class="chapter" data-level="2.2" data-path="preparation.html"><a href="preparation.html#anticiper-la-logistique"><i class="fa fa-check"></i><b>2.2</b> Anticiper la logistique</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="preparation.html"><a href="preparation.html#preparer-les-donnees-en-amont"><i class="fa fa-check"></i><b>2.2.1</b> Préparer les données en amont</a></li>
+<li class="chapter" data-level="2.2.2" data-path="preparation.html"><a href="preparation.html#cibler-les-participants"><i class="fa fa-check"></i><b>2.2.2</b> Cibler les participants</a></li>
+<li class="chapter" data-level="2.2.3" data-path="preparation.html"><a href="preparation.html#la-mise-en-place-des-espaces-de-discussion-et-de-documentation"><i class="fa fa-check"></i><b>2.2.3</b> La mise en place des espaces de discussion et de documentation</a></li>
+<li class="chapter" data-level="2.2.4" data-path="preparation.html"><a href="preparation.html#prevoir-un-conducteur-milimetre"><i class="fa fa-check"></i><b>2.2.4</b> Prévoir un conducteur milimétré</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="animation.html"><a href="animation.html"><i class="fa fa-check"></i><b>3</b> L’animation du data sprint</a><ul>
+<li class="chapter" data-level="3.1" data-path="animation.html"><a href="animation.html#les-trois-temps-creatifs-inspiration-ideation-prototypage"><i class="fa fa-check"></i><b>3.1</b> Les trois temps créatifs : inspiration, idéation, prototypage</a></li>
+<li class="chapter" data-level="3.2" data-path="animation.html"><a href="animation.html#le-off-du-sprint-data"><i class="fa fa-check"></i><b>3.2</b> Le “off” du sprint data</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="animation.html"><a href="animation.html#les-ateliers-de-formation"><i class="fa fa-check"></i><b>3.2.1</b> Les ateliers de formation</a></li>
+<li class="chapter" data-level="3.2.2" data-path="animation.html"><a href="animation.html#les-temps-de-pause-et-dinspiration"><i class="fa fa-check"></i><b>3.2.2</b> Les temps de pause et d’inspiration</a></li>
+<li class="chapter" data-level="3.2.3" data-path="animation.html"><a href="animation.html#la-documentation-des-projets"><i class="fa fa-check"></i><b>3.2.3</b> La documentation des projets</a></li>
+<li class="chapter" data-level="3.2.4" data-path="animation.html"><a href="animation.html#quelques-questions-logistiques"><i class="fa fa-check"></i><b>3.2.4</b> Quelques questions logistiques</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="restitution.html"><a href="restitution.html"><i class="fa fa-check"></i><b>4</b> La restitution et la suite</a><ul>
+<li class="chapter" data-level="4.1" data-path="restitution.html"><a href="restitution.html#les-presentations-des-projets"><i class="fa fa-check"></i><b>4.1</b> Les présentations des projets</a></li>
+<li class="chapter" data-level="4.2" data-path="restitution.html"><a href="restitution.html#la-deliberation-du-jury"><i class="fa fa-check"></i><b>4.2</b> La délibération du jury</a></li>
+<li class="chapter" data-level="4.3" data-path="restitution.html"><a href="restitution.html#la-reprise-de-la-documentation"><i class="fa fa-check"></i><b>4.3</b> La reprise de la documentation</a></li>
+<li class="chapter" data-level="4.4" data-path="restitution.html"><a href="restitution.html#le-sondage-et-le-debriefing"><i class="fa fa-check"></i><b>4.4</b> Le sondage et le débriefing</a></li>
+<li class="chapter" data-level="4.5" data-path="restitution.html"><a href="restitution.html#laccompagnement-a-donner"><i class="fa fa-check"></i><b>4.5</b> L’accompagnement à donner</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Guide d’organisation d’un data sprint</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="les-principes-dun-sprint-data-reussi-principes" class="section level1 unnumbered">
+<h1>Les principes d’un sprint data réussi {#principes}</h1>
+<div id="au-fait-cest-quoi-un-sprint-data" class="section level2">
+<h2><span class="header-section-number">1.4</span> Au fait, c’est quoi un sprint data ?</h2>
+<p>Un sprint data, hackathon ou encore DataViz Challenge désigne tout événement de durée variable pendant lesquel des personnes très diverses se rassemblent pour résoudre des problèmes, classiquement en développant des outils informatiques mais pas nécessairement. C’est un format de co-création, associant sur un temps court (deux jours et une nuit dans le cas du Dataviz Challenge) des profils et des compétences très diverses au sein d’équipes projet, dans une ambiance de travail conviviale, sous le signe de l’intelligence collective, du partage de compétences et de connaissances.</p>
+<p>Un sprint data combine 3 ingrédients essentiels :</p>
+<ul>
+<li><p><strong>des défis</strong> qui sont des problèmes contextualisés que les participants devront résoudre en un temps limité ;</p></li>
+<li><p><strong>des données</strong> souvent ouvertes à l’occasion du sprint data qui constituent le matériau sur lequel les participants travaillent</p></li>
+<li><p><strong>des participants</strong> bénévoles qui dédient une partie de leur temps libre pour apprendre, partager leur connaissance, mettre les compétences au défi, s’entrainer sur de nouvelles données et rencontrer d’autres participants.</p></li>
+</ul>
+</div>
+<div id="historique-du-rite-hacker-de-niche-a-la-proliferation" class="section level2">
+<h2><span class="header-section-number">1.5</span> Historique : du rite hacker de niche à la prolifération</h2>
+<p>Historiquement, les sprint data répliquent un des rites des hackers, les « marathons » de développement qui se déroulent pendant les conférences des communautés issues du logiciel libre. Les concours de réutilisation de données ouvertes sont aussi liés à l’émergence de deux concepts : le <em>crowdsourcing</em> qui considère que la participation massive (et généralement bénévole) des internautes peut être une source majeure de création de valeur voire de renouvellement de la démocratie et <em>l’innovation ouverte</em> qui consiste à diffuser une partie de l’information stratégique à des acteurs extérieurs qui, par la mise en compétition ou leur nombre, parviendront à mieux innover que les ressources internes dont dispose l’organisation.</p>
+<p>Dans le domaine des données ouvertes, Apps for Democracy a été un des premiers concours de développement de services. Il s’est tenu à Washington en 2008, quelques mois après le lancement de l’App Store d’Apple et du développement de l’écosystème des applications mobiles. Cet évènement a inspiré le développement de nombreux concours d’applications notamment par la publication d’un guide qui a détaillé pas à pas comment faire participer les développeurs à un concours d’applications et a permis l’essaimage de ce modèle dans de nombreuses villes.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="img/appsfordemocracycontest.jpg" alt="Illustration du concours Apps for Democracy" width="30%" />
+<p class="caption">
+Figure 1.1: Illustration du concours Apps for Democracy
+</p>
+</div>
+<p>Depuis le premier concours de réutilisation de données ouvertes en France à Rennes en 2010, les hackathons prolifèrent. Tous les principaux ministères ont organisé un hackathon ces dernières années : le ministère de l’intérieur dès 2014, #HackRisques ou #HackBioDiv pour l’environnement, #CodeImpot pour l’économie, Hackathon Marine pour la défense, hackathon culture et tourisme…</p>
+<p>Cette prolifération de hackathons ou data sprint s’est accompagnée de critiques grandissantes à l’égard du modèle. Bien que les participants à un hackathon prennent sur leur temps personnel généralement le weekend, certains organisateurs n’ont pas hésité à mettre trop de pression et d’attentes sur les participant-e-s ce qui a pu dégrader l’expérience. Aussi, la majorité des participant-e-s à un hackathon ne sont pas rétribués ce qui a été dénoncé comme du travail déguisé sous l’allure d’un évènement décontracté et informel. Des organisateurs ont, par ailleurs, beaucoup valorisé le workaholism, une dépendance au travail jusqu’à l’épuisement, en encourageant les participant-e-s à travailler tout le weekend, toute la nuit, sans pause dans une compétition sans arrêt. En réaction, le concept du “<a href="http://www.hackacon.fr/">hackacon</a>” parodie le hackathon en développant des projets inutiles de manière ludique pendant un weekend (voir <a href="http://tracks.arte.tv/fr/hackacon">reportage d’Arte</a>).</p>
+<p>Un hackathon réussi se doit donc d’être bien préparé, convivial et pensé comme une expérience enrichissante pour les participant-e-s.</p>
+</div>
+<div id="les-facteurs-cles-de-succes" class="section level2">
+<h2><span class="header-section-number">1.6</span> Les facteurs clés de succès</h2>
+<div id="mobiliser-les-parties-prenantes-internes-et-externes" class="section level3">
+<h3><span class="header-section-number">1.6.1</span> Mobiliser les parties prenantes internes et externes</h3>
+<p>Simon Chignard dans <a href="https://donneesouvertes.info/2013/01/08/un-hackaton-sinon-rien/">un billet de blog</a> résume un hackathon en trois valeurs essentiels. La première est la mobilisation, c’est souvent l’opportunité pour des organisations d’enclencher une démarche d’open data en rencontrant directement un public de réutilisateurs internes et externes pour les jeux de données.</p>
+<p>Comme l’explique <a href="http://www.internetactu.net/2012/11/16/les-dispositifs-creatifs-en-questions-22-les-limites-a-la-creativite-collective/">Hubert Guillaud dans InternetActu.net</a>, ces dispositifs créatifs transforment l’approche traditionnelle de l’action publique : le côté très concret de l’objectif (produire une application, un dispositif créatif, du code, un objet…) galvanise l’énergie. Stéphane Vincent, directeur de la 27e Région, explique dans ce même article que :</p>
+<blockquote>
+<p>les dispositifs créatifs produisent ce que les organisations habituelles n’arrivent pas à créer : un moment de décadrage, neutre et collectif, totalement orienté vers la production de solutions ingénieuses. Ce sont des formes joyeuses et non académiques de « recherche-action légère », qui permettent de conduire des micro-expériences dans des secteurs qui en sont habituellement éloignés.</p>
+</blockquote>
+<p>Le sprint data permet ainsi d’avoir un nouveau regard sur les problèmes qui rompt avec les habitudes du métier et de l’expérience. C’est l’addition des compétences et des expertises qui produit un mélange étonnant <strong>fondé sur l’intelligence collective et le principe selon lequel « le tout vaut plus que la somme des parties. »</strong></p>
+</div>
+<div id="creer-une-experience-stimulante" class="section level3">
+<h3><span class="header-section-number">1.6.2</span> Créer une expérience stimulante</h3>
+<p>La seconde valeur, c’est l’expérience : pour les participants, l’excitation d’un hackathon peut être très stimulante. L’expérience du hackathon casse les habitudes et sort de l’ordinaire, comme l’explique Stéphane Vincent dans InternetActu.net :</p>
+<blockquote>
+<p>A court terme, ce type de dispositifs transforme les participants eux-mêmes, en particulier ceux directement concernés par les projets. Ils se montrent souvent d’abord sceptiques (« Mais qu’est-ce que ces gens peuvent bien connaître à mon domaine ? »), puis voient le changement s’opérer. […] Quand ces cessions sont bien menées, elles font beaucoup plus que produire de l’innovation, elles produisent du sens.</p>
+</blockquote>
+<p>Simon Chignard note que l’expérience du hackathon est conçue comme un moment et un monde à part :</p>
+<blockquote>
+<p>“l’unité de lieu (on vit en vase clos pendant 48 heures), le travail en petit groupe d’individus qui ne se connaissaient pas nécessairement auparavant (la colonie de vacances est l’archétype du team building, c’est bien connu), la contrainte de temps (à la fin chaque groupe présente son projet), voire la compétition (quand le hackathon donne lieu à un vote).”</p>
+</blockquote>
+<p>Le problème c’est que cette expérience vécue est souvent mal restituée par la suite, d’où l’importance de la documentation et de l’accompagnement qui suivront.</p>
+</div>
+<div id="creer-une-energie-positive" class="section level3">
+<h3><span class="header-section-number">1.6.3</span> Créer une énergie positive</h3>
+<p>Pour Joshua Tauberer, organisateur d’Open Data Day DC et auteur de <a href="https://hackathon.guide/">hackathon.guide</a>, un hackathon réussit doit d’abord à l’énergie positive qu’il dégage. Les hackathons doivent éviter de dériver vers une culture maladive de compétition et d’attentes trop élevées sur les participant-e-s. Selon lui, le premier objectif d’un hackathon doit être de renforcer une communauté tout en restant ouvert à celles et ceux qui n’ont jusqu’alors pas ou peu utilisé de données dans leur vie. On peut ainsi voir un hackathon comme une occasion de découvrir et d’apprendre, que ce soit pour ses organisteurs que pour ses participant-e-s.</p>
+<p>En filigrane du Hackathon Guide, Joshua Tauberer pose la question de la dimension compétitive du hackathon. La sélection de lauréats et la remise de prix peuvent en effet attirer les meilleur-e-s et galvaniser les participant-e-s mais elle peut aussi détériorer l’atmosphère et créer une pression inutile. Il n’est pas indispensable de remettre des prix aux meilleurs projets. Il faut en tout cas absolument éviter que la sélection des lauréats donne l’impression aux participant-e-s qui n’ont pas été sélectionnés d’être perdant ! On peut aussi envisager que tous les participant-e-s repartent avec un prix ou une mention. Il faut donc penser à valoriser le travail de tout le monde et à remercier l’investissement de chacun.</p>
+<p>La communication, la troisième valeur d’un sprint data selon Simon Chignard, doit ainsi <strong>ne pas céder aux sirènes de la compétition</strong>. Une organisation qui organise un sprint data doit aussi selon <a href="https://www.regardscitoyens.org/apprenons-des-echecs-de-la-dila-episode-1-comment-faire-de-lopen-data/">l’association Regards Citoyens</a> ne pas trop se concentrer sur cette dimension communicationnelle au détriment de l’ouverture et de la qualité des données :</p>
+<blockquote>
+<p>Si les données ont bien été libérées sous conditions Open Data, les réutilisations arriveront sans doute d’elles-mêmes. Ne perdez pas donc votre temps avant même l’ouverture à préparer des communications, hackathons, sites officiels de réutilisation […] La tâche d’ouverture est claire et balisée, le reste ne peut et ne doit venir qu’ensuite !</p>
+</blockquote>
+<p>Maintenant que vous avez pris connaissance du contenu et des facteurs de succès d’un sprint data, passons à la pratique et préparons notre évènement !</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="dataviz.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="preparation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["guide.pdf", "guide.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

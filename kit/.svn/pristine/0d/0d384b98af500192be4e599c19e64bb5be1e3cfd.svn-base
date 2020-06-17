@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapitre 4 L’animation du sprint data | Guide d’organisation d’un sprint data</title>
+  <meta name="description" content="Le guide d’organisation d’un sprint data propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapitre 4 L’animation du sprint data | Guide d’organisation d’un sprint data" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Le guide d’organisation d’un sprint data propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapitre 4 L’animation du sprint data | Guide d’organisation d’un sprint data" />
+  
+  <meta name="twitter:description" content="Le guide d’organisation d’un sprint data propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
+
+
+<meta name="date" content="2019-06-17" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="preparation.html">
+<link rel="next" href="restitution.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Guide de l'organisation d'un data sprint</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="dataviz.html"><a href="dataviz.html"><i class="fa fa-check"></i><b>1</b> Le dataviz challenge : un évènement à répliquer</a><ul>
+<li class="chapter" data-level="1.1" data-path="dataviz.html"><a href="dataviz.html#defi-1-les-deplacements-en-cascade"><i class="fa fa-check"></i><b>1.1</b> Défi 1 : les déplacements en cascade</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi"><i class="fa fa-check"></i><b>1.1.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.1.2" data-path="dataviz.html"><a href="dataviz.html#projet-mixite-sociale"><i class="fa fa-check"></i><b>1.1.2</b> 🏆 Projet “Mixité Sociale”</a></li>
+<li class="chapter" data-level="1.1.3" data-path="dataviz.html"><a href="dataviz.html#projet-locaviz"><i class="fa fa-check"></i><b>1.1.3</b> Projet “Locaviz”</a></li>
+<li class="chapter" data-level="1.1.4" data-path="dataviz.html"><a href="dataviz.html#projet-i.p.e.d.-indice-de-performance-des-deplacements"><i class="fa fa-check"></i><b>1.1.4</b> Projet I.P.E.D. (Indice de Performance des Déplacements)</a></li>
+<li class="chapter" data-level="1.1.5" data-path="dataviz.html"><a href="dataviz.html#projet-spe-et-ruralite"><i class="fa fa-check"></i><b>1.1.5</b> Projet Spé et ruralité</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="dataviz.html"><a href="dataviz.html#defi-2-la-carte-didentite-des-etablissements-en-temps-reel"><i class="fa fa-check"></i><b>1.2</b> Défi 2 : la carte d’identité des établissements en temps réel</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-1"><i class="fa fa-check"></i><b>1.2.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.2.2" data-path="dataviz.html"><a href="dataviz.html#projet-eduscope"><i class="fa fa-check"></i><b>1.2.2</b> 🏆Projet Eduscope</a></li>
+<li class="chapter" data-level="1.2.3" data-path="dataviz.html"><a href="dataviz.html#open"><i class="fa fa-check"></i><b>1.2.3</b> Open</a></li>
+<li class="chapter" data-level="1.2.4" data-path="dataviz.html"><a href="dataviz.html#antiseche"><i class="fa fa-check"></i><b>1.2.4</b> Antisèche</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="dataviz.html"><a href="dataviz.html#defi-3-carto-du-numerique-dans-les-territoires"><i class="fa fa-check"></i><b>1.3</b> Défi 3 : carto du numérique dans les territoires</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-2"><i class="fa fa-check"></i><b>1.3.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.3.2" data-path="dataviz.html"><a href="dataviz.html#alain-jette"><i class="fa fa-check"></i><b>1.3.2</b> 🏆Alain Jette</a></li>
+<li class="chapter" data-level="1.3.3" data-path="dataviz.html"><a href="dataviz.html#panser-la-fracture-numerique"><i class="fa fa-check"></i><b>1.3.3</b> Panser la fracture numérique</a></li>
+<li class="chapter" data-level="1.3.4" data-path="dataviz.html"><a href="dataviz.html#cartorezo"><i class="fa fa-check"></i><b>1.3.4</b> Cartorézo</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="principes.html"><a href="principes.html"><i class="fa fa-check"></i><b>2</b> Les principes d’un sprint data réussi</a><ul>
+<li class="chapter" data-level="2.1" data-path="principes.html"><a href="principes.html#au-fait-cest-quoi-un-sprint-data"><i class="fa fa-check"></i><b>2.1</b> Au fait, c’est quoi un sprint data ?</a></li>
+<li class="chapter" data-level="2.2" data-path="principes.html"><a href="principes.html#historique-du-rite-hacker-de-niche-a-la-proliferation"><i class="fa fa-check"></i><b>2.2</b> Historique : du rite hacker de niche à la prolifération</a></li>
+<li class="chapter" data-level="2.3" data-path="principes.html"><a href="principes.html#les-facteurs-cles-de-succes"><i class="fa fa-check"></i><b>2.3</b> Les facteurs clés de succès</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="principes.html"><a href="principes.html#mobiliser-les-parties-prenantes-internes-et-externes"><i class="fa fa-check"></i><b>2.3.1</b> Mobiliser les parties prenantes internes et externes</a></li>
+<li class="chapter" data-level="2.3.2" data-path="principes.html"><a href="principes.html#creer-une-experience-stimulante"><i class="fa fa-check"></i><b>2.3.2</b> Créer une expérience stimulante</a></li>
+<li class="chapter" data-level="2.3.3" data-path="principes.html"><a href="principes.html#creer-une-energie-positive"><i class="fa fa-check"></i><b>2.3.3</b> Créer une énergie positive</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="preparation.html"><a href="preparation.html"><i class="fa fa-check"></i><b>3</b> Les points d’attention dans la préparation du sprint data</a><ul>
+<li class="chapter" data-level="3.1" data-path="preparation.html"><a href="preparation.html#planifier-et-repartir-le-travail"><i class="fa fa-check"></i><b>3.1</b> Planifier et répartir le travail</a></li>
+<li class="chapter" data-level="3.2" data-path="preparation.html"><a href="preparation.html#anticiper-la-logistique"><i class="fa fa-check"></i><b>3.2</b> Anticiper la logistique</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="preparation.html"><a href="preparation.html#preparer-les-donnees-en-amont"><i class="fa fa-check"></i><b>3.2.1</b> Préparer les données en amont</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="preparation.html"><a href="preparation.html#cibler-les-participants"><i class="fa fa-check"></i><b>3.3</b> Cibler les participants</a></li>
+<li class="chapter" data-level="3.4" data-path="preparation.html"><a href="preparation.html#mettre-en-place-des-espaces-de-discussion-et-de-documentation"><i class="fa fa-check"></i><b>3.4</b> Mettre en place des espaces de discussion et de documentation</a></li>
+<li class="chapter" data-level="3.5" data-path="preparation.html"><a href="preparation.html#prevoir-un-conducteur-milimetre"><i class="fa fa-check"></i><b>3.5</b> Prévoir un conducteur milimètré</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="animation.html"><a href="animation.html"><i class="fa fa-check"></i><b>4</b> L’animation du sprint data</a><ul>
+<li class="chapter" data-level="4.1" data-path="animation.html"><a href="animation.html#les-trois-temps-creatifs-inspiration-ideation-prototypage"><i class="fa fa-check"></i><b>4.1</b> Les trois temps créatifs : inspiration, idéation, prototypage</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="animation.html"><a href="animation.html#inspiration-expliciter-le-contexte-et-les-defis"><i class="fa fa-check"></i><b>4.1.1</b> Inspiration : expliciter le contexte et les défis</a></li>
+<li class="chapter" data-level="4.1.2" data-path="animation.html"><a href="animation.html#ideation-formuler-de-nouvelles-idees-autour-des-defis"><i class="fa fa-check"></i><b>4.1.2</b> Idéation : formuler de nouvelles idées autour des défis</a></li>
+<li class="chapter" data-level="4.1.3" data-path="animation.html"><a href="animation.html#implementation-developper-les-projets"><i class="fa fa-check"></i><b>4.1.3</b> Implémentation : développer les projets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="animation.html"><a href="animation.html#le-mentoring"><i class="fa fa-check"></i><b>4.2</b> Le mentoring</a></li>
+<li class="chapter" data-level="4.3" data-path="animation.html"><a href="animation.html#le-off-du-sprint-data"><i class="fa fa-check"></i><b>4.3</b> Le “off” du sprint data</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="animation.html"><a href="animation.html#les-ateliers-de-formation"><i class="fa fa-check"></i><b>4.3.1</b> Les ateliers de formation</a></li>
+<li class="chapter" data-level="4.3.2" data-path="animation.html"><a href="animation.html#les-temps-dinspiration"><i class="fa fa-check"></i><b>4.3.2</b> Les temps d’inspiration</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="restitution.html"><a href="restitution.html"><i class="fa fa-check"></i><b>5</b> La restitution et la suite</a><ul>
+<li class="chapter" data-level="5.1" data-path="restitution.html"><a href="restitution.html#les-presentations-des-projets"><i class="fa fa-check"></i><b>5.1</b> Les présentations des projets</a></li>
+<li class="chapter" data-level="5.2" data-path="restitution.html"><a href="restitution.html#la-deliberation-du-jury"><i class="fa fa-check"></i><b>5.2</b> La délibération du jury</a></li>
+<li class="chapter" data-level="5.3" data-path="restitution.html"><a href="restitution.html#la-reprise-de-la-documentation"><i class="fa fa-check"></i><b>5.3</b> La reprise de la documentation</a></li>
+<li class="chapter" data-level="5.4" data-path="restitution.html"><a href="restitution.html#le-sondage-et-le-debriefing"><i class="fa fa-check"></i><b>5.4</b> Le sondage et le débriefing</a></li>
+<li class="chapter" data-level="5.5" data-path="restitution.html"><a href="restitution.html#laccompagnement-a-donner"><i class="fa fa-check"></i><b>5.5</b> L’accompagnement à donner</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Guide d’organisation d’un sprint data</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="animation" class="section level1">
+<h1><span class="header-section-number">Chapitre 4</span> L’animation du sprint data</h1>
+<p>Pendant le café avant le lancement du Dataviz Challenge, nous avons distribué des <strong>fiches d’auto-évaluation</strong> qui permettent aux participants de mettre en avant leurs compétences. Organisées autour de 5 profils essentiels (narrateur, analyste, technicien de données, explorateur, designer), la matrice sert avant tout à faire passer le message que la réalisation d’un projet dans le cadre d’un sprint data est un sport d’équipe. En effet, une équipe qui concentre uniquement un de ces profils aura peu de chances de produire de bons résultats. C’est seulement dans l’intelligence collective que les projets parviennent à raconter une histoire et à montrer des résultats. Les matrices ont servi dans la constitution des équipes pour re-répartir les profils entre les groupes.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="img/matrice.png" alt="Modèle de [matrice auto-évaluation](https://docs.google.com/presentation/d/1hTuVVXKd_NEwg26LZPuLaTX2KqDlz0S4BM824jacZak/edit#slide=id.p), reliez les points pour faire un diagramme en étoile." width="60%" />
+<p class="caption">
+Figure 4.1: Modèle de <a href="https://docs.google.com/presentation/d/1hTuVVXKd_NEwg26LZPuLaTX2KqDlz0S4BM824jacZak/edit#slide=id.p">matrice auto-évaluation</a>, reliez les points pour faire un diagramme en étoile.
+</p>
+</div>
+<p>Au démarrage du Dataviz Challenge, nous avons fait un <em>ice breaker</em> (<em>“brise-glace”</em>), une activité pour éviter le moment de flottement entre des personnes qui ne se connaissent pas. L’activité que nous avons choisi est le <a href="http://ebook.coop-tic.eu/francais/wakka.php?wiki=DebatMouvant">débat mouvant</a> qui consiste à répondre à des questions définies à l’avance en se plaçant d’un côté ou de l’autre d’une ligne marquée au sol.</p>
+<p>Exemple : qui est venu en train ? → ceux qui le sont vont à droite et les autres à gauche
+Cela a permis de présenter les animateurs (110bis + Datactivist) et les mentors et d’intégrer des questions pour que les participants puissent repérer les métiers présents (designer, développeurs, personnels Éducation nationale…)</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="img/debat.png" alt="Le débat mouvant lors du Dataviz Challenge." width="60%" />
+<p class="caption">
+Figure 4.2: Le débat mouvant lors du Dataviz Challenge.
+</p>
+</div>
+<p>Nous sommes ensuite entrés dans le vif du sujet en présentant le contexte et les défis du Dataviz Challenge avant de créer les groupes projet.</p>
+<div id="les-trois-temps-creatifs-inspiration-ideation-prototypage" class="section level2">
+<h2><span class="header-section-number">4.1</span> Les trois temps créatifs : inspiration, idéation, prototypage</h2>
+<p>Même si chaque événement a ses particularités, on retrouve dans un sprint data les trois temps du mouvement créatif tels que l’a défini Tim Brown d’IDEO dans le processus créatif du <a href="https://fr.wikipedia.org/wiki/Design_thinking">design thinking</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<img src="img/ideo.png" alt="Les 3 temps du mouvement créatif (source : Danvang)" width="70%" />
+<p class="caption">
+Figure 4.3: Les 3 temps du mouvement créatif (source : Danvang)
+</p>
+</div>
+<div id="inspiration-expliciter-le-contexte-et-les-defis" class="section level3">
+<h3><span class="header-section-number">4.1.1</span> Inspiration : expliciter le contexte et les défis</h3>
+<p>Cette première phase vise à définir le problème et expliciter les défis pour s’assurer qu’ils soient bien compris par les participants. Le public doit pouvoir reformuler les défis proposés et développer une compréhension partagée des enjeux.</p>
+<p>A quels problèmes essayez-vous de répondre avec ce hackathon ? Pourquoi l’organisez vous ? Qu’attendez-vous comme projet concret des participants ? Quels défis leurs sont proposés ?</p>
+<p>Il est important de prendre ici une posture d’empathie avec les participants pour s’assurer qu’ils comprennent et adhèrent aux défis qui sont proposés. C’est une phase de réappropriation dans laquelle le public doit pouvoir reformuler les défis proposés et où se développe une compréhension partagée des enjeux.</p>
+</div>
+<div id="ideation-formuler-de-nouvelles-idees-autour-des-defis" class="section level3">
+<h3><span class="header-section-number">4.1.2</span> Idéation : formuler de nouvelles idées autour des défis</h3>
+<p>La seconde phase consiste à formuler une multitude d’idées autour du problème défini dans la phase précédente. Les participants sont incités à explorer de nouvelles solutions aux défis et, après un vote ou une phase de délibération, sélectionner les propositions pour constituer un nombre limité d’équipes.</p>
+<p>Quelles solutions peuvent répondre aux défis ? Comment les participants envisagent d’y répondre ? Cette phase de créativité se déroule en deux temps : d’abord les participants doivent diverger en livrant un maximum d’idées. Aucune proposition ne doit être écartée, tout est bon à prendre et chacun doit se sentir libre de contribuer. Des post-its suffiront à noter toutes les pistes.</p>
+<p>Il faut ensuite entrer dans une phase de convergence pour aboutir à des équipes qui vont développer ensemble une solution. Pour cela, on peut avoir recours à une étape de <em>“clustering”</em>, pour rassembler les idées similaires. Un bon moyen de former rapidement des équipes peut être l’utilisation de gomettes. Lors du dataviz challenge, nous avons distribué une gomette à chaque participant. Chacun la positionnait sur le projet qui lui plaisait le plus. Dès qu’un groupe comportait 5 participants, il était complet et les autres étaient invités à s’inscrire dans un autre groupe.</p>
+</div>
+<div id="implementation-developper-les-projets" class="section level3">
+<h3><span class="header-section-number">4.1.3</span> Implémentation : développer les projets</h3>
+<p>La troisième phase occupe la majeure partie de l’événement. Il s’agit du prototypage, voire du développement, dans un temps limité, des visualisations de données ou des services envisagés pour répondre aux défis.</p>
+<p>L’événement se terminera par l’attribution d’un prix à valeur symbolique, pour valoriser les projets jugés les plus aboutis par un jury constitué d’experts de l’analyse de données ou de la thématique traitée. Il n’y a pour autant pas de gagnant ni de perdant : cette sélection sert surtout à donner de la visibilité aux projets les plus emblématiques issus du sprint data.</p>
+</div>
+</div>
+<div id="le-mentoring" class="section level2">
+<h2><span class="header-section-number">4.2</span> Le mentoring</h2>
+<p>Les mentors, des experts des sujets traités mobilisés sur une période courte pour accompagner les équipes, peuvent considérablement accélerer les projets des participants et les débloquer dans certaines situations. Les mentors généralement font la tournée des projets et proposent leur aide selon leurs compétences.</p>
+<p>Lors du Dataviz Challenge, nous avions prévu un mentoring continu avec des mentors internes au ministère expliquant les données, leur analyse et les politiques éducatives ainsi que des mentors externes spécialistes de l’analyse et de la visualisation de données et des politiques éducatives territoriales.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<img src="img/mentors.png" alt="Planning des mentors extrait du guide du participant du Dataviz Challenge" width="60%" />
+<p class="caption">
+Figure 4.4: Planning des mentors extrait du guide du participant du Dataviz Challenge
+</p>
+</div>
+<p>Un des retours principaux du sondage à l’issue de l’évènement était que le mentoring s’est révélé très utile pour l’avancée des projets mais que nous avions prévu trop de mentors. Certains participants ont indiqué devoir trop régulièrement expliquer leur projet au détriment du travail de prototypage. Deux solutions se présentent à vous pour éviter cet écueil : soit prévoir un nombre limité de sessions de mentorings (hors des phases cruciales de démarrage et de finalisation) des projets ou embarquer les mentors sur toute la durée de l’évènement ce qui leur permettra de bien connaitre les groupes et de s’impliquer sur une plus longue durée.</p>
+</div>
+<div id="le-off-du-sprint-data" class="section level2">
+<h2><span class="header-section-number">4.3</span> Le “off” du sprint data</h2>
+<p>Un sprint data peut être éprouvant pour les participants. Même si le temps dédié à un sprint data est par essence limité, avoir des temps de pause et d’inspiration est essentiel pour lever le nez des données et prendre de la perspective sur les projets.</p>
+<div id="les-ateliers-de-formation" class="section level3">
+<h3><span class="header-section-number">4.3.1</span> Les ateliers de formation</h3>
+<p>Lors du dataviz challenge, les participants pouvaient assister dans une salle à part (pour ne pas déranger le travail des groupes) à des sessions de formation de 30 minutes sur des sujets liés à la visualisation de données :</p>
+<ul>
+<li><p>le premier atelier (<a href="https://datactivist.coop/datavizchallenge/1/#1">support</a>) synthétise des bonnes pratiques et exemples de visualisation de données autour de trois principes pour une dataviz réussie : rigueur, lisibilité, éloquence ;</p></li>
+<li><p>le deuxième atelier (<a href="https://datactivist.coop/datavizchallenge/2/#1">support</a>) est une introduction au data pipeline, une méthodologie générique développée par <a href="https://schoolofdata.org/methodology/">School of Data</a> de réutilisation de données qui décrit étape par étape les différentes phases d’un projet data ;</p></li>
+<li><p>le troisième atelier présente des ressources pour choisir un format de data visualisation : le <a href="https://datavizproject.com">Dataviz Project</a> qui catalogue les formats de visualisation en fonction des usages, un article très complet de <a href="https://lisacharlotterost.github.io/datavistools-revisited">Lisa Charlotte Rost</a> qui propose neuf outils en reproduisant à chaque fois la même visualisation et enfin le <a href="http://chartmaker.visualisingdata.com/">Chartmaker Directory</a> qui synthétise avec de nombreux exemples les formats de visualisation proposés par une vingtaine d’outils.</p></li>
+</ul>
+<p>Les participants étaient libres de participer à cet atelier. En général, un membre de chaque groupe y assistait et partageait ses conclusions au reste du groupe.</p>
+<p>Pour préparer les pitchs, nous avons présenté en plenière un “<a href="https://docs.google.com/presentation/d/107iDAXngenlKleBSwkmipXEgE9JS5ClJpMygWRG1xNE/edit#slide=id.p">pitch des pitchs</a>” réalisé lors d’un hackathon en Ardèche. Il contient des conseils méthodologiques et une structure type qui se révèlent particulièrement utile pour les personnes qui n’ont pas d’expérience avec ce format de prise de parole.</p>
+</div>
+<div id="les-temps-dinspiration" class="section level3">
+<h3><span class="header-section-number">4.3.2</span> Les temps d’inspiration</h3>
+<p>Pendant les temps réservés au prototypage des projets, nous avons aussi proposé des temps d’inspiration pour emmener les participants vers de nouvelles idées sur les données et leurs visualisation. Ces temps d’inspiration peuvent se dérouler dans l’espace principal en plénière mais il peut être utile aussi de séparer ces présentations des espaces de travail, certains participants ne souhaitant pas être interrompu dans leur élan créatif.</p>
+<p>Lors de la première journée, les participants ont pu assister à trois keynote de 15 à 30 minutes :</p>
+<ul>
+<li><p>le designer Louis Eveillard a présenté des visualisations de données réalisées par l’<a href="https://latelier-des-chercheurs.fr/outils/lopendoc">Atelier des Chercheurs</a>, en particulier le projet de cartographie sensible “<a href="http://quentinlefevre.com/workshop-de-cartographie-sensible-ile-de-nantes-stereolux/">Millefeuille</a>” sur l’île de Nantes ;</p></li>
+<li><p>l’artiste Albertine Meunier a détaillé son travail sur les données, notamment le projet <a href="https://www.albertinemeunier.net/my-google-search-history">My Google Search History</a>, le <a href="https://www.albertinemeunier.net/casino-las-datas">Casino Las Datas</a> et a même chanté un des morceaux de son EP <a href="http://www.albertinemeunier.net/french-data-touch">French Data Touch</a></p></li>
+<li><p>le géographe <a href="https://fr.wikipedia.org/wiki/Jacques_L%C3%A9vy_(g%C3%A9ographe)">Jacques Lévy</a>, professeur à l’École polytechnique fédérale de Lausanne (Suisse) et lauréat du prix Vautrin-Lud en 2018, a exposé sa vision de la cartographie et quelques unes de ses réalisations les plus emblématiques.</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="preparation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="restitution.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["guide.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

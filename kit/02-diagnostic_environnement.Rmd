@@ -1,0 +1,15 @@
+# Diagnostic de l'environnement
+
+## Outil de collecte et visualisation des données : Geoportail
+
+### Les bases
+
+### Principales fonctionnalités
+
+### Exporter ses productions
+
+### Fonctionnalités avancées
+
+## Applications pratiques
+
+### Cartographies scolaires

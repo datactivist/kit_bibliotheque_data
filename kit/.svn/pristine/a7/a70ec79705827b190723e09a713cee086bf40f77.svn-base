@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>References | Guide d’organisation d’un data sprint</title>
+  <meta name="description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="References | Guide d’organisation d’un data sprint" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="References | Guide d’organisation d’un data sprint" />
+  
+  <meta name="twitter:description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
+
+
+<meta name="date" content="2019-04-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="la-restitution-et-la-suite.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Guide de l'organisation d'un data sprint</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#le-contenu-du-guide"><i class="fa fa-check"></i><b>1.1</b> Le contenu du guide</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="dataviz.html"><a href="dataviz.html"><i class="fa fa-check"></i><b>2</b> Le dataviz challenge : un évènement à répliquer</a><ul>
+<li class="chapter" data-level="2.1" data-path="dataviz.html"><a href="dataviz.html#defi-1-les-deplacements-en-cascade"><i class="fa fa-check"></i><b>2.1</b> Défi 1 : «Les déplacements en cascade»</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi"><i class="fa fa-check"></i><b>2.1.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="2.1.2" data-path="dataviz.html"><a href="dataviz.html#projet-mixite-sociale"><i class="fa fa-check"></i><b>2.1.2</b> 🏆 Projet “Mixité Sociale”</a></li>
+<li class="chapter" data-level="2.1.3" data-path="dataviz.html"><a href="dataviz.html#projet-locaviz"><i class="fa fa-check"></i><b>2.1.3</b> Projet “Locaviz”</a></li>
+<li class="chapter" data-level="2.1.4" data-path="dataviz.html"><a href="dataviz.html#projet-i.p.e.d.-indice-de-performance-des-deplacements"><i class="fa fa-check"></i><b>2.1.4</b> Projet I.P.E.D. (Indice de Performance des Déplacements)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="dataviz.html"><a href="dataviz.html#defi-2-la-carte-didentite-des-etablissements-en-temps-reel"><i class="fa fa-check"></i><b>2.2</b> Défi 2 : la carte d’identité des établissements en temps réel</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-1"><i class="fa fa-check"></i><b>2.2.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="2.2.2" data-path="dataviz.html"><a href="dataviz.html#projet-eduscope"><i class="fa fa-check"></i><b>2.2.2</b> 🏆Projet Eduscope</a></li>
+<li class="chapter" data-level="2.2.3" data-path="dataviz.html"><a href="dataviz.html#open"><i class="fa fa-check"></i><b>2.2.3</b> Open</a></li>
+<li class="chapter" data-level="2.2.4" data-path="dataviz.html"><a href="dataviz.html#antiseche"><i class="fa fa-check"></i><b>2.2.4</b> Antisèche</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="dataviz.html"><a href="dataviz.html#defi-3-carto-du-numerique-dans-les-territoires"><i class="fa fa-check"></i><b>2.3</b> DÉFI 3 : «Carto du numérique dans les territoires»</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-2"><i class="fa fa-check"></i><b>2.3.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="2.3.2" data-path="dataviz.html"><a href="dataviz.html#alain-jette"><i class="fa fa-check"></i><b>2.3.2</b> 🏆Alain Jette</a></li>
+<li class="chapter" data-level="2.3.3" data-path="dataviz.html"><a href="dataviz.html#panser-la-fracture-numerique"><i class="fa fa-check"></i><b>2.3.3</b> Panser la fracture numérique</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="principes.html"><a href="principes.html"><i class="fa fa-check"></i><b>3</b> Les principes d’un sprint data réussi</a><ul>
+<li class="chapter" data-level="3.1" data-path="principes.html"><a href="principes.html#historique-dou-viennent-les-data-sprints"><i class="fa fa-check"></i><b>3.1</b> Historique : d’où viennent les data sprints ?</a></li>
+<li class="chapter" data-level="3.2" data-path="principes.html"><a href="principes.html#hackathon-data-sprints-dataviz-challenge-data-camps-definition-des-formats"><i class="fa fa-check"></i><b>3.2</b> Hackathon, data sprints, dataviz challenge, data camps : définition des formats</a></li>
+<li class="chapter" data-level="3.3" data-path="principes.html"><a href="principes.html#les-3-ingredients-essentiels-defis-donnees-participants"><i class="fa fa-check"></i><b>3.3</b> Les 3 ingrédients essentiels : défis, données, participants</a></li>
+<li class="chapter" data-level="3.4" data-path="principes.html"><a href="principes.html#les-facteurs-cles-de-succes"><i class="fa fa-check"></i><b>3.4</b> Les facteurs clés de succès</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="preparation.html"><a href="preparation.html"><i class="fa fa-check"></i><b>4</b> La préparation du data sprint</a><ul>
+<li class="chapter" data-level="4.1" data-path="preparation.html"><a href="preparation.html#les-principaux-points-dattention"><i class="fa fa-check"></i><b>4.1</b> Les principaux points d’attention</a></li>
+<li class="chapter" data-level="4.2" data-path="preparation.html"><a href="preparation.html#presentation-du-retroplanning-type"><i class="fa fa-check"></i><b>4.2</b> Présentation du retroplanning type</a></li>
+<li class="chapter" data-level="4.3" data-path="preparation.html"><a href="preparation.html#la-mobilisation-des-mentors"><i class="fa fa-check"></i><b>4.3</b> La mobilisation des mentors</a></li>
+<li class="chapter" data-level="4.4" data-path="preparation.html"><a href="preparation.html#le-recrutement-des-participants"><i class="fa fa-check"></i><b>4.4</b> Le recrutement des participants</a></li>
+<li class="chapter" data-level="4.5" data-path="preparation.html"><a href="preparation.html#la-preparation-des-donnees"><i class="fa fa-check"></i><b>4.5</b> La préparation des données</a></li>
+<li class="chapter" data-level="4.6" data-path="preparation.html"><a href="preparation.html#la-mise-en-place-des-espaces-de-discussion-et-de-documentation"><i class="fa fa-check"></i><b>4.6</b> La mise en place des espaces de discussion et de documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="animation.html"><a href="animation.html"><i class="fa fa-check"></i><b>5</b> L’animation du data sprint</a><ul>
+<li class="chapter" data-level="5.1" data-path="animation.html"><a href="animation.html#les-trois-temps-creatifs-inspiration-ideation-prototypage"><i class="fa fa-check"></i><b>5.1</b> Les trois temps créatifs : inspiration, idéation, prototypage</a></li>
+<li class="chapter" data-level="5.2" data-path="animation.html"><a href="animation.html#les-ateliers-de-formation"><i class="fa fa-check"></i><b>5.2</b> Les ateliers de formation</a></li>
+<li class="chapter" data-level="5.3" data-path="animation.html"><a href="animation.html#les-temps-de-pause-et-dinspiration"><i class="fa fa-check"></i><b>5.3</b> Les temps de pause et d’inspiration</a></li>
+<li class="chapter" data-level="5.4" data-path="animation.html"><a href="animation.html#la-documentation-des-projets"><i class="fa fa-check"></i><b>5.4</b> La documentation des projets</a></li>
+<li class="chapter" data-level="5.5" data-path="animation.html"><a href="animation.html#quelques-questions-logistiques"><i class="fa fa-check"></i><b>5.5</b> Quelques questions logistiques</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="la-restitution-et-la-suite.html"><a href="la-restitution-et-la-suite.html"><i class="fa fa-check"></i><b>6</b> La restitution et la suite</a><ul>
+<li class="chapter" data-level="6.1" data-path="la-restitution-et-la-suite.html"><a href="la-restitution-et-la-suite.html#les-presentations-des-projets"><i class="fa fa-check"></i><b>6.1</b> Les présentations des projets</a></li>
+<li class="chapter" data-level="6.2" data-path="la-restitution-et-la-suite.html"><a href="la-restitution-et-la-suite.html#la-deliberation-du-jury"><i class="fa fa-check"></i><b>6.2</b> La délibération du jury</a></li>
+<li class="chapter" data-level="6.3" data-path="la-restitution-et-la-suite.html"><a href="la-restitution-et-la-suite.html#laccompagnement-a-donner"><i class="fa fa-check"></i><b>6.3</b> L’accompagnement à donner</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Guide d’organisation d’un data sprint</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="la-restitution-et-la-suite.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["guide.pdf", "guide.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+--- 
+title: "Guide d'organisation d'un sprint data"
+author: "Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l'Éducation nationale"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Le guide d’organisation d’un sprint data propose des conseils méthodologiques  et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires."
+---
+
+# Introduction {-}
+
+A la suite du Dataviz Challenge organisé par le 110 bis, lab d'innovation du Ministère de l'Éducation nationale, les 22 et 23 mars 2019, le guide d’organisation d’un sprint data doit : 
+
+* Permettre l’essaimage du format au sein du Ministère de l’Éducation nationale et de la Jeunesse et auprès de ses partenaires ainsi que dans les territoires
+
+* Rendre l’évènement réplicable
+
+* Restituer l’expérience du dataviz challenge et inciter d’autres acteurs à le reproduire. 
+
+Le guide est open source, il s'appuie sur le [travail réalisé par Datactivist pour le département de l'Ardèche](https://docs.google.com/document/d/1uDw4Maifjl_egJ95y-F0dkXEyu2MNfhc2GvNEmjhPq8/edit#heading=h.9ofnjz67swln) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (Attribution - Partage dans les Mêmes Conditions 4.0 International). Le guide est publié avec la même licence qui permet la libre réutilisation tout en garantissant que le contenu restera ouvert. 
+
+Pour favoriser la réplication de l'évènement, le guide comprend des conseils méthodologiques ainsi que des documents type qui faciliteront l'organisation de ce type d'évènements.  
+

@@ -1,0 +1,58 @@
+# La restitution et la suite {#restitution}
+
+Le temps imparti est terminé et les projets sont finalisés ? C'est l'heure de la restitution ! Les équipes vont d'abord devoir pitcher leur concept et présenter le résultat de leur travail avant que le jury ne délibère sur le fond des projets.  
+
+## Les présentations des projets
+
+Les pitchs des projets durent en général entre 3 et 5 minutes. Nous vous recommandons de demander que les participants publient leur présentation directement sur l'espace de documentation : cela vous fera gagner du temps (connecter et régler un ordinateur peut être long) et vous êtes surs d'avoir toutes les présentations à disposition après l'évènement. 
+
+Pour les démonstrations, nous recommandons généralement aux participants de faire un enregistrement de leur écran sous la forme soit d'une vidéo soit d'un GIF animé (qui se déclenchera automatiquement). Cela évite les bugs (le fameux "[effet démo](https://fr.wikipedia.org/wiki/Loi_de_Murphy#Lois_d%C3%A9riv%C3%A9es_ou_apparent%C3%A9es)") et vous garantira de disposer de toutes les présentations après l'évènement. 
+
+Lors du Dataviz Challenge, la restitution a eu lieu dans trois espaces, chacun dédié à un défi ; les membres du jury étaient répartis par défi. Le jury a délibéré pour sélectionner un projet par défi selon les critères suivants : 
+
+Enfin, les trois projets sélectionnés ont refait leur présentation, cette fois en plénière devant l'ensemble des participants. Comme l'enjeu était essentiellement symbolique, le projet lauréat a été sélectionné par l'ensemble des personnes présentes avec un [outil de vote en ligne](http://meet.ps). Au final, deux projets étaient au coude-à-coude et nous avons préféré les nommer tous deux projets lauréats *ex aequo*. 
+
+## La délibération du jury
+
+Pour assister le jury dans sa délibération, nous avons produit des fiches qui contiennent les critères d'évaluation préparés en amont de l'évènement. Ces critères ont été postés pendant l'évènement sur le forum du Dataviz Challenge pour que les participants adaptent leur projet aux attendus du jury. 
+
+Les critères étaient : 
+* **Adéquation avec les défis proposés** décliné en trois sous-critères : compréhension du défi, pertinence et lisibilité de la visualisation proposée pour répondre aux problématiques soulevées, faisabilité du projet
+
+* **Innovation et Créativité** avec deux sous-critères	: Le projet se démarque-t-il par une approche ou des supports techniques novateurs ? La visualisation proposée se démarque-t-elle par son originalité, sa créativité ? 	
+
+* **Impacts  et Perspectives** avec trois sous-critères :	Impact potentiel de la solution proposée : quel est le changement attendu à travers elle ?	Ce projet est-il applicable à des circonstances et cas d'usage réels?	La réplicabilité du projet est-elle rendue possible par l'ouverture du code source et / ou sa documentation ? 	
+
+* **Qualité du projet** avec trois sous-critères : qualité du design graphique et du design d'interface, qualité de la présentation du projet, qualité de la documentation 	
+
+Le jury devait remplir ces fiches pendant les présentations et discuter de ses notes avec les autres membres du jury pour sélectionner le projet lauréat du défi. Il faut compter une trentaine de minutes pour que le jury puisse délibérer sereinement et sélectionner un projet dans de bonnes conditions. 
+
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Exemple de [fiche de notation des projets](https://docs.google.com/spreadsheets/d/1t_wpk0EityvplEkwQTYeQqbSN61RlNSRmkLtl58doxY/edit?usp=sharing) par le jury.', }
+knitr::include_graphics(rep("./img/fiche.png"))
+```
+
+## La reprise de la documentation
+
+Passé l'évènement, reposez vous quelques jours mais il faudra vite remettre le pied à l'étrier car le suivi d'un sprint data est tout aussi important que sa préparation. La documentation constitue un point particulier qui méritera votre attention à la suite du sprint data. En effet, les participants dans le feu de l'évènement ne prennent pas tous la peine de documenter en détail leurs projets. Certains projets auront une documentation succinte et, en l'absence de cette documentation, vous ne pourrez pas donner de suite aux projets. D'autres projets n'ont pas été associés à un dépôt Git ou un dossier où vous pourrez récupérer l'ensemble des fichiers, le projet n'est donc pas réplicable. 
+
+Il faut donc prévoir un temps de reprise de la documentation des projets. Cela demande de contacter les participants des équipes concernés individuellement pour s'assurer que les projets soient documentés correctement. Assurez vous bien d'avoir les noms des participants de chaque équipe, pensez à le noter pendant l'évènement. Pointez leur directement les manques dans la documentation et n'hésitez pas à les appeler quitte à documenter parfois à leur place les projets. La reprise pourra ensuite consister à améliorer la narration des projets qui, dans la hâte de la finalisation, ne racontent pas l'histoire que vous avez pu entendre dans le pitch.  
+
+## Le sondage et le débriefing 
+
+A la suite de l'évènement, pensez à envoyer rapidement un courriel de remerciement contenant un sondage de satisfaction. Vous pouvez reprendre le modèle de questionnaire développé pour le Dataviz Challenge qui est disponible à [cette adresse]( https://framaforms.org/dataviz-challenge-debrief-participant-1553679222). N'hésitez pas à rajouter des champs qualitatifs qui vous permettront de mieux comprendre les notations et d'identifier les pistes d'amélioration. 
+
+Les résultats du sondage doivent être analysés collectivement lors d'une réunion de debriefing à laquelle peuvent participer tous les membres de l'équipe d'organisation. Lors du debriefing du Dataviz Challenge, nous avons eu recours à la méthode DAKI comme Drop, Add, Keep, Improve (Enlever, Ajouter, Garder, Améliorer) qui permet de noter les points de satisfaction et d'améliorer (voir [documentation de la méthode par Xpedition Framework](https://xpeditionframework.co/ressources/composants/daki)). 
+
+N'hésitez pas enfin à faire une restitution publique des résultats du sondage à destination des participants et de toutes les parties prenantes impliquées comme il a été fait lors du hackathon [Datafin](https://datafin.fr/enquete-sur-le-hackathon-datafin-de-juin-2018).
+
+## L’accompagnement à donner
+
+Enfin, à la suite de l'évènement, il faut idéalement donner une suite aux projets pour que le travail des participants aboutisse sur des réalisations concrètes et utiles. Plusieurs formes peuvent être envisagées : 
+
+* mettre en place un partenariat avec un incubateur pour que les participants soient accompagnés dans le développement de leur solution s'ils le souhaitent 
+
+* subventionner la finalisation du projet
+
+* présenter les résultats du sprint data à des décideurs afin de créer des opportunités pour les participants de donner une suite aux projets lauréats 
+
+* reformuler un projet pour le développer en interne (pensez à garder le lien avec les participants)…

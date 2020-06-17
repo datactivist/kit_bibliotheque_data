@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapitre 3 Les points d’attention dans la préparation du sprint data | Guide d’organisation d’un sprint data</title>
+  <meta name="description" content="Le guide d’organisation d’un sprint data propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapitre 3 Les points d’attention dans la préparation du sprint data | Guide d’organisation d’un sprint data" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Le guide d’organisation d’un sprint data propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapitre 3 Les points d’attention dans la préparation du sprint data | Guide d’organisation d’un sprint data" />
+  
+  <meta name="twitter:description" content="Le guide d’organisation d’un sprint data propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
+
+
+<meta name="date" content="2019-05-07" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="principes.html">
+<link rel="next" href="animation.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Guide de l'organisation d'un data sprint</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="dataviz.html"><a href="dataviz.html"><i class="fa fa-check"></i><b>1</b> Le dataviz challenge : un évènement à répliquer</a><ul>
+<li class="chapter" data-level="1.1" data-path="dataviz.html"><a href="dataviz.html#defi-1-les-deplacements-en-cascade"><i class="fa fa-check"></i><b>1.1</b> Défi 1 : les déplacements en cascade</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi"><i class="fa fa-check"></i><b>1.1.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.1.2" data-path="dataviz.html"><a href="dataviz.html#projet-mixite-sociale"><i class="fa fa-check"></i><b>1.1.2</b> 🏆 Projet “Mixité Sociale”</a></li>
+<li class="chapter" data-level="1.1.3" data-path="dataviz.html"><a href="dataviz.html#projet-locaviz"><i class="fa fa-check"></i><b>1.1.3</b> Projet “Locaviz”</a></li>
+<li class="chapter" data-level="1.1.4" data-path="dataviz.html"><a href="dataviz.html#projet-i.p.e.d.-indice-de-performance-des-deplacements"><i class="fa fa-check"></i><b>1.1.4</b> Projet I.P.E.D. (Indice de Performance des Déplacements)</a></li>
+<li class="chapter" data-level="1.1.5" data-path="dataviz.html"><a href="dataviz.html#projet-spe-et-ruralite"><i class="fa fa-check"></i><b>1.1.5</b> Projet Spé et ruralité</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="dataviz.html"><a href="dataviz.html#defi-2-la-carte-didentite-des-etablissements-en-temps-reel"><i class="fa fa-check"></i><b>1.2</b> Défi 2 : la carte d’identité des établissements en temps réel</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-1"><i class="fa fa-check"></i><b>1.2.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.2.2" data-path="dataviz.html"><a href="dataviz.html#projet-eduscope"><i class="fa fa-check"></i><b>1.2.2</b> 🏆Projet Eduscope</a></li>
+<li class="chapter" data-level="1.2.3" data-path="dataviz.html"><a href="dataviz.html#open"><i class="fa fa-check"></i><b>1.2.3</b> Open</a></li>
+<li class="chapter" data-level="1.2.4" data-path="dataviz.html"><a href="dataviz.html#antiseche"><i class="fa fa-check"></i><b>1.2.4</b> Antisèche</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="dataviz.html"><a href="dataviz.html#defi-3-carto-du-numerique-dans-les-territoires"><i class="fa fa-check"></i><b>1.3</b> Défi 3 : carto du numérique dans les territoires</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="dataviz.html"><a href="dataviz.html#cadrage-du-defi-2"><i class="fa fa-check"></i><b>1.3.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="1.3.2" data-path="dataviz.html"><a href="dataviz.html#alain-jette"><i class="fa fa-check"></i><b>1.3.2</b> 🏆Alain Jette</a></li>
+<li class="chapter" data-level="1.3.3" data-path="dataviz.html"><a href="dataviz.html#panser-la-fracture-numerique"><i class="fa fa-check"></i><b>1.3.3</b> Panser la fracture numérique</a></li>
+<li class="chapter" data-level="1.3.4" data-path="dataviz.html"><a href="dataviz.html#cartorezo"><i class="fa fa-check"></i><b>1.3.4</b> Cartorézo</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="principes.html"><a href="principes.html"><i class="fa fa-check"></i><b>2</b> Les principes d’un sprint data réussi</a><ul>
+<li class="chapter" data-level="2.1" data-path="principes.html"><a href="principes.html#au-fait-cest-quoi-un-sprint-data"><i class="fa fa-check"></i><b>2.1</b> Au fait, c’est quoi un sprint data ?</a></li>
+<li class="chapter" data-level="2.2" data-path="principes.html"><a href="principes.html#historique-du-rite-hacker-de-niche-a-la-proliferation"><i class="fa fa-check"></i><b>2.2</b> Historique : du rite hacker de niche à la prolifération</a></li>
+<li class="chapter" data-level="2.3" data-path="principes.html"><a href="principes.html#les-facteurs-cles-de-succes"><i class="fa fa-check"></i><b>2.3</b> Les facteurs clés de succès</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="principes.html"><a href="principes.html#mobiliser-les-parties-prenantes-internes-et-externes"><i class="fa fa-check"></i><b>2.3.1</b> Mobiliser les parties prenantes internes et externes</a></li>
+<li class="chapter" data-level="2.3.2" data-path="principes.html"><a href="principes.html#creer-une-experience-stimulante"><i class="fa fa-check"></i><b>2.3.2</b> Créer une expérience stimulante</a></li>
+<li class="chapter" data-level="2.3.3" data-path="principes.html"><a href="principes.html#creer-une-energie-positive"><i class="fa fa-check"></i><b>2.3.3</b> Créer une énergie positive</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="preparation.html"><a href="preparation.html"><i class="fa fa-check"></i><b>3</b> Les points d’attention dans la préparation du sprint data</a><ul>
+<li class="chapter" data-level="3.1" data-path="preparation.html"><a href="preparation.html#planifier-et-repartir-le-travail"><i class="fa fa-check"></i><b>3.1</b> Planifier et répartir le travail</a></li>
+<li class="chapter" data-level="3.2" data-path="preparation.html"><a href="preparation.html#anticiper-la-logistique"><i class="fa fa-check"></i><b>3.2</b> Anticiper la logistique</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="preparation.html"><a href="preparation.html#preparer-les-donnees-en-amont"><i class="fa fa-check"></i><b>3.2.1</b> Préparer les données en amont</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="preparation.html"><a href="preparation.html#cibler-les-participants"><i class="fa fa-check"></i><b>3.3</b> Cibler les participants</a></li>
+<li class="chapter" data-level="3.4" data-path="preparation.html"><a href="preparation.html#mettre-en-place-des-espaces-de-discussion-et-de-documentation"><i class="fa fa-check"></i><b>3.4</b> Mettre en place des espaces de discussion et de documentation</a></li>
+<li class="chapter" data-level="3.5" data-path="preparation.html"><a href="preparation.html#prevoir-un-conducteur-milimetre"><i class="fa fa-check"></i><b>3.5</b> Prévoir un conducteur milimètré</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="animation.html"><a href="animation.html"><i class="fa fa-check"></i><b>4</b> L’animation du sprint data</a><ul>
+<li class="chapter" data-level="4.1" data-path="animation.html"><a href="animation.html#les-trois-temps-creatifs-inspiration-ideation-prototypage"><i class="fa fa-check"></i><b>4.1</b> Les trois temps créatifs : inspiration, idéation, prototypage</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="animation.html"><a href="animation.html#inspiration-expliciter-le-contexte-et-les-defis"><i class="fa fa-check"></i><b>4.1.1</b> Inspiration : expliciter le contexte et les défis</a></li>
+<li class="chapter" data-level="4.1.2" data-path="animation.html"><a href="animation.html#ideation-formuler-de-nouvelles-idees-autour-des-defis"><i class="fa fa-check"></i><b>4.1.2</b> Idéation : formuler de nouvelles idées autour des défis</a></li>
+<li class="chapter" data-level="4.1.3" data-path="animation.html"><a href="animation.html#implementation-developper-les-projets"><i class="fa fa-check"></i><b>4.1.3</b> Implémentation : développer les projets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="animation.html"><a href="animation.html#le-mentoring"><i class="fa fa-check"></i><b>4.2</b> Le mentoring</a></li>
+<li class="chapter" data-level="4.3" data-path="animation.html"><a href="animation.html#le-off-du-sprint-data"><i class="fa fa-check"></i><b>4.3</b> Le “off” du sprint data</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="animation.html"><a href="animation.html#les-ateliers-de-formation"><i class="fa fa-check"></i><b>4.3.1</b> Les ateliers de formation</a></li>
+<li class="chapter" data-level="4.3.2" data-path="animation.html"><a href="animation.html#les-temps-dinspiration"><i class="fa fa-check"></i><b>4.3.2</b> Les temps d’inspiration</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="restitution.html"><a href="restitution.html"><i class="fa fa-check"></i><b>5</b> La restitution et la suite</a><ul>
+<li class="chapter" data-level="5.1" data-path="restitution.html"><a href="restitution.html#les-presentations-des-projets"><i class="fa fa-check"></i><b>5.1</b> Les présentations des projets</a></li>
+<li class="chapter" data-level="5.2" data-path="restitution.html"><a href="restitution.html#la-deliberation-du-jury"><i class="fa fa-check"></i><b>5.2</b> La délibération du jury</a></li>
+<li class="chapter" data-level="5.3" data-path="restitution.html"><a href="restitution.html#la-reprise-de-la-documentation"><i class="fa fa-check"></i><b>5.3</b> La reprise de la documentation</a></li>
+<li class="chapter" data-level="5.4" data-path="restitution.html"><a href="restitution.html#le-sondage-et-le-debriefing"><i class="fa fa-check"></i><b>5.4</b> Le sondage et le débriefing</a></li>
+<li class="chapter" data-level="5.5" data-path="restitution.html"><a href="restitution.html#laccompagnement-a-donner"><i class="fa fa-check"></i><b>5.5</b> L’accompagnement à donner</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Guide d’organisation d’un sprint data</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="preparation" class="section level1">
+<h1><span class="header-section-number">Chapitre 3</span> Les points d’attention dans la préparation du sprint data</h1>
+<div id="planifier-et-repartir-le-travail" class="section level2">
+<h2><span class="header-section-number">3.1</span> Planifier et répartir le travail</h2>
+<p>L’organisation d’un sprint data prend du temps et demande de l’anticipation. Dans le cas du Dataviz Challenge, le travail a débuté en octobre 2018 pour un évènement fin mars 2019 avec l’organisation d’une journée contributive lors de laquelle les premières pistes de défi et de programme ont été débattues par des acteurs du ministère et des experts externes.</p>
+<p>De manière générale, un délai de 3 mois avant l’évènement permet d’organiser un sprint data de manière confortable. En deça, certaines taches risquent d’être mises en place dans la précipitation et la mobilisation interne sera difficile à assurer.</p>
+<p>Les tâches dans l’organisation d’un sprint data sont de plusieurs niveaux. Pour faciliter l’organisation, mieux vaut se répartir la charge entre les différents acteurs en charge de l’organisation du sprint data. Voici un exemple de répartition qui pourra être adapté selon les contextes organisationnels :</p>
+<ul>
+<li><p><strong>le pilotage</strong> : certaines décisions doivent être prises par la direction ou l’organe de pilotage sur la supervision du chef de projet</p></li>
+<li><p><strong>la communication</strong> : la mise en œuvre de certaines de ces tâches concerne essentiellement la direction ou l’équipe en charge de la communication</p></li>
+<li><p><strong>la logistique</strong> : ces tâches sont assurées principalement par le chef de projet et l’équipe présente lors de l’évènement</p></li>
+<li><p><strong>l’animation</strong> : ces tâches concernent principalement le chef de projet et l’animateur de l’évènement</p></li>
+<li><p><strong>post-évènement</strong> : ces tâches concernent le chef de projet et l’équipe présente lors de l’évènement.</p></li>
+</ul>
+<p>Pour faciliter l’organisation d’un sprint data, nous mettons à disposition un modèle de retroplanning qui liste les principales tâches à réaliser en amont. Il s’appuie sur les bonnes pratiques internationales de l’organisation des hackathons et sur l’expérience de l’association <a href="okfn.fr">Open Knowledge France</a>. Certaines tâches demanderont un travail plus ou moins important selon les contraintes de l’équipe projet.</p>
+<p>Pour utiliser le retroplanning pour votre propre évènement, rendez-vous à l’<a href="https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing">adresse suivante</a> et créez une copie du document.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-16"></span>
+<img src="img/retroplanning.gif" alt="Le modèle de [retroplanning issu du Dataviz Challenge](https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing), les échéances ici reprennent la présentation du Dataviz Challenge." width="60%" />
+<p class="caption">
+Figure 3.1: Le modèle de <a href="https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing">retroplanning issu du Dataviz Challenge</a>, les échéances ici reprennent la présentation du Dataviz Challenge.
+</p>
+</div>
+<p>Le retroplanning est organisé suivant cinq grandes sections dans lesquelles figurent des groupes de taches. Libre à vous ensuite de le décliner selon les besoins de votre projet :</p>
+<ul>
+<li><p><strong>Le pilotage</strong> concerne le choix et l’implication des partenaires internes et externes, la planification des dates et des lieux du sprint data, la définition du budget, la formalisation de la stratégie et des indicateurs du succès (“qu’attendons-nous de ce sprint data ?”, “comment mesurer le succès de l’évènement ?”) et la stratégie de valorisation des projets.</p></li>
+<li><p><strong>La communication</strong> regroupe des taches sur la stratégie de communication sur le web et les réseaux sociaux, la production de contenus relatifs à l’évènement, le recrutement et la relance des participants, l’impression de documents, l’achat de goodies, etc.</p></li>
+<li><p><strong>La logistique</strong> porte sur la préparation du matériel, la commande des repas, l’éventuel hébergement des participants et mentors, le transport, la préparation du livret du participant, la mise en place du lieu…</p></li>
+<li><p><strong>L’animation</strong> concerne des tâches sur le briefing de l’équipe d’organisation et des partenaires impliqués, la répartition des rôles, la mise en place des outils en ligne de documentation…</p></li>
+<li><p><strong>Le post-évènement</strong> évoque la suite du sprint data avec le remerciement des participants, leur évaluation de l’évènement, le suivi des indicateurs de succès, la publication d’un compte-rendu ou d’un billet de synthèse, la collecte du code et de la documention des projets, le suivi des projets…</p></li>
+</ul>
+<p>En suivant ce retroplanning type dès le début de votre évènement, vous pourrez planifier et répartir au mieux la charge de travail. Il vous évitera aussi de négliger les points clefs de l’organisation de l’évènement. Toutefois, de notre expérience, certains aspects méritent une attention toute particulière.</p>
+</div>
+<div id="anticiper-la-logistique" class="section level2">
+<h2><span class="header-section-number">3.2</span> Anticiper la logistique</h2>
+<p>L’organisation d’un sprint data demande un important travail de gestion logistique à répartir dans l’équipe projet pour éviter une surcharge.</p>
+<p>De notre expérience, voici quelques points d’attention à prendre en compte :</p>
+<ul>
+<li><p><strong>Le wifi</strong> : combien de sprints data se sont-ils heurtés à ce problème ? C’est un point technique essentiel : les équipes ne pourront pas travailler avec un wifi défaillant. La connexion réseau devra être bien dimensionnée avec obligatoirement un raccordement à la fibre. Ce doit être un critère de choix du lieu. Prévoyez une connexion de 80Mo minimum pour une trentaine de participants.</p></li>
+<li><p><strong>Les repas</strong> : pensez à prévoir des alternatives végétariennes complètes pour les participants. Nous vous recommandons d’intégrer les contre-indications alimentaires dans le formulaire d’inscription pour anticiper. Pour éviter de gâcher les restes, prenez contact avec une association locale d’aide aux personnes démunies, comme nous l’avons fait pour le Dataviz Challenge. Enfin, pensez à l’environnement en sélectionnant un prestataire qui a engagé une démarche de réduction des matériaux jetables (en particulier le plastique) et pourra vous fournir de la vaisselle réutilisable.</p></li>
+<li><p><strong>Prise en charge du handicap et des besoins particuliers</strong> : pensez à intégrer une question à ce sujet dans le formulaire d’inscription pour éviter aux personnes concernées de devoir soliciter de l’assistance alors qu’elle peut être proposée en amont. Favorisez l’autonomie du plan grand nombre en choisissant aussi un lieu adapté.</p></li>
+<li><p><strong>Goodies</strong> : il est bienvenu que tout le monde puisse repartir avec quelque chose en souvenir. Dans le cadre du Dataviz Challenge, chaque participant est reparti avec un tote bag aux couleurs du 110bis, une gourde réutilisable (pour limiter la consommation de gobelets), des lingettes (pour se rafraîchir après une courte nuit), le livret du participant, des stickers… Veillez à bien prévoir la commande de ces goodies en amont : les délais de fabrication et de livraison sont généralement de 2 à 3 semaines, sauf à passer une commande en express (5 jours environ), plus coûteuse et limitée en terme d’options.</p></li>
+<li><p><strong>Espace détente</strong> : avec le bruit des équipes qui travaillent, il peut être dur de se concentrer et de se détendre. Pensez à mettre à disposition un espace de relaxation avec en permanence des boissons chaudes et, si possible, une restauration légère en cas de fringale (des fruits secs par exemple). Il est aussi recommandé, si le lieu le permet, de mettre à disposition une salle de réunion pour permettre aux équipes de préparer les pitchs, au jury de se réunir, aux organisateurs de se coordonner…</p></li>
+<li><p><strong>Préparation de la salle</strong> : pensez à avoir des renforts la veille du jour J pour mettre en place l’espace. Prévoyez un espace suffisamment grand pour les présentations en plénière et les pitchs des projets, mettez en place des tables dimensionnées à la taille des équipes (5 personnes pour le Dataviz Challenge) et un siège pour les mentors. Pour chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)</p></li>
+</ul>
+<div id="preparer-les-donnees-en-amont" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Préparer les données en amont</h3>
+<p>Lorsque la diffusion des données est une démarche inédite, les obtenir en amont de l’évènement peut être long et fastidueux. Or, pour éviter tout problème, nous vous recommandons de vous les procurer deux ou trois semaines avant l’évènement. Ce délai vous permettra de contrôler le contenu des données, de palier à d’éventuels problèmes d’anonymisation ou de protection des secrets légaux, de documenter au mieux les données et d’améliorer leur qualité. L’ouverture peut par ailleurs se heurter à des systèmes d’information qui n’ont pas été prévus pour l’extraction des données et peuvent demander un travail considérable pour les <em>database managers</em>.</p>
+<p>Plus vous anticipez, plus vous pourrez préparer les données et limiter le temps passé par les participants à les nettoyer. On dit souvent que 80% du temps de travail d’un data scientist est dédié à cette tâche de nettoyage. Pour améliorer la qualité des données, vous pourrez vous appuyer sur le travail réalisé par la Fondation Internet Nouvelle Génération (FING) avec le <a href="https://infolabs.io/sprint-qualite">sprint qualité</a> qui permet en 2h30 de faire un contrôle des principaux problèmes de qualité des données. Le <a href="https://github.com/Quartz/bad-data-guide/blob/master/README.md">Quartz Bad Data Guide</a> (en anglais) liste aussi une série de points de contrôle pour améliorer les données. Faire expertiser les données par un spécialiste en amont de l’évènement pourra aussi vous aider à détecter des problèmes de qualité. Enfin, l’outil <a href="http://dataproofer.org/">Dataproofer</a> réalise automatiquement un certain nombre de contrôles sur les données vous permettant un diagnostic rapide.</p>
+<p>Tous les problèmes de qualité ne pourront éviter être corrigés avant l’évènement. Mais une documentation précise permettra de préparer les réutilisateurs et de les aider à mieux comprendre les données. Nous vous recommandons de vous appuyons sur le modèle <a href="https://arxiv.org/pdf/1803.09010.pdf">Datasheet for Datasets</a> (traduit <a href="https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400">ici</a> en français) qui propose le concept de fiche technique pour les jeux de données. Le modèle propose que chaque jeu de données soit accompagné d’une fiche technique documentant sa création, sa composition, les utilisations prévues, sa maintenance et d’autres caractéristiques. <a href="https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400">Une liste de questions</a> permet de guider les producteurs de données dans les sujets à aborder dans la description des données. Ces questions peuvent aussi servir de guide d’entretien en vue de la documentation des données.</p>
+<p>Enfin, certaines données pourront nécessiter un travail important d’anonymisation. Il est important de noter qu’il ne suffit pas de retirer les noms d’une base de données pour qu’elle soit anonymisée. Certaines champs dans un enregistrement peuvent permettre de réidentifier un individu. La Commission d’Accès aux Documents Administratifs (Cada) et la Commission Nationale Informatique et Liberté (Cnil) ont publié un <a href="https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf#page=13">guide pratique de la publication en ligne et de la réutilisation des données publiques</a> qui comporte un passage sur l’anonymisation des documents contenant des données à caractère personnel. L’Administrateur Général des Données a produit un <a href="https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l&#39;anonymisation">guide technique de l’anonymisation des données</a> qui présente une série d’outils et décrit les deux méthodes principales :</p>
+<ul>
+<li><p><strong>La randomisation</strong>, qui altère la véracité des données afin d’affaiblir le lien entre les données et l’individu et éviter qu’elles puissent y être rattachées.</p></li>
+<li><p><strong>La généralisation</strong>, qui dilue les attributs des personnes concernées en modifiant leur échelle ou leur ordre de grandeur respectif (en passant d’une échelle communale à une échelle régionale, par exemple).</p></li>
+</ul>
+<p>Nous vous recommandons aussi <a href="https://docs.google.com/presentation/d/1YKFeMwqSxfKeb3HuujWq0zB-DfG19O_aXxNCpG7_fBU/edit#slide=id.p3">cette présentation</a> de Pierre-Alain Jachiet (Lab Santé - OpenChronic) qui décrit en détail les principales méthodes d’anonymisation de données.</p>
+</div>
+</div>
+<div id="cibler-les-participants" class="section level2">
+<h2><span class="header-section-number">3.3</span> Cibler les participants</h2>
+<p>Pour attirer les meilleurs participants, un sprint data ne peut pas se contenter d’une communication descendante. Il vaut mieux aller chercher les compétences en ciblant des personnes qui ont travaillé sur des thématiques proches ou ont réalisé des projets correspondant à l’esprit des défis de l’évènement. Dans la même logique, nous vous recommandons de prendre contact avec des enseignants dans des formations ciblées autour des thématiques de votre évènement (data science, design, communication, politiques publiques…) Pour un étudiant, la participation à un sprint data se révèle une expérience très enrichissante à tout point de vue : rencontre avec des professionnels, mise en pratique des compétences apprises en formation, travail en équipe… De notre expérience, les étudiants associés à des professionnels établis peuvent apporter une énergie considérable à un sprint data. La mobilisation des enseignants peut permettre d’inscrire l’évènement dans le cursus ou, au moins, d’obtenir une dispense pour y participer.</p>
+<p>L’annonce de l’évènement doit être anticipée sans trop se positionner en amont du sprint data, quand les agendas des participants sont trop incertains. Nous recommandons de commencer à communiquer deux mois avant l’évènement pour recruter les participants. Dans le formulaire d’inscription, pensez à intégrer plusieurs questions relatives à l’expérience en matière de sprint data/hackathons, la motivation à participer à l’évènement et les éventuels comptes sur des réseaux sociaux professionnels (LinkedIn, Github, Behance en design…) Ces informations seront très utiles si vous dépassez la capacité de la salle et que vous devez sélectionner les participants. Enfin, nous vous recommandons de demander systématiquement le numéro de téléphone et d’échanger en direct avec les participants en amont de l’évènement pour garantir leur participation. En effet, sur un évènement gratuit, le taux de non-participation de personnes inscrites peut atteindre 50%. Plusieurs mails de rappel à intervalles réguliers permettront de réduire les désistements.</p>
+</div>
+<div id="mettre-en-place-des-espaces-de-discussion-et-de-documentation" class="section level2">
+<h2><span class="header-section-number">3.4</span> Mettre en place des espaces de discussion et de documentation</h2>
+<p>La documentation des projets est essentielle pour s’assurer que les projets réalisés soient exploitables par la suite. Pour se faire, vous pouvez vous appuyer sur l’outil de forum libre <a href="http://www.discourse.org">Discourse</a> qui, dans une interface très conviviale, permet d’organiser la conversation et de créer un sujet par équipe où elle pourra déposer sa documentation. Il est essentiel de s’assurer pendant l’évènement que les équipes documentent bien leurs projets. Faites des points réguliers avec les participants sur la documentation car, dans l’euphorie de l’évènement, cela peut être négligé. Pour déployer un tel forum, Discourse propose un <a href="https://github.com/discourse/discourse/blob/master/docs/INSTALL.md">guide d’installation</a> en 30 minutes s’appuyant sur Docker et <a href="https://marketplace.digitalocean.com/apps/discourse">Digital Ocean</a> qui permet, à partir de 5$ par mois, de créer une instance dans le cloud si vous n’avez pas de serveur à disposition.</p>
+<p>L’équipe d’<a href="http://opendata.ch">Open Data Ch</a> en Suisse a aussi créé <a href="https://github.com/dataletsch/dribdat">Dribdat</a>, un outil libre de documentation des projets spécifiquement à destination des hackathons et sprint data. L’outil permet aussi d’avoir un excellent rendu (<a href="https://hack.opendata.ch/project/163">exemple</a>) dans la documentation des projets.</p>
+<p>L’Atelier des Chercheurs propose aussi l’<a href="http://www.lopendoc.org/">OpenDoc</a>, une plate-forme en ligne (<a href="https://latelier-des-chercheurs.fr/outils/lopendoc">documentation</a> et <a href="https://github.com/l-atelier-des-chercheurs/lopendoc">code</a>) dédiée à la documentation d’activités de tout type, de manière chronologique et collaborative.</p>
+</div>
+<div id="prevoir-un-conducteur-milimetre" class="section level2">
+<h2><span class="header-section-number">3.5</span> Prévoir un conducteur milimètré</h2>
+<p>A destination de toutes les parties prenantes impliquées dans l’organisation de l’évènement, il faudra communiquer le programme (<a href="https://docs.google.com/document/d/1FiGN7nkaOCT6pmTipnc4yEqvUxqS539WODajqxjrP1Y/edit?usp=sharing">exemple</a> pour le Dataviz Challenge) détaillant les grandes étapes au long de l’évènement.</p>
+<p>Pour assurer une coordination optimale et éviter tout dérapage, nous mettons à disposition un <a href="https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361">modèle de conducteur</a> qui détaille de manière précise pour chaque temps de l’évènement le responsable, le lieu et le matériel nécessaire. Ce document sert de base à un brefing la veille de l’évènement avec l’ensemble des organisateurs, où il est passé en revue et mis en jour. Objectif : mettre tout le monde en ordre de marche et savoir précisément qui fera quoi pour éviter au maximum l’improvisation.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-17"></span>
+<img src="img/conducteur.png" alt="Le modèle de [conducteur issu du dataviz challenge](https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361) à copier et à adapter." width="60%" />
+<p class="caption">
+Figure 3.2: Le modèle de <a href="https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361">conducteur issu du dataviz challenge</a> à copier et à adapter.
+</p>
+</div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="principes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="animation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["guide.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

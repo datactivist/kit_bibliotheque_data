@@ -1,0 +1,102 @@
+# Les points d'attention dans la préparation du sprint data {#preparation}
+
+## Planifier et répartir le travail
+
+L'organisation d'un sprint data prend du temps et demande de l'anticipation. Dans le cas du Dataviz Challenge, le travail a débuté en octobre 2018 pour un évènement fin mars 2019 avec l'organisation d'une journée contributive lors de laquelle les premières pistes de défi et de programme ont été débattues par des acteurs du ministère et des experts externes. 
+
+De manière générale, un délai de 3 mois avant l'évènement permet d'organiser un sprint data de manière confortable. En deça, certaines taches risquent d'être mises en place dans la précipitation et la mobilisation interne sera difficile à assurer. 
+
+Les tâches dans l'organisation d'un sprint data sont de plusieurs niveaux. Pour faciliter l'organisation, mieux vaut se répartir la charge entre les différents acteurs en charge de l’organisation du sprint data. Voici un exemple de répartition qui pourra être adapté selon les contextes organisationnels : 
+
+* **le pilotage** : certaines décisions doivent être prises par la direction ou l’organe de pilotage sur la supervision du chef de projet
+
+* **la communication** : la mise en œuvre de certaines de ces tâches concerne essentiellement la direction ou l'équipe en charge de la communication
+
+* **la logistique** : ces tâches sont assurées principalement par le chef de projet et l’équipe présente lors de l’évènement
+
+* **l’animation** : ces tâches concernent principalement le chef de projet et l’animateur de l’évènement 
+
+* **post-évènement** : ces tâches concernent le chef de projet et l’équipe présente lors de l’évènement. 
+
+Pour faciliter l'organisation d'un sprint data, nous mettons à disposition un modèle de retroplanning qui liste les principales tâches à réaliser en amont. Il s'appuie sur les bonnes pratiques internationales de l’organisation des hackathons et sur l’expérience de l’association [Open Knowledge France](okfn.fr). Certaines tâches demanderont un travail plus ou moins important selon les contraintes de l'équipe projet. 
+
+Pour utiliser le retroplanning pour votre propre évènement, rendez-vous à l'[adresse suivante](https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing) et créez une copie du document.  
+
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Le modèle de [retroplanning issu du Dataviz Challenge](https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing), les échéances ici reprennent la présentation du Dataviz Challenge.', }
+knitr::include_graphics(rep("./img/retroplanning.gif"))
+```
+
+Le retroplanning est organisé suivant cinq grandes sections dans lesquelles figurent des groupes de taches. Libre à vous ensuite de le décliner selon les besoins de votre projet :  
+
+* **Le pilotage** concerne le choix et l'implication des partenaires internes et externes, la planification des dates et des lieux du sprint data, la définition du budget, la formalisation de la stratégie et des indicateurs du succès ("qu'attendons-nous de ce sprint data ?", "comment mesurer le succès de l'évènement ?") et la stratégie de valorisation des projets.
+
+* **La communication** regroupe des taches sur la stratégie de communication sur le web et les réseaux sociaux, la production de contenus relatifs à l'évènement, le recrutement et la relance des participants, l'impression de documents, l'achat de goodies, etc.
+
+* **La logistique** porte sur la préparation du matériel, la commande des repas, l'éventuel hébergement des participants et mentors, le transport, la préparation du livret du participant, la mise en place du lieu...
+
+* **L'animation** concerne des tâches sur le briefing de l'équipe d'organisation et des partenaires impliqués, la répartition des rôles, la mise en place des outils en ligne de documentation…
+
+* **Le post-évènement** évoque la suite du sprint data avec le remerciement des participants, leur évaluation de l'évènement, le suivi des indicateurs de succès, la publication d'un compte-rendu ou d'un billet de synthèse, la collecte du code et de la documention des projets, le suivi des projets…
+
+En suivant ce retroplanning type dès le début de votre évènement, vous pourrez planifier et répartir au mieux la charge de travail. Il vous évitera aussi de négliger les points clefs de l'organisation de l'évènement. Toutefois, de notre expérience, certains aspects méritent une attention toute particulière. 
+		
+
+## Anticiper la logistique
+
+L'organisation d'un sprint data demande un important travail de gestion logistique à répartir dans l'équipe projet pour éviter une surcharge.
+
+De notre expérience, voici quelques points d'attention à prendre en compte :
+
+* **Le wifi** : combien de sprints data se sont-ils heurtés à ce problème ? C'est un point technique essentiel : les équipes ne pourront pas travailler avec un wifi défaillant. La connexion réseau devra être bien dimensionnée avec obligatoirement un raccordement à la fibre. Ce doit être un critère de choix du lieu. Prévoyez une connexion de 80Mo minimum pour une trentaine de participants. 
+
+* **Les repas** : pensez à prévoir des alternatives végétariennes complètes pour les participants. Nous vous recommandons d'intégrer les contre-indications alimentaires dans le formulaire d'inscription pour anticiper. Pour éviter de gâcher les restes, prenez contact avec une association locale d'aide aux personnes démunies, comme nous l'avons fait pour le Dataviz Challenge. Enfin, pensez à l'environnement en sélectionnant un prestataire qui a engagé une démarche de réduction des matériaux jetables (en particulier le plastique) et pourra vous fournir de la vaisselle réutilisable.
+
+* **Prise en charge du handicap et des besoins particuliers** : pensez à intégrer une question à ce sujet dans le formulaire d'inscription pour éviter aux personnes concernées de devoir soliciter de l'assistance alors qu'elle peut être proposée en amont. Favorisez l'autonomie du plan grand nombre en choisissant aussi un lieu adapté. 
+
+* **Goodies** : il est bienvenu que tout le monde puisse repartir avec quelque chose en souvenir. Dans le cadre du Dataviz Challenge, chaque participant est reparti avec un tote bag aux couleurs du 110bis, une gourde réutilisable (pour limiter la consommation de gobelets), des lingettes (pour se rafraîchir après une courte nuit), le livret du participant, des stickers… Veillez à bien prévoir la commande de ces goodies en amont : les délais de fabrication et de livraison sont généralement de 2 à 3 semaines, sauf à passer une commande en express (5 jours environ), plus coûteuse et limitée en terme d'options.
+
+* **Espace détente** : avec le bruit des équipes qui travaillent, il peut être dur de se concentrer et de se détendre. Pensez à mettre à disposition un espace de relaxation avec en permanence des boissons chaudes et, si possible, une restauration légère en cas de fringale (des fruits secs par exemple). Il est aussi recommandé, si le lieu le permet, de mettre à disposition une salle de réunion pour permettre aux équipes de préparer les pitchs, au jury de se réunir, aux organisateurs de se coordonner…
+
+* **Préparation de la salle** : pensez à avoir des renforts la veille du jour J pour mettre en place l'espace. Prévoyez un espace suffisamment grand pour les présentations en plénière et les pitchs des projets, mettez en place des tables dimensionnées à la taille des équipes (5 personnes pour le Dataviz Challenge) et un siège pour les mentors. Pour chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)
+
+### Préparer les données en amont
+
+Lorsque la diffusion des données est une démarche inédite, les obtenir en amont de l'évènement peut être long et fastidueux. Or, pour éviter tout problème, nous vous recommandons de vous les procurer deux ou trois semaines avant l'évènement. Ce délai vous permettra de contrôler le contenu des données, de palier à d'éventuels problèmes d'anonymisation ou de protection des secrets légaux, de documenter au mieux les données et d'améliorer leur qualité. L'ouverture peut par ailleurs se heurter à des systèmes d'information qui n'ont pas été prévus pour l'extraction des données et peuvent demander un travail considérable pour les _database managers_. 
+
+Plus vous anticipez, plus vous pourrez préparer les données et limiter le temps passé par les participants à les nettoyer. On dit souvent que 80% du temps de travail d'un data scientist est dédié à cette tâche de nettoyage. Pour améliorer la qualité des données, vous pourrez vous appuyer sur le travail réalisé par la Fondation Internet Nouvelle Génération (FING) avec le [sprint qualité](https://infolabs.io/sprint-qualite) qui permet en 2h30 de faire un contrôle des principaux problèmes de qualité des données. Le [Quartz Bad Data Guide](https://github.com/Quartz/bad-data-guide/blob/master/README.md) (en anglais) liste aussi une série de points de contrôle pour améliorer les données. Faire expertiser les données par un spécialiste en amont de l'évènement pourra aussi vous aider à détecter des problèmes de qualité. Enfin, l'outil [Dataproofer](http://dataproofer.org/) réalise automatiquement un certain nombre de contrôles sur les données vous permettant un diagnostic rapide.
+
+Tous les problèmes de qualité ne pourront éviter être corrigés avant l'évènement. Mais une documentation précise permettra de préparer les réutilisateurs et de les aider à mieux comprendre les données. Nous vous recommandons de vous appuyons sur le modèle [Datasheet for Datasets](https://arxiv.org/pdf/1803.09010.pdf) (traduit [ici](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) en français) qui propose le concept de fiche technique pour les jeux de données. Le modèle propose que chaque jeu de données soit accompagné d’une fiche technique documentant sa création, sa composition, les utilisations prévues, sa maintenance et d’autres caractéristiques. [Une liste de questions](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) permet de guider les producteurs de données dans les sujets à aborder dans la description des données. Ces questions peuvent aussi servir de guide d'entretien en vue de la documentation des données.
+
+Enfin, certaines données pourront nécessiter un travail important d'anonymisation. Il est important de noter qu'il ne suffit pas de retirer les noms d'une base de données pour qu'elle soit anonymisée. Certaines champs dans un enregistrement peuvent permettre de réidentifier un individu. La Commission d'Accès aux Documents Administratifs (Cada) et la Commission Nationale Informatique et Liberté (Cnil) ont publié un [guide pratique de la publication en ligne et de la réutilisation des données publiques](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf#page=13) qui comporte un passage sur l’anonymisation des documents contenant des données à caractère personnel. L'Administrateur Général des Données a produit un [guide technique de l'anonymisation des données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation) qui présente une série d'outils et décrit les deux méthodes principales : 
+
+* **La randomisation**, qui altère la véracité des données afin d'affaiblir le lien entre les données et l'individu et éviter qu'elles puissent y être rattachées.
+
+* **La généralisation**, qui dilue les attributs des personnes concernées en modifiant leur échelle ou leur ordre de grandeur respectif (en passant d'une échelle communale à une échelle régionale, par exemple).
+
+Nous vous recommandons aussi [cette présentation](https://docs.google.com/presentation/d/1YKFeMwqSxfKeb3HuujWq0zB-DfG19O_aXxNCpG7_fBU/edit#slide=id.p3) de Pierre-Alain Jachiet (Lab Santé - OpenChronic) qui décrit en détail les principales méthodes d'anonymisation de données. 
+
+
+## Cibler les participants
+
+Pour attirer les meilleurs participants, un sprint data ne peut pas se contenter d'une communication descendante. Il vaut mieux aller chercher les compétences en ciblant des personnes qui ont travaillé sur des thématiques proches ou ont réalisé des projets correspondant à l'esprit des défis de l'évènement. Dans la même logique, nous vous recommandons de prendre contact avec des enseignants dans des formations ciblées autour des thématiques de votre évènement (data science, design, communication, politiques publiques…) Pour un étudiant, la participation à un sprint data se révèle une expérience très enrichissante à tout point de vue : rencontre avec des professionnels, mise en pratique des compétences apprises en formation, travail en équipe… De notre expérience, les étudiants associés à des professionnels établis peuvent apporter une énergie considérable à un sprint data. La mobilisation des enseignants peut permettre d'inscrire l'évènement dans le cursus ou, au moins, d'obtenir une dispense pour y participer. 
+
+L'annonce de l'évènement doit être anticipée sans trop se positionner en amont du sprint data, quand les agendas des participants sont trop incertains. Nous recommandons de commencer à communiquer deux mois avant l'évènement pour recruter les participants. Dans le formulaire d'inscription, pensez à intégrer plusieurs questions relatives à l'expérience en matière de sprint data/hackathons, la motivation à participer à l'évènement et les éventuels comptes sur des réseaux sociaux professionnels (LinkedIn, Github, Behance en design…) Ces informations seront très utiles si vous dépassez la capacité de la salle et que vous devez sélectionner les participants. Enfin, nous vous recommandons de demander systématiquement le numéro de téléphone et d'échanger en direct avec les participants en amont de l'évènement pour garantir leur participation. En effet, sur un évènement gratuit, le taux de non-participation de personnes inscrites peut atteindre 50%. Plusieurs mails de rappel à intervalles réguliers permettront de réduire les désistements.
+
+## Mettre en place des espaces de discussion et de documentation
+
+La documentation des projets est essentielle pour s'assurer que les projets réalisés soient exploitables par la suite. Pour se faire, vous pouvez vous appuyer sur l'outil de forum libre [Discourse](http://www.discourse.org) qui, dans une interface très conviviale, permet d'organiser la conversation et de créer un sujet par équipe où elle pourra déposer sa documentation. Il est essentiel de s'assurer pendant l'évènement que les équipes documentent bien leurs projets. Faites des points réguliers avec les participants sur la documentation car, dans l'euphorie de l'évènement, cela peut être négligé. Pour déployer un tel forum, Discourse propose un [guide d'installation](https://github.com/discourse/discourse/blob/master/docs/INSTALL.md) en 30 minutes s'appuyant sur Docker et [Digital Ocean](https://marketplace.digitalocean.com/apps/discourse) qui permet, à partir de 5$ par mois, de créer une instance dans le cloud si vous n'avez pas de serveur à disposition. 
+
+L'équipe d'[Open Data Ch](http://opendata.ch) en Suisse a aussi créé [Dribdat](https://github.com/dataletsch/dribdat), un outil libre de documentation des projets spécifiquement à destination des hackathons et sprint data. L'outil permet aussi d'avoir un excellent rendu ([exemple](https://hack.opendata.ch/project/163)) dans la documentation des projets. 
+
+L'Atelier des Chercheurs propose aussi l'[OpenDoc](http://www.lopendoc.org/), une plate-forme en ligne ([documentation](https://latelier-des-chercheurs.fr/outils/lopendoc) et [code](https://github.com/l-atelier-des-chercheurs/lopendoc)) dédiée à la documentation d’activités de tout type, de manière chronologique et collaborative. 
+
+## Prévoir un conducteur milimètré
+
+A destination de toutes les parties prenantes impliquées dans l'organisation de l'évènement, il faudra communiquer le programme ([exemple](https://docs.google.com/document/d/1FiGN7nkaOCT6pmTipnc4yEqvUxqS539WODajqxjrP1Y/edit?usp=sharing) pour le Dataviz Challenge) détaillant les grandes étapes au long de l'évènement.  
+
+Pour assurer une coordination optimale et éviter tout dérapage, nous mettons à disposition un [modèle de conducteur](https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361) qui détaille de manière précise pour chaque temps de l'évènement le responsable, le lieu et le matériel nécessaire. Ce document sert de base à un brefing la veille de l'évènement avec l'ensemble des organisateurs, où il est passé en revue et mis en jour. Objectif : mettre tout le monde en ordre de marche et savoir précisément qui fera quoi pour éviter au maximum l'improvisation.   
+
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Le modèle de [conducteur issu du dataviz challenge](https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361) à copier et à adapter.', }
+knitr::include_graphics(rep("./img/conducteur.png"))
+```
+

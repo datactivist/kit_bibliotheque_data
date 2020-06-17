@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Le dataviz challenge : un évènement à répliquer | Guide d’organisation d’un data sprint</title>
+  <meta name="description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Le dataviz challenge : un évènement à répliquer | Guide d’organisation d’un data sprint" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Le dataviz challenge : un évènement à répliquer | Guide d’organisation d’un data sprint" />
+  
+  <meta name="twitter:description" content="Le guide d’organisation d’un data sprint propose des conseils méthodologiques et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires." />
+  
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
+
+
+<meta name="date" content="2019-04-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="les-principes-dun-sprint-data-reussi.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Guide de l'organisation d'un data sprint</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html"><i class="fa fa-check"></i>Le dataviz challenge : un évènement à répliquer</a><ul>
+<li class="chapter" data-level="0.1" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#defi-1-les-deplacements-en-cascade"><i class="fa fa-check"></i><b>0.1</b> Défi 1 : «Les déplacements en cascade»</a><ul>
+<li class="chapter" data-level="0.1.1" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#cadrage-du-defi"><i class="fa fa-check"></i><b>0.1.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="0.1.2" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#projet-mixite-sociale"><i class="fa fa-check"></i><b>0.1.2</b> 🏆 Projet “Mixité Sociale”</a></li>
+<li class="chapter" data-level="0.1.3" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#projet-locaviz"><i class="fa fa-check"></i><b>0.1.3</b> Projet “Locaviz”</a></li>
+<li class="chapter" data-level="0.1.4" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#projet-i.p.e.d.-indice-de-performance-des-deplacements"><i class="fa fa-check"></i><b>0.1.4</b> Projet I.P.E.D. (Indice de Performance des Déplacements)</a></li>
+</ul></li>
+<li class="chapter" data-level="0.2" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#defi-2-la-carte-didentite-des-etablissements-en-temps-reel"><i class="fa fa-check"></i><b>0.2</b> Défi 2 : la carte d’identité des établissements en temps réel</a><ul>
+<li class="chapter" data-level="0.2.1" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#cadrage-du-defi-1"><i class="fa fa-check"></i><b>0.2.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="0.2.2" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#projet-eduscope"><i class="fa fa-check"></i><b>0.2.2</b> 🏆Projet Eduscope</a></li>
+<li class="chapter" data-level="0.2.3" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#open"><i class="fa fa-check"></i><b>0.2.3</b> Open</a></li>
+<li class="chapter" data-level="0.2.4" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#antiseche"><i class="fa fa-check"></i><b>0.2.4</b> Antisèche</a></li>
+</ul></li>
+<li class="chapter" data-level="0.3" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#defi-3-carto-du-numerique-dans-les-territoires"><i class="fa fa-check"></i><b>0.3</b> Défi 3 : «Carto du numérique dans les territoires»</a><ul>
+<li class="chapter" data-level="0.3.1" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#cadrage-du-defi-2"><i class="fa fa-check"></i><b>0.3.1</b> Cadrage du défi</a></li>
+<li class="chapter" data-level="0.3.2" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#alain-jette"><i class="fa fa-check"></i><b>0.3.2</b> 🏆Alain Jette</a></li>
+<li class="chapter" data-level="0.3.3" data-path="le-dataviz-challenge-un-evenement-a-repliquer.html"><a href="le-dataviz-challenge-un-evenement-a-repliquer.html#panser-la-fracture-numerique"><i class="fa fa-check"></i><b>0.3.3</b> Panser la fracture numérique</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html"><i class="fa fa-check"></i>Les principes d’un sprint data réussi</a><ul>
+<li class="chapter" data-level="0.4" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html#au-fait-cest-quoi-un-sprint-data"><i class="fa fa-check"></i><b>0.4</b> Au fait, c’est quoi un sprint data ?</a></li>
+<li class="chapter" data-level="0.5" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html#historique-du-rite-hacker-de-niche-a-la-proliferation"><i class="fa fa-check"></i><b>0.5</b> Historique : du rite hacker de niche à la prolifération</a></li>
+<li class="chapter" data-level="0.6" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html#les-facteurs-cles-de-succes"><i class="fa fa-check"></i><b>0.6</b> Les facteurs clés de succès</a><ul>
+<li class="chapter" data-level="0.6.1" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html#mobiliser-les-parties-prenantes-internes-et-externes"><i class="fa fa-check"></i><b>0.6.1</b> Mobiliser les parties prenantes internes et externes</a></li>
+<li class="chapter" data-level="0.6.2" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html#creer-une-experience-stimulante"><i class="fa fa-check"></i><b>0.6.2</b> Créer une expérience stimulante</a></li>
+<li class="chapter" data-level="0.6.3" data-path="les-principes-dun-sprint-data-reussi.html"><a href="les-principes-dun-sprint-data-reussi.html#creer-une-energie-positive"><i class="fa fa-check"></i><b>0.6.3</b> Créer une énergie positive</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="preparation.html"><a href="preparation.html"><i class="fa fa-check"></i><b>1</b> Les points d’attention dans la préparation du data sprint</a><ul>
+<li class="chapter" data-level="1.1" data-path="preparation.html"><a href="preparation.html#planifier-et-repartir-le-travail"><i class="fa fa-check"></i><b>1.1</b> Planifier et répartir le travail</a></li>
+<li class="chapter" data-level="1.2" data-path="preparation.html"><a href="preparation.html#anticiper-la-logistique"><i class="fa fa-check"></i><b>1.2</b> Anticiper la logistique</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="preparation.html"><a href="preparation.html#preparer-les-donnees-en-amont"><i class="fa fa-check"></i><b>1.2.1</b> Préparer les données en amont</a></li>
+<li class="chapter" data-level="1.2.2" data-path="preparation.html"><a href="preparation.html#cibler-les-participants"><i class="fa fa-check"></i><b>1.2.2</b> Cibler les participants</a></li>
+<li class="chapter" data-level="1.2.3" data-path="preparation.html"><a href="preparation.html#la-mise-en-place-des-espaces-de-discussion-et-de-documentation"><i class="fa fa-check"></i><b>1.2.3</b> La mise en place des espaces de discussion et de documentation</a></li>
+<li class="chapter" data-level="1.2.4" data-path="preparation.html"><a href="preparation.html#prevoir-un-conducteur-milimetre"><i class="fa fa-check"></i><b>1.2.4</b> Prévoir un conducteur milimétré</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="animation.html"><a href="animation.html"><i class="fa fa-check"></i><b>2</b> L’animation du data sprint</a><ul>
+<li class="chapter" data-level="2.1" data-path="animation.html"><a href="animation.html#les-trois-temps-creatifs-inspiration-ideation-prototypage"><i class="fa fa-check"></i><b>2.1</b> Les trois temps créatifs : inspiration, idéation, prototypage</a></li>
+<li class="chapter" data-level="2.2" data-path="animation.html"><a href="animation.html#le-off-du-sprint-data"><i class="fa fa-check"></i><b>2.2</b> Le “off” du sprint data</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="animation.html"><a href="animation.html#les-ateliers-de-formation"><i class="fa fa-check"></i><b>2.2.1</b> Les ateliers de formation</a></li>
+<li class="chapter" data-level="2.2.2" data-path="animation.html"><a href="animation.html#les-temps-de-pause-et-dinspiration"><i class="fa fa-check"></i><b>2.2.2</b> Les temps de pause et d’inspiration</a></li>
+<li class="chapter" data-level="2.2.3" data-path="animation.html"><a href="animation.html#la-documentation-des-projets"><i class="fa fa-check"></i><b>2.2.3</b> La documentation des projets</a></li>
+<li class="chapter" data-level="2.2.4" data-path="animation.html"><a href="animation.html#quelques-questions-logistiques"><i class="fa fa-check"></i><b>2.2.4</b> Quelques questions logistiques</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="restitution.html"><a href="restitution.html"><i class="fa fa-check"></i><b>3</b> La restitution et la suite</a><ul>
+<li class="chapter" data-level="3.1" data-path="restitution.html"><a href="restitution.html#les-presentations-des-projets"><i class="fa fa-check"></i><b>3.1</b> Les présentations des projets</a></li>
+<li class="chapter" data-level="3.2" data-path="restitution.html"><a href="restitution.html#la-deliberation-du-jury"><i class="fa fa-check"></i><b>3.2</b> La délibération du jury</a></li>
+<li class="chapter" data-level="3.3" data-path="restitution.html"><a href="restitution.html#la-reprise-de-la-documentation"><i class="fa fa-check"></i><b>3.3</b> La reprise de la documentation</a></li>
+<li class="chapter" data-level="3.4" data-path="restitution.html"><a href="restitution.html#le-sondage-et-le-debriefing"><i class="fa fa-check"></i><b>3.4</b> Le sondage et le débriefing</a></li>
+<li class="chapter" data-level="3.5" data-path="restitution.html"><a href="restitution.html#laccompagnement-a-donner"><i class="fa fa-check"></i><b>3.5</b> L’accompagnement à donner</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Guide d’organisation d’un data sprint</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="le-dataviz-challenge-un-evenement-a-repliquer" class="section level1 unnumbered">
+<h1>Le dataviz challenge : un évènement à répliquer</h1>
+<p>Le dataviz challenge s’est inscrit dans le cadre de la mission relative aux politiques éducatives territoriales confiée en octobre 2018 par le ministre de l’Education nationale et de la Jeunesse, Jean-Michel Blanquer, à Ariane Azéma, inspectrice générale de l’administration de l’éducation nationale et de la recherche et à Pierre Mathiot, professeur des universités.</p>
+<p>Il part du constat que la concentration géographique des inégalités sociales et ses effets sur l’échec scolaire est identifiée depuis de nombreuses années en France : elle est un des fondements historiques des politiques d’éducation prioritaire. Le ministère doit procéder à la révision de la carte de la géographie prioritaire et veut, plus globalement, mieux prendre en compte l’ensemble des enjeux territoriaux qui contribuent à la réussite de tous les élèves.</p>
+<p>Dans le cadre de cette mission, le <a href="https://www.education.gouv.fr/110bislab/cid130754/presentation-du-110-bis-lab-d-innovation-de-l-education-nationale.html">110 bis</a>, lab d’innovation de l’Education nationale, a expérimenté du vendredi 22 mars 9h au samedi 23 mars 19h un nouveau format d’exploitation de données visant à co-construire des outils, une méthodologie et des pratiques pour améliorer les politiques publiques éducatives.</p>
+<p>L’évènement s’adressait à un large public : développeur, enseignant, data scientist, designer, chercheur, professionnel de l’éducation, décideur public, étudiant, et quiconque souhaitant apporter sa contribution sur le sujet des politiques éducatives territoriales et s’immerger dans une équipe interdisciplinaire le temps des deux jours du dataviz challenge.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="img/participants.png" alt="Extrait du livret du dataviz challenge représentant la diversité des participants" width="50%" />
+<p class="caption">
+Figure .: Extrait du livret du dataviz challenge représentant la diversité des participants
+</p>
+</div>
+<p>Les 3 défis du dataviz challenge ont été identifiés lors d’une journée contributive le 3 octobre 2018 avec les acteurs de terrain.</p>
+<p>Les défis 1 et 2 se sont appuyés sur des données qui ne sont pas librement réutilisables en open data. Bien qu’anonymisées, ces données concernaient des personnes physiques ou morales et les participants se sont engagés à ne pas ni altérer les données, ni dénaturer leur sens et à présenter les résultats de manière à ne pas permettre une éventuelle identification.</p>
+<div id="defi-1-les-deplacements-en-cascade" class="section level2">
+<h2><span class="header-section-number">0.1</span> Défi 1 : «Les déplacements en cascade»</h2>
+<div id="cadrage-du-defi" class="section level3">
+<h3><span class="header-section-number">0.1.1</span> Cadrage du défi</h3>
+<p>L’émergence des campus des métiers et des qualifications, le développement de l’apprentissage, la réforme du lycée, etc. sont autant de politiques publiques éducatives qui peuvent se traduire par la modification de l’offre de formation sur le territoire. Comment représenter les conséquences potentielles de ces modifications sur les déplacements des élèves et des professeurs ?</p>
+<p><strong>Objectifs</strong> : anticiper les impacts plausibles d’une modification de l’offre de formation au niveau local, sur les déplacements des professeurs et des élèves (nombre de personnes impactées, temps de transport, etc.)</p>
+<p><strong>3 questions pour démarrer le DataViz Challenge :</strong></p>
+<ul>
+<li><p>Comment mettre en regard le déplacement de l’offre de formation et l’offre de transports, dont une partie est gérée par les collectivités ?</p></li>
+<li><p>Comment tenir compte et représenter les différentes stratégies qui peuvent être mises en oeuvre par les élèves ?</p></li>
+<li><p>Quels sont les effets du déplacement d’une option ou d’une spécialité sur la mixité sociale ?</p></li>
+</ul>
+<p>3 projets ont été développés dans le cadre de ce défi.</p>
+</div>
+<div id="projet-mixite-sociale" class="section level3">
+<h3><span class="header-section-number">0.1.2</span> 🏆 Projet “Mixité Sociale”</h3>
+<blockquote>
+<p><em>Ce projet a été retenu par le jury pour le défi 1.</em><br /> Lien vers le code et la documentation : <a href="https://github.com/kir0ul/DataTerr" class="uri">https://github.com/kir0ul/DataTerr</a></p>
+</blockquote>
+<p><strong>Contexte</strong></p>
+<p>Au sein d’un périmètre restreint, des établissements peuvent être caractérisés par des niveaux de mixité sociale, entendue comme la représentation équilibrée de toutes les différentes professions et catégories socioprofessionnelles (PCS), très inégaux.</p>
+<p>A Bordeaux, trois collèges publics limitrophes ont des indices de mixité respectifs de 30,4, 46,2 et 9,7 %, tandis que la moyenne académique est de 34,9%.</p>
+<p>Comment améliorer cet indice, notamment pour les établissements où il demeure faible ? Comment identifier les variables sur lesquelles jouer et leur impact plausible sur l’indice de mixité d’établissements proches ?</p>
+<p><strong>Produit final</strong> S’appuyant sur QGIS pour explorer les données, l’équipe s’est focalisée sur la ville de Bordeaux car nous disposions des données de carte scolaire. Chaque établissement est représenté par ses indicateurs PCS, le nombre d’élève de secteur non présent dans l’établissement, l’indicateur PCS_D (catégories sociaux professionnelles défavorisées) prédit par le modèle, et enfin l’indicateur PCS_D après déplacement d’options.</p>
+<p>L’équipe avait aussi pour projet de développer également une aide à la modification des cartes scolaires, non réalisée faute de temps.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="img/Diagramme_Publics_Prives.png" alt="Exemple de carte prédisantle  niveau de mixité sociale" width="60%" />
+<p class="caption">
+Figure .: Exemple de carte prédisantle niveau de mixité sociale
+</p>
+</div>
+<p><strong>Méthode</strong> Le modèle choisi est un <a href="https://fr.wikipedia.org/wiki/For%C3%AAt_d%27arbres_d%C3%A9cisionnels">régresseur à base de forêts aléatoires</a>. La variable à prédire est le taux d’élèves en PCS très défavorisé et les variables d’entrée sont le nombre d’élèves, secteur/privé, le nombre d’options disponibles, et les options d’intérêt.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<img src="img/model-diag.png" alt="Représentation synthétique du modèle" width="60%" />
+<p class="caption">
+Figure .: Représentation synthétique du modèle
+</p>
+</div>
+<p>Malgré la simplicité de cette sélection de variables, le modèle a une <a href="https://fr.wikipedia.org/wiki/Erreur_quadratique_moyenne">erreur RMSE</a>, mesure caractérisant la « précision » d’un estimateur, de 2% ce qui est très faible.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<img src="img/model-vars.png" alt="Représentation sous forme de boite à moustache de la hiérarchisation automatique des variables utilisées par le modèle" width="100%" />
+<p class="caption">
+Figure .: Représentation sous forme de boite à moustache de la hiérarchisation automatique des variables utilisées par le modèle
+</p>
+</div>
+</div>
+<div id="projet-locaviz" class="section level3">
+<h3><span class="header-section-number">0.1.3</span> Projet “Locaviz”</h3>
+<blockquote>
+<p><a href="https://drive.google.com/file/d/1gpl02y7FG4hOCEh2t55YRlaRyTP010Pj/view?usp=sharing">Lien vers le code et la documentation du projet</a></p>
+</blockquote>
+<p><strong>Contexte :</strong> La fermeture ou l’ouverture d’un établissement scolaire peut avoir de sérieux impacts sur les capacités d’accueil des établissements similaires voisins, trajets quotidiens des élèves, et donc sur des enjeux plus vastes tels que l’environnement.</p>
+<p>Comment prévoir les impacts de la fermeture ou de l’ouverture d’un établissement sur ces trois paramètres ?</p>
+<p><strong>Produit final</strong>: Une carte décrivant les impacts de la fermeture d’un établissement sélectionné. En fonction du nombre de classes de l’établissement, le prototype anticipe la réaffectation des élèves dans les établissements environnants, ses impacts sur les trajets. Les caractéristiques sociales de chaque établissement sont visualisées dans une rosace qui se déplie par niveau.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-5"></span>
+<img src="img/locaviz.png" alt="Représentation cartographique de la suppression de la classe et des déplacements engendrés" width="60%" />
+<p class="caption">
+Figure .: Représentation cartographique de la suppression de la classe et des déplacements engendrés
+</p>
+</div>
+<p>Le projet prévoit la réaffectation des élèves dans les établissements en prenant en compte sa capacité actuelle et sa capacité après réaffectation. Le temps de trajet n’a pu être calculé mais la distance est représentée avec une estimation de l’impact carbone de ces déplacements.</p>
+</div>
+<div id="projet-i.p.e.d.-indice-de-performance-des-deplacements" class="section level3">
+<h3><span class="header-section-number">0.1.4</span> Projet I.P.E.D. (Indice de Performance des Déplacements)</h3>
+<blockquote>
+<p><a href="http://datavizchallenge.fr/t/defi-numero-1-indice-annuel-d-evaluation-de-l-impact-mobilite-des-enseignants/131">Lien vers le code et la documentation</a></p>
+</blockquote>
+<p><strong>Contexte</strong> : Les enseignants qui exercent au sein de plusieurs établissements, ou enseignants en compléments de services, doivent souvent assumer de nombreux déplacements qui peuvent sensiblement peser sur leur vie personnelle et professionnelle. A terme, cela peut avoir des impacts notoires sur d’autres paramètres tels que l’environnement ou les chances de réussite des élèves.</p>
+<p>Comment analyser ces déplacements pour apporter des solutions efficaces permettant de les limiter et d’en réduire les impacts?</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-6"></span>
+<img src="img/iped.png" alt="Carte représentant les déplacements effectués par les enseignements en complément de service." width="60%" />
+<p class="caption">
+Figure .: Carte représentant les déplacements effectués par les enseignements en complément de service.
+</p>
+</div>
+<strong>Produit Final</strong> : Maquette de plateforme permettant de visualiser l’évolution d’un Indice de Performance des Déplacements (IPED) en fonction de l’évolution de paramètres qui déterminent l’offre éducative.
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
+<img src="img/iped2.png" alt="Maquette de la plateforme IPED." width="60%" />
+<p class="caption">
+Figure .: Maquette de la plateforme IPED.
+</p>
+</div>
+<p><strong>Méthode</strong> : Le projet a abouti à la création d’un indicateur IPED :indice annuel, de base 100, d’évaluation de l’impact mobilité des enseignants. Il se compose de l’addition globale des trajets à vol d’oiseau de chacun.e des enseignant.e.s.</p>
+<p>Selon le Lieu de résidence de l’enseignant, les matières et options enseignées et la typologie de l’établissement, un algorithme recommande un scénario d’optimisation des trajets.</p>
+</div>
+</div>
+<div id="defi-2-la-carte-didentite-des-etablissements-en-temps-reel" class="section level2">
+<h2><span class="header-section-number">0.2</span> Défi 2 : la carte d’identité des établissements en temps réel</h2>
+<div id="cadrage-du-defi-1" class="section level3">
+<h3><span class="header-section-number">0.2.1</span> Cadrage du défi</h3>
+<p>Les recteurs comme d’autres acteurs de l’Education nationale ont souvent besoin de pouvoir prendre connaissance, en un coup d’oeil, de la situation globale d’un établissement : l’état des ressources humaines et financières, la situation sociale, les résultats des élèves, etc. Comment remplacer une pile de dossiers papiers hétérogènes qui demandent un effort considérable de constitution et de consultation, par une vision synthétique, actualisée et à 360°, des informations relatives à un établissement ?</p>
+<p><strong>Objectifs</strong> : avoir une vision consolidée et à jour d’un établissement, diminuer le temps de préparation au profit du temps consacré à l’échange, et ainsi faciliter le dialogue.</p>
+<p><strong>3 questions pour démarrer le DataViz Challenge :</strong></p>
+<ul>
+<li>Comment synthétiser les informations nécessaires à la prise de connaissance de l’état d’un établissement ?</li>
+<li>Comment permettre aux utilisateurs en mobilité (ex : recteurs) d’en disposer lors de leurs déplacements ?</li>
+<li>Comment rendre cet outil utile pour des utilisateurs non experts de la donnée ?</li>
+</ul>
+</div>
+<div id="projet-eduscope" class="section level3">
+<h3><span class="header-section-number">0.2.2</span> 🏆Projet Eduscope</h3>
+<blockquote>
+<p><em>Ce projet a été retenu par le jury pour le défi 2.</em><br /> Lien vers l’outil : <a href="https://avouacr.shinyapps.io/eduscope_shinyapp" class="uri">https://avouacr.shinyapps.io/eduscope_shinyapp</a> <br /> Lien vers le code et la documentation : <a href="https://github.com/avouacr/EduScope" class="uri">https://github.com/avouacr/EduScope</a></p>
+</blockquote>
+<p><strong>Contexte</strong> : Les recteurs, agents du ministère ou chefs d’établissement ont souvent besoin d’obtenir rapidement des informations sur les caractéristiques générales et les spécificités d’un établissement cible. Aujourd’hui ces informations se trouvent dispersées et stockées dans différentes bases de données (ex: GAIA, Mosart, EPI…), ce qui limite leur accessibilité, leur lisibilité et peut donc complexifier la prise de décision.</p>
+<p>Quel outil pourrait donc répondre aux besoins des différents utilisateurs que sont: la visualisation rapide d’indicateurs, la mobiquité et l’aide à la prise de décisions ?</p>
+<p><strong>Produit final</strong> : Plateforme interactive qui permet de centraliser et de visualiser divers indicateurs de performance scolaire. La priorisation des indicateurs d’intérêt s’adapte en fonction du profil utilisateur (recteur, chef d’établissement, service support…) et de l’échelle de prise de décision souhaitée (nationale, académique, département, bassin, établissement), tout en demeurant flexible.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
+<img src="img/eduscope.png" alt="Vue synthétique des données disponibles par établissement." width="60%" />
+<p class="caption">
+Figure .: Vue synthétique des données disponibles par établissement.
+</p>
+</div>
+<p>La plateforme permet également de visualiser l’évolution des différents indicateurs dans le temps, mais aussi de faire circuler des informations qualitatives entre utilisateurs.</p>
+</div>
+<div id="open" class="section level3">
+<h3><span class="header-section-number">0.2.3</span> Open</h3>
+<blockquote>
+<p><a href="http://datavizchallenge.fr/t/defi-n-2-open-placer-la-data-et-les-eleves-au-du-processus-de-decision/89/6">Lien vers la documentation</a></p>
+</blockquote>
+<p><strong>Contexte</strong> : L’identité d’un établissement se résume souvent à bien plus que ses indicateurs de performance. Elle peut aussi être enrichie par son dynamisme interne et son écosystème socio-culturel (proximité des lieux culturels, des infrastructures sportives, d’associations, etc). Ces informations peuvent être particulièrement utiles pour les élèves, qui disposent actuellement de peu d’outils pour comprendre et prendre part à la vie de leur établissement et tirer profit de son environnement.</p>
+<p>Comment remettre les élèves au centre de l’identité et du processus de décision des établissements ?</p>
+<p><strong>Produit final</strong> : Maquette de plateforme participative accessible aux élèves pourvus d’un identifiant. Elle leur donne la possibilité de réagir, partager leur ressenti, mais aussi d’émettre des propositions pour améliorer la vie dans leur établissement.</p>
+<p>Elle propose également une vision géolocalisée de l’établissement permettant aux élèves d’identifier les offres pédagogiques, sportives et culturelles à proximité, puis d’effectuer un retour d’expérience sur ces offres.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-9"></span>
+<img src="img/open.png" alt="Visuels du service OPEN." width="70%" />
+<p class="caption">
+Figure .: Visuels du service OPEN.
+</p>
+</div>
+</div>
+<div id="antiseche" class="section level3">
+<h3><span class="header-section-number">0.2.4</span> Antisèche</h3>
+<blockquote>
+<p><a href="http://datavizchallenge.fr/t/dataviz-r-shinyapp/74">Lien vers la documentation</a></p>
+</blockquote>
+<p><strong>Contexte : </strong> Lors de leurs déplacements, les recteurs et agents du ministère ont besoin d’accéder rapidement à une vue synthétique des principales caractéristiques d’un établissement, où qu’ils soient et sans avoir forcément accès à un poste informatique. Ils cherchent également à pouvoir développer une vision comparative des informations entre les établissements, afin de pouvoir orienter leur discours et prise de décision.</p>
+<p>Comment concevoir un outil répondant à l’ensemble de ces besoins ?</p>
+<p><strong>Produit final</strong>: Prototype d’application permettant une visualisation géolocalisée des établissements, et d’accéder à une présentation synthétique et ergonomique de leurs indicateurs principaux (nombre d’élèves, taux de réussite au Brevet des Collèges, cours et options proposées, capacité d’accueil, nombre d’enseignants par élève, etc).</p>
+<p>L’outil propose également une vision évolutive de ces indicateurs dans le temps, ainsi qu’une fonction de filtrage permettant de cibler les variables d’intérêt ¨</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-10"></span>
+<img src="img/antiseche.png" alt="Maquette du service Antisèche" width="40%" />
+<p class="caption">
+Figure .: Maquette du service Antisèche
+</p>
+</div>
+</div>
+</div>
+<div id="defi-3-carto-du-numerique-dans-les-territoires" class="section level2">
+<h2><span class="header-section-number">0.3</span> Défi 3 : «Carto du numérique dans les territoires»</h2>
+<div id="cadrage-du-defi-2" class="section level3">
+<h3><span class="header-section-number">0.3.1</span> Cadrage du défi</h3>
+<p>eCarto est un outil créé par la Caisse des Dépôts, en partenariat avec le ministère de l’Education nationale et de la Jeunesse et les associations de collectivités. Il permet de visualiser le déploiement du numérique éducatif dans chacun des 63 000 établissements scolaires, en rassemblant les données open data sur la connectivité, l’équipement, les ressources et les expérimentations. Il a vocation à être un outil permettant : * au plus grand nombre de s’informer sur l’état du numérique éducatif en France ; * aux décideurs publics d’ajuster l’accompagnement des académies et des collectivités en matière de déploiement du numérique éducatif ; * aux acteurs des politiques éducatives locales d’identifier plus facilement les établissements où un enseignement à distance serait possible dans de bonnes conditions.</p>
+<p><strong>Objectifs</strong> : faciliter l’appropriation des données relatives au déploiement du numérique éducatif en France en augmentant l’outil eCarto.</p>
+<p><strong>3 questions pour démarrer le DataViz Challenge :</strong> * Quelles sont les disparités territoriales observables ? * Quelles données complémentaires et extensions possibles pour enrichir la représentation du niveau de maturité numérique d’un territoire ? * Quelles mises en perspective possibles entre niveau de maturité numérique et niveau d’enclavement / isolement géographique d’un territoire ?</p>
+</div>
+<div id="alain-jette" class="section level3">
+<h3><span class="header-section-number">0.3.2</span> 🏆Alain Jette</h3>
+<blockquote>
+<p><strong>Projet retenu par le jury pour le défi 3</strong> <br/> <strong><a href="https://drive.google.com/drive/folders/1dkZBb5xC6zCmAiD-EKUGl0TThzRDolEe">Lien vers la documentation</a></strong></p>
+</blockquote>
+<p><strong>Contexte :</strong>Les établissements scolaires regorgent de projets pédagogiques. Cependant, ceux-ci ont souvent peu de visibilité au sein de leur territoire, ce qui peut limiter leur portée et l’investissement qu’ils reçoivent en ressources humaines, financières et matérielles nécessaires à leur portage. Cette opacité peut également jouer sur l’image d’un établissement, les indicateurs standards ne permettant pas d’en valoriser la prise d’initiatives, la créativité et le dynamisme internes.</p>
+<p>Comment rendre visible les projets pédagogiques sur un territoire afin de développer l’inspiration , le partenariat et l’action de tous ?</p>
+<p><strong>Produit final</strong>: Maquette de carte multidimensionnelle et collaborative des projets pédagogiques. Son design inspiré de l’univers de Lego invite à concevoir les projets pédagogiques comme des co-constructions. L’outil recense l’ensemble des projets organisés sur un territoire (ici l’Académie de Dijon) ainsi que leur description.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-11"></span>
+<img src="img/alainjette.png" alt="Illustrations du projet à partir de LEGO." width="70%" />
+<p class="caption">
+Figure .: Illustrations du projet à partir de LEGO.
+</p>
+</div>
+<p>Il offre également un module de recherche ciblée selon des critères structurels (nombre d’élèves, budget, durée, etc) et fonctionnels (utilisation des outils numériques, pédagogie innovante, interdisciplinarité, etc). Cette recherche affinée est amenée à faciliter la conclusion de partenariats et le partage de ressources entre les équipes pédagogiques, mais peut aussi aider le recteur à piloter son académie. Cela permet finalement de valoriser aussi bien le projet que son établissement d’accueil.</p>
+</div>
+<div id="panser-la-fracture-numerique" class="section level3">
+<h3><span class="header-section-number">0.3.3</span> Panser la fracture numérique</h3>
+<blockquote>
+<p><a href="https://drive.google.com/drive/folders/1dkZBb5xC6zCmAiD-EKUGl0TThzRDolEe">Lien vers la documentation</a></p>
+</blockquote>
+<p><strong>Contexte</strong> : Les établissements scolaires sont les premiers touchés par les effets de la “fracture numérique”. Ces inégalités ne relèvent pas seulement de l’accès aux équipements informatiques, elles sont également induites par d’autres paramètres tels que la couverture numérique de l’établissement, sa catégorie (ex: REP/REP+), ses financements, son nombre d’enseignants, leurs formations…</p>
+<p>Comment mesurer et visualiser les écarts de facilité d’accès au numérique entre différents établissements en tenant compte de tous ces paramètres pour mieux adapter les réponses politiques et évaluer leurs impacts?</p>
+<p><strong>Produit final</strong> : Maquette de cartes en relief permettant de visualiser un indicateur synthétique d’accès au numérique, d’en cibler les composantes et de les comparer à ceux des établissements environnants et à la moyenne nationale.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-12"></span>
+<img src="img/pan.png" alt="Indicateur synthétique sur accès au numérique" width="70%" />
+<p class="caption">
+Figure .: Indicateur synthétique sur accès au numérique
+</p>
+</div>
+<p><strong>Méthode</strong> :</p>
+<ul>
+<li>Création d’un indicateur synthétique (Numeriscor) en croisant les données existantes (débit internet, nb d’élève/terminal, vétusté des équipements, etc) et d’autres données aujourd’hui difficilement trouvables (qualification des professeurs C2i2e, nombre de formations sur le numérique, etc)</li>
+<li>intégration de l’indicateur à eCarto et à la fiche de chaque établissement.</li>
+<li>création d’une moyenne départementale et nationale sur eCarto pour pouvoir facilement positionner un établissement par rapport aux autres et identifier ceux en difficultés</li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="les-principes-dun-sprint-data-reussi.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["guide.pdf", "guide.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
