@@ -1,19 +1,155 @@
 # Diagnostic de l'établissement
 
+Le diagnostic de l'établissement constitue la première démarche du bilan. Un des points clefs de ce diagnostic est **l'évaluation du niveau de votre bilbiothèque suivant la classification en vigueur**. Elle repose sur cinq indicateurs, conformément aux normes et recommandations de l'Etat :
 
-## Collecte de données : Geoclip
+1. euros de crédit d'acquisition ;
 
-## L'outil : Datawrapper
+2. heures d'ouverture hebdomadaire ;
 
-### Les bases
+3. surface (minimum et par habitant) ;
 
-### Principales fonctionnalités
+4. salariés qualifiés ;
 
-### Exporter ses productions
+5. agent de catégorie B (pour les bibliothèques de niveau 1).
 
-### Fonctionnalités avancées
+Selon les seuils atteints, l'établissement pourra revendiquer une classification en bibliothèque de niveau 1, 2 ou 3, conditionnant en partie l'aide de l'Etat pour les aides à l'extension des horaires, les outils numériques, etc.
+
+Cette évaluation nécessite donc trois jeux de données :
+
+1. **les données de la bibliothèque** (qu'il s'agisse de vos propres informations ou de celles fournies au ministère via le logiciel Scrib) ;
+
+2. **la population de votre commune ou intercommunalité** ;
+
+3. **les seuils de référence édictées par l'Etat**.
+
+Une fois ces données collectées, nous vous proposerons un outil pour évaluer par vous-mêmes où votre établissement se situe dans cette classification.
 
 
-## Applications pratiques
+## Collecte de données
 
-### Comparaisons avec des établissements équivalents
+### Données population : l'Insee
+
+La première étape de notre collecte de données va consister à recueillir la population de la commune ou de l'agglomération où se situe votre établissement. En effet, 4 des 7 critères d'évaluation des établissements dépendent de la population (voir tableau ci-dessous) :
+
+```{r, echo=FALSE}
+
+seuils <- readxl::read_xlsx("./data/bibli_seuils.xlsx")
+knitr::kable(seuils, align = "lccccccc")
+```
+
+
+Le recensement de la population française consiste en une enquête nationale de cinq ans menée par l'Insee et conduite sur le terrain par des agents employés par les municipalités. Il constitue, vis-à-vis des autorités, la source de référence pour les données démographiques, d'où le nom de **population légale** donnée à son indicateur le plus utilisé.
+
+L'accès aux résultats du dernier recensement de la population en date se fait par l'interface mise à disposition sur le site de l'Insee sous le nom de [dossier complet](https://www.insee.fr/fr/statistiques/zones/2011101) :
+
+![](./img/recensement_dossiercomplet.png)
+
+Sur cette page, vous pouvez chercher de deux manières :
+
+**soit en tapant le nom de votre commune**
+
+Il vous suffit alors de choisir dans le menu déroulant la commune correspondante (précédée du code "**COM**" et suivi du code Insee entre parenthèses) :
+
+![](./img/recensement_commune.png)
+
+**soit en sélectionant un niveau géographique**
+
+Dans notre cas, la population des intercommunalités ou métropoles peut être utilisée pour calculer les ratios. Il suffit alors de sélectionner ce niveau dans le menu déroulant et de cliquer sur le bouton indiquant que vous cherchez les niveaux géographiques *"contenant cette commune"* (voir ci-dessous) :
+
+![](./img/recensement_interco.png)
+
+Les résultats s'affichent à droite du champs de recherche, il ne vous reste plus qu'à consulter le tableau **Évolution et structure de la population** et à noter le chiffre correspondant à **l'ensemble** de la population dans votre tableur.
+
+Pour reprendre l'exemple d'Aix-en-Provence, le tableau d'évolution et structure de la population apparaît immédiatement sous le menu. Il indique en première ligne du tableau *POP T0* la population de la commune des trois dernières vagues de recensement ayant concerné Aix : 2007, 2012 et 2017, dernière valeur disponible. C'est donc cette valeur que nous retiendrons pour nos calculs.
+
+### Données bibliothèques
+
+Les cinq indicateurs requis reposent sur quatre type de données portant sur votre établissement :
+
+* le budget d'acquisition annuel global en euros ;
+
+* l'amplitude hebdomadaire moyenne en nombre d'heures ;
+
+* la surface des espaces publics en mètres carrés ;
+
+* les effectifs salariés, leur qualification et leur grade dans la fonction publique.
+
+Il s'agit rigoureusement des mêmes données que celles demandées chaque année à l'occasion du rapport transmis au ministère via Scrib dans le cadre de l'[Observatoire de la lecture publique](https://www.culture.gouv.fr/Sites-thematiques/Livre-et-lecture/Bibliotheques/Observatoire-de-la-lecture-publique) :
+
+![](./img/observatoirelecturepublique.png)
+
+Libre à vous donc de **réunir ces données manuellement** ou de **les récupérer via [le portail de l'Observatoire de la lecture](olp.culture.fr/)**.
+
+Une fois les cinq données demandées réunies, nous allons les comparer aux seuils calculés sur la base de la population de la zone géographique où est implantée votre établissement.
+
+
+## Notre outil d'auto-évaluation
+
+Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous les seuils et l'éligibilité de votre établissement pour chacun d'eux. Sur la base des "scores" ainsi obtenus, vous disposerez d'un diagnostic sur le niveau auquel peut prétendre votre établissement.
+
+### Evaluer votre établissement
+
+L'application propose deux onglets :
+
+1. évaluation : où vous trouverez l'interface permettant de tester les critères du ministère ;
+
+2. métodologie : où est récapitulé la méthode utilisée pour réaliser ce diagnostic.
+
+![](./img/diagnostic_et_ui_vide.png)
+
+L'onglet **évaluation** se divise en deux panneaux :
+
+* à gauche, **le panneau de collecte des données** où vous êtes invité·e à renseigner les données nécessaires au diagnostic :
+
+  1. population légale de la zone où votre établissement est implantée (commune ou intercommunalité) ;
+  
+  2. budget d'acquisition ;
+  
+  3. amplitude horaire hebdomadaire ;
+  
+  4. surface ;
+  
+  5. nombre de salarié·es ;
+  
+  6. nombre d'agent de catégorie B ;
+  
+  7. en complément : le nom de votre établissement.
+  
+* à droite, **le panneau de résultat** où vous retrouverez le diagnostic et deux tableaux :
+
+  1. le tableau des seuils, qui vous indique les seuils pour chaque niveau d'établissement retenu en fonction de la population légale que vous aurez renseigné ;
+  
+  2. la *carte de résultat*, qui indique, pour chaque critère, le niveau correspondant.
+
+Pour obtenir un diagnostic, il vous suffit de renseigner tous les champs à gauche et de cliquer sur le bouton *évaluer*. Le volet de droite présentera alors le diagnostic établit à partir des données fournies.
+
+### Exporter son résultat
+
+Il est possible **d'exporter le diagnostic** afin de l'intégrer à vos documents.
+
+Pour cela, il vous suffit de :
+
+* choisir dans le menu déroulant en bas à droite du panneau diagnostic **le format d'exportation** (fichier texte, tableur ou fichier image) ;
+
+* cliquer sur le bouton **exporter**.
+
+Le fichier est alors placé par défaut dans le fichier de destination des téléchargements de votre navigateur.
+
+### Trois formats pour trois usages
+
+Trois formats vous sont proposés afin de s'adapter au mieux à vos besoins :
+
+* **le format texte** vous permet d'intégrer directement le diagnostic dans un document Word, OpenOffice ou autre en vue de produire un rapport ou un dossier en PDF ;
+
+* **le format tableur** rend les données récupérables par elle-même pour réaliser des calculs ultérieurs (comparaisons, historiques, etc.) ;
+
+* **le format image** peut être aisément intégré à une présentation PowerPoint, Google Slides ou autre sans besoin de modification.
+
+
+### Crédits
+
+Ce kit data ainsi que l'application d'auto-évaluation sont publiées sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) et donc à titre gracieux.
+
+Cette licence spécifie cependant la paternité et donc l'obligation de sourcer ce document.
+
+A cette fin, les trois formats d'exportation du diagnostic intègrent le lien vers l'app ainsi que les noms de l'Agence régionale du livre Provence Alpes Côtes d'Azur et de Datactivist, les organisations ayant travaillé à sa réalisation. Veillez à conserver ces références par respect pour la licence et pour permettre de retrouver la méthodologie ayant permis de réaliser ces diagnostics.
