@@ -99,7 +99,6 @@
 <li class="chapter" data-level="3.1.1" data-path="diagnostic-de-lenvironnement.html"><a href="diagnostic-de-lenvironnement.html#les-bases"><i class="fa fa-check"></i><b>3.1.1</b> Les bases</a></li>
 <li class="chapter" data-level="3.1.2" data-path="diagnostic-de-lenvironnement.html"><a href="diagnostic-de-lenvironnement.html#principales-fonctionnalités"><i class="fa fa-check"></i><b>3.1.2</b> Principales fonctionnalités</a></li>
 <li class="chapter" data-level="3.1.3" data-path="diagnostic-de-lenvironnement.html"><a href="diagnostic-de-lenvironnement.html#exporter-ses-productions"><i class="fa fa-check"></i><b>3.1.3</b> Exporter ses productions</a></li>
-<li class="chapter" data-level="3.1.4" data-path="diagnostic-de-lenvironnement.html"><a href="diagnostic-de-lenvironnement.html#fonctionnalités-avancées"><i class="fa fa-check"></i><b>3.1.4</b> Fonctionnalités avancées</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="diagnostic-de-lenvironnement.html"><a href="diagnostic-de-lenvironnement.html#applications-pratiques"><i class="fa fa-check"></i><b>3.2</b> Applications pratiques</a><ul>
 <li class="chapter" data-level="3.2.1" data-path="usagers-et-non-usagers.html"><a href="usagers-et-non-usagers.html#comparaison-des-publics"><i class="fa fa-check"></i><b>3.2.1</b> Comparaison des publics</a></li>
@@ -136,21 +135,56 @@
 <li><p><strong>Service</strong> : Arcep, Ministère de l’Intérieur, Mission très haut débit ;</p></li>
 <li><p>etc.</p></li>
 </ul>
+<p>La principale limite de cet outil est qu’il ne permet d’accéder qu’à certaines enquêtes de population, parfois un peu datée. La plupart des données de population Insee, par exemple, ne sont pas disponible au delà de l’année 2012. C’est un point à garder à l’esprit au moment de présenter les résultats.</p>
 <div id="les-bases" class="section level3">
 <h3><span class="header-section-number">3.1.1</span> Les bases</h3>
-<p>dashboard</p>
+<p><a href="https://datafrance.info/">La page d’accueil de DataFrance</a> propose un moteur de recherche basé sur les communes.</p>
+<p>Il suffit de taper le nom de la commune qui vous intéresse dans la barre d’invitation au centre de la page et des propositions apparaîssent immédiatement dans un menu déroulant. Comme ici pour la commune de Troyes :</p>
+<p><img src="img/datafrance_homepage.png" /></p>
+<p>Une fois choisie la commune, une nouvelle interface apparaît, centrée autour de la commune choisie. Elle comporte trois parties principales :</p>
+<p><img src="img/datafrance_interface.png" /></p>
+<ol style="list-style-type: decimal">
+<li><p>à droite, les informations générales sur la commune : territoire, nom et orientation du ou de la maire, population, densité, etc.</p></li>
+<li><p>au centre, outre la description et la localisation de la commune, l’interface DataFrance propose des <strong>indices de qualité de vie</strong> : en analysant les données disponibles, le site propose une note sur dix sur cinq domaines (Education, Commerce, Santé, Service et Sport et loisirs) et une note synthétique suivant <a href="https://datafrance.info/indices-datafrance">une méthodologie détaillée sur une page dédiée</a>. Outre la fiche, une synthèse visuelle est proposée sous la forme d’<a href="https://fr.wikipedia.org/wiki/Diagramme_de_Kiviat">un diagramme en radar</a> ;</p></li>
+<li><p>à gauche enfin, un bandeau bleu déroule une série de pictogramme représentant les diverses données rendues disponibles sur le site dans diverses rubriques : immobilier, population, éducation, etc. C’est dans ce panneau que nous allons trouver les outils nécessaires à notre diagnostic.</p></li>
+</ol>
 </div>
 <div id="principales-fonctionnalités" class="section level3">
 <h3><span class="header-section-number">3.1.2</span> Principales fonctionnalités</h3>
-<p>graph</p>
+<p>Pour chaque ville, DataFrance propose des séries de données de divers types pour découvrir le territoire :</p>
+<ol style="list-style-type: decimal">
+<li><p>données géolicalisées (établissements de santé, de sport, administrations …) ;</p></li>
+<li><p>données ponctuelles (entreprises par secteur, résultats électoraux …) ;</p></li>
+<li><p>données historiques par années (évolution des revenus déclarés, des effectifs d’étudiant·es, des infractions …).</p></li>
+</ol>
+<p>Pour la ville de Troyes, nous pouvons par exemple nous pencher sur les personnes diplômées de l’enseignement supérieur long (une des trois séries de données disponibles dans la rubrique <em>Education</em>).</p>
+<p><img src="img/datafrance_donnees_educ.png" /></p>
+<div id="visualiser-les-données-clefs" class="section level4">
+<h4><span class="header-section-number">3.1.2.1</span> Visualiser les données clefs</h4>
+<p>En cliquant sur les données demandées, l’interface DataFrance bascule dans une autre page où la donnée demandées est visualisées automatiquement. Dans notre cas, s’agissant d’une série historique, le site propose un graphique en ligne s’étalant sur toute la période disponible (2006 à 2012) :</p>
+<p><img src="img/datafrance_diplome_lignes.png" /></p>
+</div>
+<div id="modifier-les-indicateurs" class="section level4">
+<h4><span class="header-section-number">3.1.2.2</span> Modifier les indicateurs</h4>
+<p>Le graphique proposé repose sur les valeurs relatives : la part de la population diplômé de l’enseignement supérieur long.</p>
+<p>Or, si d’autres indicateurs sont disponibles, l’interface permet d’en changer pour modifier la perspective. Sous le nom de l’indicateur, le <em>“Part”</em> de <em>“Part de diplômés de l’enseignement supérieur long”</em> est accompagné d’une flèche indiquant qu’il s’agit d’un choix dans une liste. En cliquant dessus, un menu déroulant s’ouvre qui propose, outre ce premier indicateur, de présenter ces effectifs en <em>“Nombre”</em>, c’est-à-dire en valeur absolue. Il suffit de sélectionner cette option pour que le graph se redessine instantanément :</p>
+<p><img src="img/datafrance_diplome_abs.png" /></p>
+<p>Le graphique peut également être modifié : pour chaque série (et conformément au type de données), plusieurs types de graphiques sont proposés. Ici, puisque nous raisonnons en valeur absolues, une bonne pratique consiste à basculer en graphique en barre, lesquels figurent mieux les quantités :</p>
+<p><img src="img/datafrance_diplome_barres.png" /></p>
+</div>
+<div id="comparaisons" class="section level4">
+<h4><span class="header-section-number">3.1.2.3</span> Comparaisons</h4>
+<p>DataFrance permet aussi de comparer les données d’une commune. Soit à des données d’autres échellons administratifs, soit à des villes limitrophes.</p>
+<p>Pour ajouter les autres échellons administratifs, il suffit de cliquer sur leur nom qui apparaît à droite de l’interface, juste sous le choix des graphs. En trois clics, nous pouvons ainsi comparer Troyes avec son département (l’Aube), son ancienne région (Champagne Ardenne) et la France entière :</p>
+<p><img src="img/datafrance_diplome_comparo_admin.png" /></p>
+<p>Il est également possible de comparer avec des communes limitrophes.</p>
+<p>Pour cela, un champs est disponible au dessus à gauche du graph sous lequel un choix de villes apparaît quand on clique pour y écrire. En ajoutant quatre communes autour de Troyes, le graph permet de constater que, si Saint-Julien-les-Villas et Sainte-Savine présentent des taux de diplômes comparables, La Chapelle-Saint-Luc et Pont-Sainte-Marie affichent des ratios bien plus faibles. Pour vérifier cette impression, un simple survole du graph fait apparaît les valeurs pour chaque année :</p>
+<p><img src="img/datafrance_diplome_comparo_limitrophes.png" /></p>
+</div>
 </div>
 <div id="exporter-ses-productions" class="section level3">
 <h3><span class="header-section-number">3.1.3</span> Exporter ses productions</h3>
-<p>???</p>
-</div>
-<div id="fonctionnalités-avancées" class="section level3">
-<h3><span class="header-section-number">3.1.4</span> Fonctionnalités avancées</h3>
-<p>comparaisons</p>
+<p>[problèmes d’export sur le site]</p>
 </div>
 </div>
 <div id="applications-pratiques" class="section level2">
