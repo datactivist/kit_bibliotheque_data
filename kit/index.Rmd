@@ -22,7 +22,7 @@ Il se propose ainsi comme un complément du kit bibliothèque proposé par l'Age
 
 3. Les usagers et non usagers.
 
-Pour chaque partie, une fois les enjeux de données posées, nous exposerons :
+Pour chaque partie, une fois les enjeux de données présentés, nous exposerons :
 
 * la méthode de collecte des données ;
 

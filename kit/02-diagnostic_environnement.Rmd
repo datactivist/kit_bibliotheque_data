@@ -104,7 +104,8 @@ Pour partager le lien vers la carte dans le Geoportail, vous disposez de plusieu
 ![](./img/geoportail_partage.png)
 
 
-### Précautions
+### Précautions
+
 
 Le Geoportail n'est pas conçu pour permettre la récupération de vos cartes. Aussi, vous risquez de rencontrer quelques difficultés :
 
@@ -120,7 +121,7 @@ Pour cela, deux possibilités s'offrent à vous:
 
 1. utiliser la fonction "Capture d'écran" de votre système d'exploitation, soit par un bouton dédié, soit par une combinaison de touches. Des tutos sont disponibles que ce soit pour [PC](https://fr.wikihow.com/faire-une-capture-d%27%C3%A9cran-sous-Windows), [Mac](https://support.apple.com/fr-fr/HT201361) ou [Linux](https://doc.ubuntu-fr.org/capture_d_ecran) ;
 
-2. installer une extension de navigateur permettant de réaliser des captures d'écran. Parmi les plus populaires et simples d'utilisation, nous pouvons vous recommander Awesome Screenshot disponible en extension [Chrome](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=fr) et [Firefox.](https://addons.mozilla.org/fr/firefox/addon/screenshot-capture-annotate/)
+2. installer une extension de navigateur permettant de réaliser des captures d'écran. Parmi les plus populaires et simples d'utilisation, nous pouvons vous recommander Awesome Screenshot disponible en extension [Chrome](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=fr) et [Firefox](https://addons.mozilla.org/fr/firefox/addon/screenshot-capture-annotate/) pour tous les systèmes d'exploitation.
 
 ### Fonctionnalités avancées
 

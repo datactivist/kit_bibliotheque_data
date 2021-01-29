@@ -7,7 +7,7 @@ Le diagnostic de l'établissement constitue la première démarche du bilan. Un 
 2. heures d'ouverture hebdomadaire ;
 
 3. surface (minimum et par habitant) ;
-
+  
 4. salariés qualifiés ;
 
 5. agent de catégorie B (pour les bibliothèques de niveau 1).
@@ -85,19 +85,13 @@ Une fois les cinq données demandées réunies, nous allons les comparer aux seu
 
 ## Notre outil d'auto-évaluation
 
-Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous les seuils et l'éligibilité de votre établissement pour chacun d'eux. Sur la base des "scores" ainsi obtenus, vous disposerez d'un diagnostic sur le niveau auquel peut prétendre votre établissement.
+Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous les seuils et l'éligibilité de votre établissement pour chacun d'eux. Sur la base des "scores" ainsi obtenus, vous disposerez d'un diagnostic sur le niveau auquel peut prétendre votre établissement. Elle est accessible en version bêta [sur la page de l'outil Shinyapps](https://sylvain-lapoix.shinyapps.io/app_kit_data/) (en version bêta).
 
 ### Evaluer votre établissement
 
-L'application propose deux onglets :
-
-1. évaluation : où vous trouverez l'interface permettant de tester les critères du ministère ;
-
-2. métodologie : où est récapitulé la méthode utilisée pour réaliser ce diagnostic.
-
 ![](./img/diagnostic_et_ui_vide.png)
 
-L'onglet **évaluation** se divise en deux panneaux :
+L'application se divise en deux panneaux :
 
 * à gauche, **le panneau de collecte des données** où vous êtes invité·e à renseigner les données nécessaires au diagnostic :
 
@@ -125,25 +119,7 @@ Pour obtenir un diagnostic, il vous suffit de renseigner tous les champs à gauc
 
 ### Exporter son résultat
 
-Il est possible **d'exporter le diagnostic** afin de l'intégrer à vos documents.
-
-Pour cela, il vous suffit de :
-
-* choisir dans le menu déroulant en bas à droite du panneau diagnostic **le format d'exportation** (fichier texte, tableur ou fichier image) ;
-
-* cliquer sur le bouton **exporter**.
-
-Le fichier est alors placé par défaut dans le fichier de destination des téléchargements de votre navigateur.
-
-### Trois formats pour trois usages
-
-Trois formats vous sont proposés afin de s'adapter au mieux à vos besoins :
-
-* **le format texte** vous permet d'intégrer directement le diagnostic dans un document Word, OpenOffice ou autre en vue de produire un rapport ou un dossier en PDF ;
-
-* **le format tableur** rend les données récupérables par elle-même pour réaliser des calculs ultérieurs (comparaisons, historiques, etc.) ;
-
-* **le format image** peut être aisément intégré à une présentation PowerPoint, Google Slides ou autre sans besoin de modification.
+> *[à déterminer avec Bibliothèques : une image avec logos ? Un PDF ? Un fichier Excel ? Le choix entre les trois ?]*
 
 
 ### Crédits

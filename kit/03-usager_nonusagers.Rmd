@@ -82,10 +82,21 @@ Pour cela, un champs est disponible au dessus à gauche du graph sous lequel un 
 
 ### Exporter ses productions
 
-[problèmes d'export sur le site]
+Une fois vos sélections réalisées, il est possible de les exporter pour les réutiliser, soit dans un document, soit sur votre site.
+
+Pour connaître les options disponibles, il vous suffit de cliquer sur le bouton **Export/Intégrer** juste à droite du graph :
+
+![](./img/datafrance_diplome_export.png)
+
+Quatre options s'offrent alors à vous :
+
+* exporter en **SVG** : il s'agit d'un format de fichier image composé de vecteur, ce qui permet de l'utiliser dans un logiciel d'édition d'image (comme Photoshop ou Gimp) sans risque qu'il se décompose en pixels disgracieux ;
+* exporter en **CSV** ou **XLSX** : 
+* intégrer la visualisation à une page HTML avec un **iframe**, c'est-à-dire un cadre d'affichage à l'intérieur duquel sera repris le graph comme il apparaît sur le site.
 
 ## Applications pratiques
 
 ### Comparaison des publics
 
-[exemple à trouver]
+
+> *[problème de mise à jour DataFrance n'est pas màj depuis 2015 : devrions-nous proposer de récupérer les données pour les visualiser en Datawrapper comme proposé initialement ? Certaines fonctionnalités ne fonctionnent plus et les données ne dépassent pas 2012.]*
