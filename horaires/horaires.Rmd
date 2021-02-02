@@ -5,39 +5,72 @@ date: "10/7/2020"
 output: html_document
 ---
 
+Import des données
 
 ```{r}
 library(tidyverse)
 library(gghighlight)
 library(ggthemes)
-library(readxl)
 
 horaires_bib <- read_csv2("bibli_amp_latlong_horaires.csv")
+```
 
+Je recode les horaires pour déterminer la typologie d'ouverture
 
+```{r}
 segments_ <- horaires_bib %>%
-  mutate(
-nbsegments = case_when(
-    (!is.na(ouverture_am)  & is.na(fermeture_am)  & is.na(ouverture_pm)  & !is.na(fermeture_pm)) ~ "ouverte en continu",
-  (is.na(ouverture_am)  & is.na(fermeture_am)  & is.na(ouverture_pm)  & is.na(fermeture_pm)) ~ "fermée toute la journée",
-  (!is.na(ouverture_am) & !is.na(fermeture_am)  & is.na(ouverture_pm)  & is.na(fermeture_pm)) ~ "ouverte le matin",
-  (is.na(ouverture_am)  & is.na(fermeture_am)  & !is.na(ouverture_pm)  & !is.na(fermeture_pm)) ~ "ouverte l'après midi",
-  (!is.na(ouverture_am)  & !is.na(fermeture_am)  & !is.na(ouverture_pm)  & !is.na(fermeture_pm)) ~ "ouverte le matin et l'après midi",
+  mutate(nbsegments = case_when(
+  (is.na(ouverture_am)  & is.na(fermeture_am)  & is.na(ouverture_pm)  & is.na(fermeture_pm)) ~ "fermée",
+  (!is.na(ouverture_am) & !is.na(fermeture_am)  & is.na(ouverture_pm)  & is.na(fermeture_pm)) ~ "matin",
+  (is.na(ouverture_am)  & is.na(fermeture_am)  & !is.na(ouverture_pm)  & !is.na(fermeture_pm)) ~ "après midi",
+  (!is.na(ouverture_am)  & !is.na(fermeture_am)  & !is.na(ouverture_pm)  & !is.na(fermeture_pm)) ~ "pause méridienne",
+  !is.na(ouverture_am)  & is.na(fermeture_am)  & is.na(ouverture_pm)  & !is.na(fermeture_pm) ~ "en continu",
   TRUE                         ~ "autre"))
+```
 
-segments_$jour <- factor(segments_$jour, levels = c("dimanche", "samedi", "vendredi", "jeudi","mercredi", "mardi","lundi" ))
+Réordonne les données dans l'ordre des jours de la semaine 
+```{r}
+segments_$jour <- factor(segments_$jour, levels = c("lundi","mardi","mercredi", "jeudi", "vendredi","samedi","dimanche"))
+segments_$nbsegments <- factor(segments_$nbsegments, levels = c("fermée","matin","après midi", "pause méridienne", "en continu"))
+```
 
-segments_ %>% 
+
+Visualise sous la forme d'un diagramme en colonnes en violet
+```{r}
+
+segments_jours <- segments_ %>% 
   group_by(jour) %>% 
-  count(nbsegments) %>% 
+  count(nbsegments) 
+
+percent <- function (x) { number_format(suffix = "%")(x) }
+
+continu <- segments_jours %>% 
+  filter(nbsegments == "en continu")
+
+segments_jours %>%
+    ggplot() +
+    geom_col(aes(jour, n, fill = nbsegments)) +
+    theme(legend.position="bottom") + 
+    scale_fill_manual(values=c("white", "#eff3ff", "#cbc9e2", "#9e9ac8", "red"), name = "Ouverture de la bibliothèque") +
+      scale_y_continuous(labels = percent) +
+      geom_text(data=continu, show.legend = FALSE, aes(x = jour, y = n, label = paste(n, "%")), size=3) +
+    labs(title = "Quand les bibliothèques sont-elles ouvertes ?", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") + 
+    ggsave(filename = "segments_violet.png", width = 7, height = 4, dpi = "retina")
+
+
+```
+Visualise sous la forme d'un diagramme en colonnes en violet
+
+```{r}
+segments_jours %>% 
   ggplot() +
   geom_col(aes(jour, n, fill = nbsegments)) +
-  coord_flip() + 
-  scale_y_reverse() +
   theme(legend.position="bottom") + 
-  labs(title = "Type d'horaires par jour de la semaine", subtitle = "Catégorisation des horaires avec focus sur les ouvertures en continu", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Part des horaires concernés") + 
-  ggsave(filename = "segments.png", width = 7, height = 4, dpi = "retina")
-
-
+  scale_fill_manual(values=c("white", "#eff3ff", "#c6dbef", "#9ecae1", "red")) +
+  labs(title = "Type d'horaires par jour de la semaine", subtitle = "Catégorisation des horaires avec focus sur les ouvertures en continu", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Part des horaires concernés") +
+      scale_y_continuous(labels = percent) +
+      geom_text(data=continu, show.legend = FALSE, aes(x = jour, y = n, label = paste(n, "%")), size=3) +
+    labs(title = "Quand les bibliothèques sont-elles ouvertes ?", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") + 
+    ggsave(filename = "segments_bleu.png", width = 7, height = 4, dpi = "retina")
 ```
 
