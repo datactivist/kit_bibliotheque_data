@@ -67,10 +67,10 @@ segments_jours %>%
   geom_col(aes(jour, n, fill = nbsegments)) +
   theme(legend.position="bottom") + 
   scale_fill_manual(values=c("white", "#eff3ff", "#c6dbef", "#9ecae1", "red")) +
-  labs(title = "Type d'horaires par jour de la semaine", subtitle = "Catégorisation des horaires avec focus sur les ouvertures en continu", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Part des horaires concernés") +
+  labs(title = "Type d'horaires par jour de la semaine", subtitle = "Catégorisation des horaires avec focus sur les ouvertures en continu", caption = "Source : agence régionale du livre", x="Jour de la semaine", y="Part des horaires concernés") +
       scale_y_continuous(labels = percent) +
       geom_text(data=continu, show.legend = FALSE, aes(x = jour, y = n, label = paste(n, "%")), size=3) +
-    labs(title = "Quand les bibliothèques sont-elles ouvertes ?", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") + 
-    ggsave(filename = "segments_bleu.png", width = 7, height = 4, dpi = "retina")
+    labs(title = "Quand les bibliothèques sont-elles ouvertes ?", fill = "Ouverture", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : agence régionale du livre", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") + 
+    ggsave(filename = "segments_bleu.png", width = 8, height = 4, dpi = "retina")
 ```
 
