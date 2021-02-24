@@ -11,6 +11,7 @@ Import des données
 library(tidyverse)
 library(gghighlight)
 library(ggthemes)
+library(scales)
 
 horaires_bib <- read_csv2("bibli_amp_latlong_horaires.csv")
 ```
@@ -55,7 +56,7 @@ segments_jours %>%
       scale_y_continuous(labels = percent) +
       geom_text(data=continu, show.legend = FALSE, aes(x = jour, y = n, label = paste(n, "%")), size=3) +
     labs(title = "Quand les bibliothèques sont-elles ouvertes ?", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : observatoire de la lecture publique", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") + 
-    ggsave(filename = "segments_violet.png", width = 7, height = 4, dpi = "retina")
+    ggsave(filename = "segments_violet.png", width = 6, height = 4, dpi = "retina")
 
 
 ```
@@ -70,7 +71,8 @@ segments_jours %>%
   labs(title = "Type d'horaires par jour de la semaine", subtitle = "Catégorisation des horaires avec focus sur les ouvertures en continu", caption = "Source : agence régionale du livre", x="Jour de la semaine", y="Part des horaires concernés") +
       scale_y_continuous(labels = percent) +
       geom_text(data=continu, show.legend = FALSE, aes(x = jour, y = n, label = paste(n, "%")), size=3) +
-    labs(title = "Quand les bibliothèques sont-elles ouvertes ?", fill = "Ouverture", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : agence régionale du livre", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") + 
-    ggsave(filename = "segments_bleu.png", width = 8, height = 4, dpi = "retina")
+    labs(title = "Quand les bibliothèques sont-elles ouvertes ?", fill = "Ouverture", subtitle = "Part des bibliothèques de la métropole ouvertes par jour et par moment de la journée", caption = "Source : agence régionale du livre", x="Jour de la semaine", y="Pourcentage des bibliothèques de la métropole") +
+  theme(plot.subtitle = element_text(size = 10), legend.text = element_text(size = 8), axis.title =  element_text(size=8)) +
+    ggsave(filename = "segments_bleu.png", width = 6, height = 4, dpi = "retina")
 ```
 
