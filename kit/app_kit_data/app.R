@@ -78,14 +78,14 @@ server <- function(input, output) {
 }
 
 ui <- fluidPage(
-  titlePanel("Kit data bibliothèque 1 : diagnostic établissement"),
+  titlePanel("Kit data bibliothèque 1 : outil d'auto-évaluation"),
   
   sidebarLayout(
     sidebarPanel(
       numericInput("pop", "Population de votre commune ou agglomération",value = 5000),
       p("Une fois renseignés les champs ci-dessous, cliquez sur le bouton ",
         em("évaluer"),
-        " pour savoir quel niveau votre établissement atteint pour chaque critère de l'Observatoitre de la lecture publique et le niveau global auquel il peut prétendre."),
+        " pour connaître le niveau de votre établissement pour chaque critère de l'Observatoitre de la lecture publique et son niveau global."),
       textInput("nom", "", placeholder = 'nom de votre établissement'),
       numericInput("budget","Budget annuel d'acquisition (en €)",  value = 10000),
       sliderInput("horaires_ouverture", "Amplitude horaire hebdomadaire", min = 4, max = 35, value = 12),

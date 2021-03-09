@@ -21,9 +21,10 @@
   <meta name="twitter:description" content="Le kit data bibliothèque offre aux établissements souhaitant entamer une démarche d’extension des horaires des méthodes et outils pour inclure des analyses de données au bilan préalable." />
   
 
-<meta name="author" content="Sylvain Lapoix et Samuel Goëta (Datactivist) pour l’Agence du Livre Aix Marseille Provence" />
+<meta name="author" content="Sylvain Lapoix et Samuel Goëta (Datactivist) pour l’Agence du Livre Provence-Alpes-Côte d’Azur et la Métropole Aix Marseille Provence" />
 
 
+<meta name="date" content="2021-09-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,6 +50,9 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 
 
@@ -74,11 +78,10 @@
 <li class="chapter" data-level="1.1.1" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#données-population-linsee"><i class="fa fa-check"></i><b>1.1.1</b> Données population : l’Insee</a></li>
 <li class="chapter" data-level="1.1.2" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#données-bibliothèques"><i class="fa fa-check"></i><b>1.1.2</b> Données bibliothèques</a></li>
 </ul></li>
-<li class="chapter" data-level="1.2" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#notre-outil-dauto-évaluation"><i class="fa fa-check"></i><b>1.2</b> Notre outil d’auto-évaluation</a><ul>
-<li class="chapter" data-level="1.2.1" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#evaluer-votre-établissement"><i class="fa fa-check"></i><b>1.2.1</b> Evaluer votre établissement</a></li>
+<li class="chapter" data-level="1.2" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#outil-dauto-évaluation"><i class="fa fa-check"></i><b>1.2</b> Outil d’auto-évaluation</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#évaluer-votre-établissement"><i class="fa fa-check"></i><b>1.2.1</b> Évaluer votre établissement</a></li>
 <li class="chapter" data-level="1.2.2" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#exporter-son-résultat"><i class="fa fa-check"></i><b>1.2.2</b> Exporter son résultat</a></li>
-<li class="chapter" data-level="1.2.3" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#trois-formats-pour-trois-usages"><i class="fa fa-check"></i><b>1.2.3</b> Trois formats pour trois usages</a></li>
-<li class="chapter" data-level="1.2.4" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#crédits"><i class="fa fa-check"></i><b>1.2.4</b> Crédits</a></li>
+<li class="chapter" data-level="1.2.3" data-path="diagnostic-de-létablissement.html"><a href="diagnostic-de-létablissement.html#crédits"><i class="fa fa-check"></i><b>1.2.3</b> Crédits</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="diagnostic-de-lenvironnement.html"><a href="diagnostic-de-lenvironnement.html"><i class="fa fa-check"></i><b>2</b> Diagnostic de l’environnement</a><ul>
@@ -127,27 +130,15 @@
             <section class="normal" id="section-">
 <div id="diagnostic-de-létablissement" class="section level1">
 <h1><span class="header-section-number">Chapitre 1</span> Diagnostic de l’établissement</h1>
-<p>Le diagnostic de l’établissement constitue la première démarche du bilan. Un des points clefs de ce diagnostic est <strong>l’évaluation du niveau de votre bilbiothèque suivant la classification en vigueur</strong>. Elle repose sur cinq indicateurs, conformément aux normes et recommandations de l’Etat :</p>
-<ol style="list-style-type: decimal">
+<p>Le diagnostic de l’établissement constitue la première étape du bilan. Un des points clefs de ce diagnostic est <strong>l’évaluation du niveau de votre bilbiothèque suivant la classification en vigueur</strong>. Elle repose sur cinq indicateurs, conformément aux normes et recommandations de l’État :</p>
+<ul>
 <li><p>euros de crédit d’acquisition ;</p></li>
 <li><p>heures d’ouverture hebdomadaire ;</p></li>
 <li><p>surface (minimum et par habitant) ;</p></li>
 <li><p>salariés qualifiés ;</p></li>
 <li><p>agent de catégorie B (pour les bibliothèques de niveau 1).</p></li>
-</ol>
-<p>Selon les seuils atteints, l’établissement pourra revendiquer une classification en bibliothèque de niveau 1, 2 ou 3, conditionnant en partie l’aide de l’Etat pour les aides à l’extension des horaires, les outils numériques, etc.</p>
-<p>Cette évaluation nécessite donc trois jeux de données :</p>
-<ol style="list-style-type: decimal">
-<li><p><strong>les données de la bibliothèque</strong> (qu’il s’agisse de vos propres informations ou de celles fournies au ministère via le logiciel Scrib) ;</p></li>
-<li><p><strong>la population de votre commune ou intercommunalité</strong> ;</p></li>
-<li><p><strong>les seuils de référence édictées par l’Etat</strong>.</p></li>
-</ol>
-<p>Une fois ces données collectées, nous vous proposerons un outil pour évaluer par vous-mêmes où votre établissement se situe dans cette classification.</p>
-<div id="collecte-de-données" class="section level2">
-<h2><span class="header-section-number">1.1</span> Collecte de données</h2>
-<div id="données-population-linsee" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> Données population : l’Insee</h3>
-<p>La première étape de notre collecte de données va consister à recueillir la population de la commune ou de l’agglomération où se situe votre établissement. En effet, 4 des 7 critères d’évaluation des établissements dépendent de la population (voir tableau ci-dessous) :</p>
+</ul>
+<p>Selon les seuils atteints, l’établissement pourra revendiquer une classification en bibliothèque de niveau 1, 2 ou 3, conditionnant en partie l’aide de l’État pour les aides à l’extension des horaires, les outils numériques, etc.</p>
 <table style="width:100%;">
 <colgroup>
 <col width="4%" />
@@ -204,7 +195,17 @@
 </tr>
 </tbody>
 </table>
-<p>Le recensement de la population française consiste en une enquête nationale de cinq ans menée par l’Insee et conduite sur le terrain par des agents employés par les municipalités. Il constitue, vis-à-vis des autorités, la source de référence pour les données démographiques, d’où le nom de <strong>population légale</strong> donnée à son indicateur le plus utilisé.</p>
+<p>Cette évaluation nécessite donc trois jeux de données :</p>
+<p>A. <strong>les données de la bibliothèque</strong> (qu’il s’agisse de vos propres informations ou de celles fournies au ministère via le logiciel Scrib) ;</p>
+<p>B. <strong>la population de votre commune ou intercommunalité</strong> ;</p>
+<p>C. <strong>les seuils de référence édictées par l’État</strong>.</p>
+<p>Une fois ces données collectées, nous vous proposerons un outil pour évaluer la classification de votre établissement.</p>
+<div id="collecte-de-données" class="section level2">
+<h2><span class="header-section-number">1.1</span> Collecte de données</h2>
+<div id="données-population-linsee" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> Données population : l’Insee</h3>
+<p>La première étape de notre collecte de données va consister à recueillir la population de la commune ou de l’agglomération où se situe votre établissement. En effet, 4 des 7 critères d’évaluation des établissements dépendent de la population (voir tableau ci-dessus).</p>
+<p>Le recensement de la population française s’appuie sur une enquête nationale de cinq ans menée par l’Insee et conduite sur le terrain par des agents employés par les municipalités. Il constitue, vis-à-vis des autorités, la source de référence pour les données démographiques, d’où le nom de <strong>population légale</strong> donnée à son indicateur le plus utilisé.</p>
 <p>L’accès aux résultats du dernier recensement de la population en date se fait par l’interface mise à disposition sur le site de l’Insee sous le nom de <a href="https://www.insee.fr/fr/statistiques/zones/2011101">dossier complet</a> :</p>
 <p><img src="img/recensement_dossiercomplet.png" /></p>
 <p>Sur cette page, vous pouvez chercher de deux manières :</p>
@@ -212,10 +213,10 @@
 <p>Il vous suffit alors de choisir dans le menu déroulant la commune correspondante (précédée du code “<strong>COM</strong>” et suivi du code Insee entre parenthèses) :</p>
 <p><img src="img/recensement_commune.png" /></p>
 <p><strong>soit en sélectionant un niveau géographique</strong></p>
-<p>Dans notre cas, la population des intercommunalités ou métropoles peut être utilisée pour calculer les ratios. Il suffit alors de sélectionner ce niveau dans le menu déroulant et de cliquer sur le bouton indiquant que vous cherchez les niveaux géographiques <em>“contenant cette commune”</em> (voir ci-dessous) :</p>
+<p>Dans cet exemple, la population des intercommunalités ou métropoles peut être utilisée pour calculer les ratios. Il suffit alors de sélectionner ce niveau dans le menu déroulant et de cliquer sur le bouton indiquant les niveaux géographiques <em>“contenant cette commune”</em> (voir ci-dessous) :</p>
 <p><img src="img/recensement_interco.png" /></p>
 <p>Les résultats s’affichent à droite du champs de recherche, il ne vous reste plus qu’à consulter le tableau <strong>Évolution et structure de la population</strong> et à noter le chiffre correspondant à <strong>l’ensemble</strong> de la population dans votre tableur.</p>
-<p>Pour reprendre l’exemple d’Aix-en-Provence, le tableau d’évolution et structure de la population apparaît immédiatement sous le menu. Il indique en première ligne du tableau <em>POP T0</em> la population de la commune des trois dernières vagues de recensement ayant concerné Aix : 2007, 2012 et 2017, dernière valeur disponible. C’est donc cette valeur que nous retiendrons pour nos calculs.</p>
+<p>Pour reprendre l’exemple d’Aix-en-Provence, le tableau d’évolution et structure de la population apparaît immédiatement sous le menu. Il indique en première ligne du tableau <em>POP T0</em> la population de la commune des trois dernières vagues de recensement ayant concerné cette ville : 2007, 2012 et 2017, dernière valeur disponible, à retenir pour vos calculs.</p>
 </div>
 <div id="données-bibliothèques" class="section level3">
 <h3><span class="header-section-number">1.1.2</span> Données bibliothèques</h3>
@@ -232,22 +233,22 @@
 <p>Une fois les cinq données demandées réunies, nous allons les comparer aux seuils calculés sur la base de la population de la zone géographique où est implantée votre établissement.</p>
 </div>
 </div>
-<div id="notre-outil-dauto-évaluation" class="section level2">
-<h2><span class="header-section-number">1.2</span> Notre outil d’auto-évaluation</h2>
-<p>Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous les seuils et l’éligibilité de votre établissement pour chacun d’eux. Sur la base des “scores” ainsi obtenus, vous disposerez d’un diagnostic sur le niveau auquel peut prétendre votre établissement. Elle est accessible en version bêta <a href="https://sylvain-lapoix.shinyapps.io/app_kit_data/">sur la page de l’outil Shinyapps</a>.</p>
-<div id="evaluer-votre-établissement" class="section level3">
-<h3><span class="header-section-number">1.2.1</span> Evaluer votre établissement</h3>
+<div id="outil-dauto-évaluation" class="section level2">
+<h2><span class="header-section-number">1.2</span> Outil d’auto-évaluation</h2>
+<p>Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous votre niveau. Elle est accessible en version bêta <a href="https://sylvain-lapoix.shinyapps.io/app_kit_data/">sur la page de l’outil Shinyapps</a> (en version bêta).</p>
+<div id="évaluer-votre-établissement" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Évaluer votre établissement</h3>
 <p><img src="img/diagnostic_et_ui_vide.png" /></p>
 <p>L’application se divise en deux panneaux :</p>
 <ul>
 <li><p>à gauche, <strong>le panneau de collecte des données</strong> où vous êtes invité·e à renseigner les données nécessaires au diagnostic :</p>
 <ol style="list-style-type: decimal">
-<li><p>population légale de la zone où votre établissement est implantée (commune ou intercommunalité) ;</p></li>
+<li><p>population légale de la zone où votre établissement est implanté (commune ou intercommunalité) ;</p></li>
 <li><p>budget d’acquisition ;</p></li>
 <li><p>amplitude horaire hebdomadaire ;</p></li>
 <li><p>surface ;</p></li>
-<li><p>nombre de salarié·es ;</p></li>
-<li><p>nombre d’agent de catégorie B ;</p></li>
+<li><p>nombre d’agents ;</p></li>
+<li><p>nombre d’agents de catégorie B ;</p></li>
 <li><p>en complément : le nom de votre établissement.</p></li>
 </ol></li>
 <li><p>à droite, <strong>le panneau de résultat</strong> où vous retrouverez le diagnostic et deux tableaux :</p>
@@ -260,25 +261,12 @@
 </div>
 <div id="exporter-son-résultat" class="section level3">
 <h3><span class="header-section-number">1.2.2</span> Exporter son résultat</h3>
-<p>Il est possible <strong>d’exporter le diagnostic</strong> afin de l’intégrer à vos documents.</p>
-<p>Pour cela, il vous suffit de :</p>
-<ul>
-<li><p>choisir dans le menu déroulant en bas à droite du panneau diagnostic <strong>le format d’exportation</strong> (fichier texte, tableur ou fichier image) ;</p></li>
-<li><p>cliquer sur le bouton <strong>exporter</strong>.</p></li>
-</ul>
-<p>Le fichier est alors placé par défaut dans le fichier de destination des téléchargements de votre navigateur.</p>
-</div>
-<div id="trois-formats-pour-trois-usages" class="section level3">
-<h3><span class="header-section-number">1.2.3</span> Trois formats pour trois usages</h3>
-<p>Trois formats vous sont proposés afin de s’adapter au mieux à vos besoins :</p>
-<ul>
-<li><p><strong>le format texte</strong> vous permet d’intégrer directement le diagnostic dans un document Word, OpenOffice ou autre en vue de produire un rapport ou un dossier en PDF ;</p></li>
-<li><p><strong>le format tableur</strong> rend les données récupérables par elle-même pour réaliser des calculs ultérieurs (comparaisons, historiques, etc.) ;</p></li>
-<li><p><strong>le format image</strong> peut être aisément intégré à une présentation PowerPoint, Google Slides ou autre sans besoin de modification.</p></li>
-</ul>
+<blockquote>
+<p><em>[à déterminer avec Bibliothèques : une image avec logos ? Un PDF ? Un fichier Excel ? Le choix entre les trois ?]</em></p>
+</blockquote>
 </div>
 <div id="crédits" class="section level3">
-<h3><span class="header-section-number">1.2.4</span> Crédits</h3>
+<h3><span class="header-section-number">1.2.3</span> Crédits</h3>
 <p>Ce kit data ainsi que l’application d’auto-évaluation sont publiées sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a> et donc à titre gracieux.</p>
 <p>Cette licence spécifie cependant la paternité et donc l’obligation de sourcer ce document.</p>
 <p>A cette fin, les trois formats d’exportation du diagnostic intègrent le lien vers l’app ainsi que les noms de l’Agence régionale du livre Provence Alpes Côtes d’Azur et de Datactivist, les organisations ayant travaillé à sa réalisation. Veillez à conserver ces références par respect pour la licence et pour permettre de retrouver la méthodologie ayant permis de réaliser ces diagnostics.</p>

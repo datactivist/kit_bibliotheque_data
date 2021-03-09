@@ -5,7 +5,6 @@ données-bibliothèques
 notre-outil-dauto-évaluation
 evaluer-votre-établissement
 exporter-son-résultat
-trois-formats-pour-trois-usages
 crédits
 diagnostic-de-lenvironnement
 le-geoportail
@@ -15,6 +14,7 @@ fonds-de-carte
 données-thématiques
 carte-en-cours
 exporter-ses-productions
+précautions
 fonctionnalités-avancées
 applications-pratiques
 localiser-les-établissements-recevant-du-public-alentours
@@ -30,4 +30,5 @@ comparaisons
 exporter-ses-productions-1
 applications-pratiques-1
 comparaison-des-publics
-précautions
+outil-dauto-évaluation
+évaluer-votre-établissement

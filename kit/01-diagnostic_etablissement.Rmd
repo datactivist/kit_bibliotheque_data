@@ -1,35 +1,18 @@
 # Diagnostic de l'établissement
 
-Le diagnostic de l'établissement constitue la première démarche du bilan. Un des points clefs de ce diagnostic est **l'évaluation du niveau de votre bilbiothèque suivant la classification en vigueur**. Elle repose sur cinq indicateurs, conformément aux normes et recommandations de l'Etat :
+Le diagnostic de l'établissement constitue la première étape du bilan. Un des points clefs de ce diagnostic est **l'évaluation du niveau de votre bilbiothèque suivant la classification en vigueur**. Elle repose sur cinq indicateurs, conformément aux normes et recommandations de l'État :
 
-1. euros de crédit d'acquisition ;
+* euros de crédit d'acquisition ;
 
-2. heures d'ouverture hebdomadaire ;
+* heures d'ouverture hebdomadaire ;
 
-3. surface (minimum et par habitant) ;
+* surface (minimum et par habitant) ;
   
-4. salariés qualifiés ;
+* salariés qualifiés ;
 
-5. agent de catégorie B (pour les bibliothèques de niveau 1).
+* agent de catégorie B (pour les bibliothèques de niveau 1).
 
-Selon les seuils atteints, l'établissement pourra revendiquer une classification en bibliothèque de niveau 1, 2 ou 3, conditionnant en partie l'aide de l'Etat pour les aides à l'extension des horaires, les outils numériques, etc.
-
-Cette évaluation nécessite donc trois jeux de données :
-
-1. **les données de la bibliothèque** (qu'il s'agisse de vos propres informations ou de celles fournies au ministère via le logiciel Scrib) ;
-
-2. **la population de votre commune ou intercommunalité** ;
-
-3. **les seuils de référence édictées par l'Etat**.
-
-Une fois ces données collectées, nous vous proposerons un outil pour évaluer par vous-mêmes où votre établissement se situe dans cette classification.
-
-
-## Collecte de données
-
-### Données population : l'Insee
-
-La première étape de notre collecte de données va consister à recueillir la population de la commune ou de l'agglomération où se situe votre établissement. En effet, 4 des 7 critères d'évaluation des établissements dépendent de la population (voir tableau ci-dessous) :
+Selon les seuils atteints, l'établissement pourra revendiquer une classification en bibliothèque de niveau 1, 2 ou 3, conditionnant en partie l'aide de l'État pour les aides à l'extension des horaires, les outils numériques, etc.
 
 ```{r, echo=FALSE}
 
@@ -37,8 +20,25 @@ seuils <- readxl::read_xlsx("./data/bibli_seuils.xlsx")
 knitr::kable(seuils, align = "lccccccc")
 ```
 
+Cette évaluation nécessite donc trois jeux de données :
 
-Le recensement de la population française consiste en une enquête nationale de cinq ans menée par l'Insee et conduite sur le terrain par des agents employés par les municipalités. Il constitue, vis-à-vis des autorités, la source de référence pour les données démographiques, d'où le nom de **population légale** donnée à son indicateur le plus utilisé.
+A. **les données de la bibliothèque** (qu'il s'agisse de vos propres informations ou de celles fournies au ministère via le logiciel Scrib) ;
+
+B. **la population de votre commune ou intercommunalité** ;
+
+C. **les seuils de référence édictées par l'État**.
+
+Une fois ces données collectées, nous vous proposerons un outil pour évaluer la classification de votre établissement.
+
+
+## Collecte de données
+
+### Données population : l'Insee
+
+La première étape de notre collecte de données va consister à recueillir la population de la commune ou de l'agglomération où se situe votre établissement. En effet, 4 des 7 critères d'évaluation des établissements dépendent de la population (voir tableau ci-dessus).
+
+
+Le recensement de la population française s'appuie sur une enquête nationale de cinq ans menée par l'Insee et conduite sur le terrain par des agents employés par les municipalités. Il constitue, vis-à-vis des autorités, la source de référence pour les données démographiques, d'où le nom de **population légale** donnée à son indicateur le plus utilisé.
 
 L'accès aux résultats du dernier recensement de la population en date se fait par l'interface mise à disposition sur le site de l'Insee sous le nom de [dossier complet](https://www.insee.fr/fr/statistiques/zones/2011101) :
 
@@ -54,13 +54,13 @@ Il vous suffit alors de choisir dans le menu déroulant la commune correspondant
 
 **soit en sélectionant un niveau géographique**
 
-Dans notre cas, la population des intercommunalités ou métropoles peut être utilisée pour calculer les ratios. Il suffit alors de sélectionner ce niveau dans le menu déroulant et de cliquer sur le bouton indiquant que vous cherchez les niveaux géographiques *"contenant cette commune"* (voir ci-dessous) :
+Dans cet exemple, la population des intercommunalités ou métropoles peut être utilisée pour calculer les ratios. Il suffit alors de sélectionner ce niveau dans le menu déroulant et de cliquer sur le bouton indiquant les niveaux géographiques *"contenant cette commune"* (voir ci-dessous) :
 
 ![](./img/recensement_interco.png)
 
 Les résultats s'affichent à droite du champs de recherche, il ne vous reste plus qu'à consulter le tableau **Évolution et structure de la population** et à noter le chiffre correspondant à **l'ensemble** de la population dans votre tableur.
 
-Pour reprendre l'exemple d'Aix-en-Provence, le tableau d'évolution et structure de la population apparaît immédiatement sous le menu. Il indique en première ligne du tableau *POP T0* la population de la commune des trois dernières vagues de recensement ayant concerné Aix : 2007, 2012 et 2017, dernière valeur disponible. C'est donc cette valeur que nous retiendrons pour nos calculs.
+Pour reprendre l'exemple d'Aix-en-Provence, le tableau d'évolution et structure de la population apparaît immédiatement sous le menu. Il indique en première ligne du tableau *POP T0* la population de la commune des trois dernières vagues de recensement ayant concerné cette ville : 2007, 2012 et 2017, dernière valeur disponible, à retenir pour vos calculs.
 
 ### Données bibliothèques
 
@@ -83,11 +83,11 @@ Libre à vous donc de **réunir ces données manuellement** ou de **les récupé
 Une fois les cinq données demandées réunies, nous allons les comparer aux seuils calculés sur la base de la population de la zone géographique où est implantée votre établissement.
 
 
-## Notre outil d'auto-évaluation
+## Outil d'auto-évaluation
 
-Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous les seuils et l'éligibilité de votre établissement pour chacun d'eux. Sur la base des "scores" ainsi obtenus, vous disposerez d'un diagnostic sur le niveau auquel peut prétendre votre établissement. Elle est accessible en version bêta [sur la page de l'outil Shinyapps](https://sylvain-lapoix.shinyapps.io/app_kit_data/) (en version bêta).
+Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous votre niveau. Elle est accessible en version bêta [sur la page de l'outil Shinyapps](https://sylvain-lapoix.shinyapps.io/app_kit_data/) (en version bêta).
 
-### Evaluer votre établissement
+### Évaluer votre établissement
 
 ![](./img/diagnostic_et_ui_vide.png)
 
@@ -95,7 +95,7 @@ L'application se divise en deux panneaux :
 
 * à gauche, **le panneau de collecte des données** où vous êtes invité·e à renseigner les données nécessaires au diagnostic :
 
-  1. population légale de la zone où votre établissement est implantée (commune ou intercommunalité) ;
+  1. population légale de la zone où votre établissement est implanté (commune ou intercommunalité) ;
   
   2. budget d'acquisition ;
   
@@ -103,9 +103,9 @@ L'application se divise en deux panneaux :
   
   4. surface ;
   
-  5. nombre de salarié·es ;
+  5. nombre d'agents ;
   
-  6. nombre d'agent de catégorie B ;
+  6. nombre d'agents de catégorie B ;
   
   7. en complément : le nom de votre établissement.
   
