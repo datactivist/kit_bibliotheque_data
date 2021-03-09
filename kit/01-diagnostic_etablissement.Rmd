@@ -26,7 +26,7 @@ A. **les données de la bibliothèque** (qu'il s'agisse de vos propres informati
 
 B. **la population de votre commune ou intercommunalité** ;
 
-C. **les seuils de référence édictées par l'État**.
+C. **les seuils de référence édictés par l'État**.
 
 Une fois ces données collectées, nous vous proposerons un outil pour évaluer la classification de votre établissement.
 

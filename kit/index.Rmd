@@ -14,7 +14,7 @@ description: "Le kit data bibliothèque offre aux établissements souhaitant ent
 
 Ce kit vise à fournir aux bibliothèques souhaitant entamer une démarche d'optimisation des horaires d'ouverture, des outils leur permettant de traiter des données disponibles pour documenter leur dossier.
 
-Complément du kit bibliothèque proposé par l'Agence régionale du livre Provence-Alpes-Côtes-d'Azur, ce kit data s'attarde sur trois étapes :
+Complément du kit bibliothèque proposé par l'Agence régionale du livre Provence-Alpes-Côte d'Azur, ce kit data s'attarde sur trois étapes :
 
 1. Le diagnostic de l'établissement ;
 
@@ -30,4 +30,4 @@ Pour chaque partie, une fois les enjeux de données présentés, est exposé :
 
 * des exemples pratiques de traitements et visualisations à intégrer à votre projet.
 
-Ce kit est open source, il s'appuie sur le travail réalisé par Datactivist pour l'Agence régionale du livre Provence-Alpes-Côtes-d'Azur. Ce kit est publié sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (Attribution - Partage dans les Mêmes Conditions 4.0 International) qui permet la réutilisation tout en garantissant que le contenu restera ouvert.
+Ce kit est open source, il s'appuie sur le travail réalisé par Datactivist pour l'Agence régionale du livre Provence-Alpes-Côte d'Azur. Ce kit est publié sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (Attribution - Partage dans les Mêmes Conditions 4.0 International) qui permet la réutilisation tout en garantissant que le contenu restera ouvert.
