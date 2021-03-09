@@ -85,7 +85,7 @@ Une fois les cinq données demandées réunies, nous allons les comparer aux seu
 
 ## Outil d'auto-évaluation
 
-Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous votre niveau. Elle est accessible en version bêta [sur la page de l'outil Shinyapps](https://sylvain-lapoix.shinyapps.io/app_kit_data/) (en version bêta).
+Pour vous simplifier la tâche, nous vous proposons une application qui va calculer pour vous votre niveau. Elle est accessible en version bêta [sur la page de l'outil Shinyapps](https://sylvain-lapoix.shinyapps.io/app_kit_data/).
 
 ### Évaluer votre établissement
 
@@ -109,9 +109,9 @@ L'application se divise en deux panneaux :
   
   7. en complément : le nom de votre établissement.
   
-* à droite, **le panneau de résultat** où vous retrouverez le diagnostic et deux tableaux :
+* à droite, **le panneau de résultats** où vous trouverez le diagnostic et deux tableaux :
 
-  1. le tableau des seuils, qui vous indique les seuils pour chaque niveau d'établissement retenu en fonction de la population légale que vous aurez renseigné ;
+  1. le tableau des seuils, qui vous indique les seuils pour chaque niveau d'établissement retenu en fonction de la population légale que vous aurez renseignée ;
   
   2. la *carte de résultat*, qui indique, pour chaque critère, le niveau correspondant.
 
@@ -119,13 +119,30 @@ Pour obtenir un diagnostic, il vous suffit de renseigner tous les champs à gauc
 
 ### Exporter son résultat
 
-> *[à déterminer avec Bibliothèques : une image avec logos ? Un PDF ? Un fichier Excel ? Le choix entre les trois ?]*
+Il est possible **d'exporter le diagnostic** afin de l'intégrer à vos documents de travail.
 
+Pour cela, il vous suffit de :
+
+* choisir dans le menu déroulant en bas à droite du panneau diagnostic **le format d'exportation** (fichier texte, tableur ou fichier image) ;
+
+* cliquer sur le bouton **exporter**.
+
+Le fichier est alors placé par défaut dans le fichier de destination des téléchargements de votre navigateur.
+
+### Trois formats pour trois usages
+
+Trois formats vous sont proposés afin de s'adapter au mieux à vos besoins :
+
+* **le format texte** vous permet d'intégrer directement le diagnostic dans un document Word, OpenOffice ou autre, en vue de produire un rapport ou un dossier en PDF ;
+
+* **le format tableur** rend les données récupérables par elle-même pour réaliser des calculs ultérieurs (comparaisons, historiques, etc.) ;
+
+* **le format image** peut être aisément intégré à une présentation PowerPoint, Google Slides ou autre, sans besoin de modification.
 
 ### Crédits
 
 Ce kit data ainsi que l'application d'auto-évaluation sont publiées sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) et donc à titre gracieux.
 
-Cette licence spécifie cependant la paternité et donc l'obligation de sourcer ce document.
+Cette licence spécifie cependant la paternité et donc l'obligation de sourcer vos documents.
 
-A cette fin, les trois formats d'exportation du diagnostic intègrent le lien vers l'app ainsi que les noms de l'Agence régionale du livre Provence Alpes Côtes d'Azur et de Datactivist, les organisations ayant travaillé à sa réalisation. Veillez à conserver ces références par respect pour la licence et pour permettre de retrouver la méthodologie ayant permis de réaliser ces diagnostics.
+A cette fin, les trois formats d'exportation du diagnostic intègrent le lien vers l'app ainsi que les noms de l'Agence régionale du Livre Provence-Alpes-Côte d'Azur et de Datactivist, les organisations ayant travaillé à sa réalisation. Veillez à conserver ces références par respect pour la licence et pour permettre de retrouver la méthodologie ayant permis de réaliser ces diagnostics.
