@@ -1,6 +1,5 @@
 --- 
 title: "Kit data des bibliothèques"
-author: "Sylvain Lapoix et Samuel Goëta (Datactivist) pour l'Agence du Livre Provence-Alpes-Côte d'Azur et la Métropole Aix Marseille Provence"
 date: "`r format(Sys.Date(    ), '%d/%m/%Y')`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -11,6 +10,10 @@ description: "Le kit data bibliothèque offre aux établissements souhaitant ent
 ---
 
 # Introduction {-}
+
+<img src="img/MAMP-logo-RVB.jpg" style="display:inline;height:100px"/>
+
+<img src="img/LogoMCHP.png" style="display:inline;height:100px"/>
 
 Ce kit vise à fournir aux bibliothèques souhaitant entamer une démarche d'optimisation des horaires d'ouverture, des outils leur permettant de traiter des données disponibles pour documenter leur dossier.
 
@@ -30,4 +33,4 @@ Pour chaque partie, une fois les enjeux de données présentés, est exposé :
 
 * des exemples pratiques de traitements et visualisations à intégrer à votre projet.
 
-Ce kit est open source, il s'appuie sur le travail réalisé par Datactivist pour l'Agence régionale du livre Provence-Alpes-Côte d'Azur. Ce kit est publié sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (Attribution - Partage dans les Mêmes Conditions 4.0 International) qui permet la réutilisation tout en garantissant que le contenu restera ouvert.
+Une réalisation de Datactivist (Sylvain Lapoix et Samuel Goëta), en partenariat avec l'Agence régionale du Livre Provence-Alpes-Côte d'Azur pour la Métropole Aix-Marseille Provence, publiée sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (Attribution - Partage dans les Mêmes Conditions 4.0 International) permettant la réutilisation tout en garantissant que le contenu restera ouvert.
