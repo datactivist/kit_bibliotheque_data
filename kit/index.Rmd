@@ -8,12 +8,9 @@ biblio-style: apalike
 link-citations: yes
 description: "Le kit data bibliothèque offre aux établissements souhaitant entamer une démarche d'extension des horaires des méthodes et outils pour inclure des analyses de données au bilan préalable."
 ---
-
 # Introduction {-}
 
-<img src="img/MAMP-logo-RVB.jpg" style="display:inline;height:100px"/>
-
-<img src="img/LogoMCHP.png" style="display:inline;height:100px"/>
+<img src="img/logos.png" style="display:inline;height:100px"/>
 
 Ce kit vise à fournir aux bibliothèques souhaitant entamer une démarche d'optimisation des horaires d'ouverture, des outils leur permettant de traiter des données disponibles pour documenter leur dossier.
 
