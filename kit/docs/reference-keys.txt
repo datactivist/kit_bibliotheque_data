@@ -22,12 +22,8 @@ localiser-les-établissements-recevant-du-public-alentours
 cartographier-la-démographie-aux-abords-de-votre-bibliothèque
 calculer-un-rayon-de-10-minutes-de-marche
 usagers-et-non-usagers
-outil-de-collecte-et-visualisation-des-données-datafrance
-les-bases-1
-principales-fonctionnalités-1
-visualiser-les-données-clés
-modifier-les-indicateurs
-comparaisons
-exporter-ses-productions-1
-applications-pratiques-1
-comparaison-des-publics
+données-sur-les-usagers-lobservatoire-de-la-lecture-publique
+données-socio-démographiques-découverte-de-loutil-regard-cartographique-sur-nos-terrtoires-de-la-région-sud
+indicateurs-la-cartographie-interactive-paramétrable
+choisir-un-découpage-géographique
+choisir-des-indicateurs

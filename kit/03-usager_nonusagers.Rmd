@@ -21,8 +21,76 @@ Récupérer les données dans le questionnaire ?
 
 ## Données socio-démographiques : découverte de l'outil regard cartographique sur nos terrtoires de la Région Sud
 
-Le service Connaissance du territoire de la Région Sudpropose un ensemble d’outils pour permettre d’explorer un grand nombre d’indicateurs statistiques localisés, de les analyser, les comparer, les représenter, les cartographier, les exporter sur le site https://notreterritoire.maregionsud.fr/. 
+Le service Connaissance du territoire de la Région Sud propose un ensemble d’outils pour  explorer un grand nombre d’indicateurs statistiques localisés, de les analyser, les comparer, les représenter, les cartographier, les exporter sur le site suivant : https://notreterritoire.maregionsud.fr/. 
+
+Pour faciliter le cheminement de l’utilisateur dans l’observatoire, on distingue quatre espaces de travail, chacun dédié à une démarche spécifique :
+
+* Indicateurs : rechercher et visualiser des indicateurs autour d’une problématique donnée,
+* Rapports : sélectionner un territoire et éditer des rapports détaillés sur celui-ci,
+* Zonages : analyser et comparer différents découpages géographiques,
+* Données externes : importer des données selon vos usages, se connecter à d’autres entrepôts.
 
 
+### Indicateurs : la cartographie interactive paramétrable 
+
+L'interface de l'outil Geoclip se décompose en deux zones principales : pilotage de la carte et visualisation de la carte. On retrouve ce même outil pour visualiser les données de l'observatoire de la commande publique. 
+
+![](img/cartosud.png)
+
+#### Choisir un découpage géographique
+
+En bas à gauche de la page, l'interface permet de sélectionner le découpage géographique qui fondera l'analyse. 
+
+![](img/geo.png)
+
+Trois options sont proposés : 
+* l'**étendue** de la carte : la zone couverte par la carte (France ou Région Sud)
+* le **niveau** de précisions des données affichées dans la carte
+* la ** recherche** d'un territoire sur lequel la carte sera centrée et la légende proposera des comparaisons entre ce territoire et les valeurs nationales ou régionales. 
+
+Le niveau de précision présente de nombreuses options. Pour notre usage de diagnostic des médiathèques, on pourra alterner entre ces niveaux : 
+* EPCI (Établissement public de coopération intercommunale), échelon administratif regroupant plusieurs communes. 
+* Conseils de territoire : pour la métropole Aix Marseille uniquement, ce niveau propose des indicateurs à l'échelles des six conseils qui exercent des compétences de proximité. 
+* Commune : pour Marseille, l'outil propose aussi un niveau arrondissement municipal
+* IRIS : kes communes d'au moins 10 000 habitants et la plupart des communes de 5 000 à 10 000  habitants sont découpées en IRIS, une partition du territoire de ces communes en "quartiers" dont la population est de l'ordre de 2 000 habitants. Par extension, afin de couvrir l'ensemble du territoire, on assimile à un IRIS chacune des communes de France non découpées en IRIS.
 
 
+### Choisir des indicateurs
+
+Après avoir sélectionné un découpage géographique, nous avons sélectionné les indicateurs pertinents par rapport à notre analyse. L'outil propose plusieurs centaines d'indicateurs sur une centaine de thématiques, les données sont pré-chargées et peuvent être visualisées immédiatement :
+
+![](img/indicateurs.png)
+Il est aussi possible de catégoriser les indicateurs par enjeu comme économie ou transition environnementale en cochant la case par enjeu. Le menu "autres filtres" permet de filtrer par type de représentation des données sur la carte. 
+
+Après avoir sélectionné un thème, des sujets sont proposés. Nous allons sélectionner "populations légales" dans le thème "population" pour visualiser la densité de population sur le territoire de la région. Notez que pour un même indicateur plusieurs formes de visualisation sont proposés. Par exemple, il est possible de visualiser ces données sous la forme d'aplats de couleurs dont le contraste varie selon la densité de population ou sous la forme de ronds dont le diamètre varie là aussi selon la valeur absolue, la population dans l'échelon choisi (commune ou IRIS par exemple). 
+
+Une fois l'indicateur sélectionné, il apparaît en dessous dans la rubrique "mes indicateurs". Le bouton ℹ permet d'afficher la documentation du jeu de données : informations sur le producteur, description des données, précisions sur la méthodologie, statistiques sur la distribution de cette variable, liens vers la documentation officielle… 
+
+![](img/mesindis.png)
+
+En haut de la carte, le titre indique les intitulés des indicateurs sélectionnés et permet, pour certains jeux de données, de changer l'année des données voire de produire une animation dans le temps (évolution de la densité sur les 10 dernières années par exemple).
+![](img/titre.png)
+
+Il est ensuite possible de superposer un deuxième indicateur. Notez qu'il ne peut y avoir que deux indicateurs visualisés en simultanné, un en arrière-plan et l'autre sous la forme de symboles superposés sur la carte. Prenons par exemple des données sur l'offre en matière de santé dans la rubrique "équipement" en sélectionnant "services et équipements de santé"  avec l'indicateur du nombre de médecins généralistes. La carte superpose désormais des bulles correspondant au nombre de médecins généralistes par territoire. 
+
+![](img/medecins.png)
+
+L'onglet "Tableau" affiche les données qui ont produit la carte sous une forme tabulaire. Il est possible de filter et d'exporter ce tableau depuis le menu actions. 
+
+![](img/tableau.png)
+L'onglet "Synthèse" propose des chiffres clés et des graphiques sur certains indicateurs comme ici la densité de population en comparaison avec le territoire sélectionné (ici la commune d'Aix en Provence) : 
+![](img/synthese.png)
+### Exporter la carte 
+
+Dans la légende (colonne à gauche de l'écran), vous pouvez cliquer sur le bouton "paramètres" pour changer les paramètres d'affichage de chaque indicateur. Par exemple, pour la densité de population, vous pouvez changer le thème de couleurs appliqué et modifier les seuils.
+![](img/legende.png)
+
+Il est même possible de créer une carte anamorphique qui déforme la géographie, le contour des communes, en fonction de la population de chacune d'entre elles. Intéressant sur le fond pour mieux rendre compte de la répartition de la population sur le territoire mais à réserver à un public averti !
+
+![](img/anamorphose.png)
+
+Le menu Actions propose plusieurs options pour enrichir la carte. "Ajouter des couches" permet de superposer un fonds de carte comme celui d'OpenStreetMap pour retrouver les principaux axes routiers et les espaces naturels structurant le territoire. Il y est aussi possible de rajouter dans la carte les contours des EPCI ou départements. 
+
+Toujours dans le menu Actions, "Exporter" produit un fichier image ou PDF. "Imprimer" propose un rendu imprimable de la carte avec la légende et les éléments contextuels permettant de la comprendre. 
+
+![](img/imprimer.png)
