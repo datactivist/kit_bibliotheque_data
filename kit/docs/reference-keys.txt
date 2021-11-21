@@ -27,3 +27,8 @@ données-socio-démographiques-découverte-de-loutil-regard-cartographique-sur-n
 indicateurs-la-cartographie-interactive-paramétrable
 choisir-un-découpage-géographique
 choisir-des-indicateurs
+rapports-des-graphiques-pour-un-portrait-de-territoire
+exporter-le-rapport
+sappuyer-sur-les-études-et-analyses-des-acteurs-du-territoire
+données-socio-démographiques-découverte-de-loutil-geoclip-regard-cartographique-sur-nos-terrtoires-de-la-région-sud
+données-sociodémographiques-découverte-de-loutil-geoclip-regard-cartographique-sur-nos-territoires-de-la-région-sud
