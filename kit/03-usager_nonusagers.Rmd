@@ -132,12 +132,17 @@ Les **agences d'urbanisme** sont créées à l'initiative des collectivités pou
 ![](img/fnau.png)
 
 Les agences produisent de nombreuses études pertinentes pour comprendre le territoire, en particulier dans la rubrique "publications et études" de leur site : 
+
 * [AGAM (Agence d'urbanisme de l'agglomération marseillaise)](https://www.agam.org/les-publications-de-lagam/)
+
 * [AUPA (Agence d'urbanisme de l'agglomération du Pays d'Aix)](https://aupa.fr/publications-et-animations/#publications)
+
 * [AURAV (Agence d'Urbanisme Rhône Avignon Vaucluse)](http://www.aurav.org/publications/)
+
 * [AUDAT (Agence d'Urbanisme de l'Aire Toulonnaise et du Var)](https://audat.org/les-grands-travaux/nos-publications/). 
 
-Dans la métropole Aix-Marseille-Provence, les agences d’urbanisme du Pays d’Aix-Durance (Aupa) et de l’agglomération marseillaise (Agam) proposent des **[portraits de communes](https://aupa.fr/portraits-de-communes/)** pour chaque commune de la métropole regroupant les chiffres les plus significatifs. Chaque commune est représentée en 150 chiffres et deux cartes pour synthétiser les informations essentielles à connaitre.
+Dans la métropole Aix-Marseille-Provence, les agences d’urbanisme du Pays d’Aix-Durance (Aupa) et de l’agglomération marseillaise (Agam) proposent des **[portraits de communes](https://aupa.fr/portraits-de-communes/)** pour chaque commune de la métropole regroupant les chiffres les plus significatifs. Chaque commune est représentée en 150 chiffres et deux cartes pour synthétiser les informations essentielles à connaitre comme le montre cet aperçu d'un portrait : 
+![](img/pennesurhuv.png)
 
 
 
