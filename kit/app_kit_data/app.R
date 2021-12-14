@@ -88,8 +88,8 @@ ui <- fluidPage(
         " pour connaître le niveau de votre établissement pour chaque critère de l'Observatoitre de la lecture publique et son niveau global."),
       textInput("nom", "", placeholder = 'nom de votre établissement'),
       numericInput("budget","Budget annuel d'acquisition (en €)",  value = 10000),
-      sliderInput("horaires_ouverture", "Amplitude horaire hebdomadaire", min = 4, max = 35, value = 12),
-      numericInput("surface","Surface (en m²)",  value = 80),
+      sliderInput("horaires_ouverture", "Amplitude horaire hebdomadaire", min = 4, max = 55, value = 12),
+      numericInput("surface","Surface utile (en m²)",  value = 80),
       sliderInput("salaries", "Nombre de salariés", min = 0, max = 100, value = 2),
       sliderInput("agents_b", "Nombre d'agents de catégorie B:", min = 0, max = 50, value = 0),
       actionButton("do", "Evaluer")
