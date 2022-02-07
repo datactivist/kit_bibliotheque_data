@@ -32,3 +32,8 @@ exporter-le-rapport
 sappuyer-sur-les-études-et-analyses-des-acteurs-du-territoire
 données-socio-démographiques-découverte-de-loutil-geoclip-regard-cartographique-sur-nos-terrtoires-de-la-région-sud
 données-sociodémographiques-découverte-de-loutil-geoclip-regard-cartographique-sur-nos-territoires-de-la-région-sud
+géoportail
+localiser-les-établissements-recevant-du-public-alentour
+calculer-un-rayon-de-dix-minutes-de-marche
+données-sociodémographiques-découverte-de-loutil-géoclip-regard-cartographique-sur-nos-territoires-de-la-région-sud
+exporter-la-carte
